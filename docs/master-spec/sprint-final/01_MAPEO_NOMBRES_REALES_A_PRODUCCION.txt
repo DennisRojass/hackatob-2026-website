@@ -1,0 +1,117 @@
+================================================================================
+HACKATOB 2026 — MAPEO DE NOMBRES REALES A NOMBRES DE PRODUCCIÓN
+================================================================================
+
+REGLA
+--------------------------------------------------------------------------------
+Los archivos originales se conservan como fuente. Cursor debe trabajar con los
+nombres de producción o staging indicados abajo.
+
+ORIGEN: Elementos visuales/Imagotipo/ImagotipoColor.png
+DESTINO: public/brand/tob-imagotipo-color-horizontal.png
+ESTADO: published
+USO: Logo horizontal a color de Technology on Business; usar en header y navegación.
+--------------------------------------------------------------------------------
+ORIGEN: Elementos visuales/Imagotipo/ImagotipoColor_Var1.png
+DESTINO: public/brand/tob-imagotipo-color-vertical.png
+ESTADO: published
+USO: Logo vertical a color de Technology on Business; usar en footer o piezas amplias.
+--------------------------------------------------------------------------------
+ORIGEN: Elementos visuales/Imagotipo/ImagotipoPositivo.png
+DESTINO: public/brand/tob-imagotipo-blanco-horizontal.png
+ESTADO: published
+USO: Logo horizontal blanco de Technology on Business; usar sobre fondos oscuros.
+--------------------------------------------------------------------------------
+ORIGEN: Elementos visuales/Isotipo/IsotipoColor.png
+DESTINO: public/brand/tob-isotipo-color.png
+ESTADO: published
+USO: Símbolo a color de Technology on Business.
+--------------------------------------------------------------------------------
+ORIGEN: Elementos visuales/Isotipo/IsotipoPositivo.png
+DESTINO: public/brand/tob-isotipo-blanco.png
+ESTADO: published
+USO: Símbolo blanco de Technology on Business.
+--------------------------------------------------------------------------------
+ORIGEN: Elementos visuales/Paleta_TOB.png
+DESTINO: docs/brand/tob-paleta-oficial.png
+ESTADO: reference
+USO: Paleta oficial de ToB: referencia de diseño, no asset decorativo.
+--------------------------------------------------------------------------------
+ORIGEN: Elementos visuales/Otros/GuíaColorIsotipo.png
+DESTINO: docs/brand/tob-guia-color-isotipo.png
+ESTADO: reference
+USO: Guía de aplicación cromática del isotipo ToB.
+--------------------------------------------------------------------------------
+ORIGEN: LogosAleados/logoOFICIAL.png
+DESTINO: public/brand/hackatob-isotipo-oficial.png
+ESTADO: published
+USO: Isotipo oficial disponible de HackaToB; no contiene wordmark textual.
+--------------------------------------------------------------------------------
+ORIGEN: LogosAleados/hackatob-logoy texto.png
+DESTINO: archive/duplicate-hackatob-isotipo.png
+ESTADO: archived_duplicate
+USO: Duplicado binario exacto de logoOFICIAL.png; no adjuntar ni publicar.
+--------------------------------------------------------------------------------
+ORIGEN: Tracks/spark-flotante.png
+DESTINO: public/brand/spark-principal.png
+ESTADO: published
+USO: Spark amarillo principal; Hero, Demo Day, confirmación y CTA final.
+--------------------------------------------------------------------------------
+ORIGEN: Tracks/spark-health.png
+DESTINO: public/media/tracks/health/spark-health.png
+ESTADO: published
+USO: Spark azul de HealthTrack.
+--------------------------------------------------------------------------------
+ORIGEN: Tracks/spark-green.png
+DESTINO: public/media/tracks/green/spark-green.png
+ESTADO: published
+USO: Spark verde de GreenTrack.
+--------------------------------------------------------------------------------
+ORIGEN: Tracks/spark-fin.png
+DESTINO: public/media/tracks/fin/spark-fin.png
+ESTADO: published
+USO: Spark naranja de FinTrack.
+--------------------------------------------------------------------------------
+ORIGEN: Tracks/spark-next.png
+DESTINO: public/media/tracks/next/spark-next.png
+ESTADO: published
+USO: Spark morado de The Next Big Thing.
+--------------------------------------------------------------------------------
+ORIGEN: LogosAleados/LogoTEC.png
+DESTINO: public/brand/tec-logo.png
+ESTADO: published_institutional
+USO: Logo institucional del TEC; no clasificar como partner comercial.
+--------------------------------------------------------------------------------
+ORIGEN: LogosAleados/dojologo.png
+DESTINO: staging/partners/dojo-coding.png
+ESTADO: pending_confirmation
+USO: Logo de Dojo Coding; mover a public solo con confirmación y autorización.
+--------------------------------------------------------------------------------
+ORIGEN: LogosAleados/wwtLogo.png
+DESTINO: staging/partners/wwt.png
+ESTADO: pending_confirmation
+USO: Logo de WWT; mover a public solo con confirmación y autorización.
+--------------------------------------------------------------------------------
+ORIGEN: LogosAleados/PGlogo.png
+DESTINO: staging/partners/pg.png
+ESTADO: pending_confirmation
+USO: Logo de P&G; mover a public solo con confirmación y autorización.
+--------------------------------------------------------------------------------
+ORIGEN: Mentores-Jueces-EquipoTrabajo/mentor-Dennis-Rojas.png
+DESTINO: staging/people/dennis-rojas/portrait.png
+ESTADO: pending_role_confirmation
+USO: Retrato usable en tarjeta; confirmar si se publica como mentor, organización u otro rol.
+--------------------------------------------------------------------------------
+
+ARCHIVOS NO INCLUIDOS EN EL PAQUETE NORMALIZADO
+--------------------------------------------------------------------------------
+- ZIP de Stack Sans Notch.
+- ZIP de Radnika.
+- Duplicado hackatob-logoy texto.png.
+
+RAZÓN
+--------------------------------------------------------------------------------
+Las fuentes no se redistribuyen. El duplicado no aporta valor y puede generar
+confusión en Cursor.
+
+================================================================================

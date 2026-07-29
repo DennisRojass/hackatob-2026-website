@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>HackaToB 2026 — Guía de Aprendizajes</title>
+<style>
+  :root {
+    --blue-deep: #0a1f44;
+    --blue: #0072bc;
+    --cyan: #66ccee;
+    --spark: #ffd700;
+    --text: #1e293b;
+    --muted: #64748b;
+    --bg: #f8fafc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 40px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  }
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; padding: 0; max-width: none; }
+    .no-print { display: none !important; }
+    h2 { break-after: avoid; }
+    section { break-inside: avoid; }
+  }
+  .hero {
+    border-bottom: 3px solid var(--cyan);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  h1 { color: var(--blue-deep); font-size: 2rem; margin: 0 0 8px; }
+  .subtitle { color: var(--blue); font-size: 1.25rem; font-weight: 700; margin: 0 0 16px; }
+  .tag {
+    display: inline-block;
+    background: #f0f9ff;
+    border: 1px solid var(--cyan);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: .9rem;
+    color: var(--blue-deep);
+    font-weight: 600;
+  }
+  h2 {
+    color: var(--blue);
+    font-size: 1.2rem;
+    margin: 36px 0 12px;
+    padding-top: 8px;
+    border-top: 1px solid #e2e8f0;
+  }
+  h3 { color: var(--blue-deep); font-size: 1rem; margin: 18px 0 8px; }
+  p, li { font-size: .95rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 4px 0; }
+  .callout {
+    background: #f0f9ff;
+    border-left: 4px solid var(--cyan);
+    padding: 12px 16px;
+    margin: 14px 0;
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+    color: var(--blue-deep);
+  }
+  .meta { color: var(--muted); font-size: .85rem; margin-top: 12px; }
+  .btn {
+    position: sticky; top: 12px; z-index: 10;
+    display: inline-block;
+    background: var(--blue);
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 16px 0;
+  }
+  .btn:hover { background: var(--blue-deep); }
+  code { background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: .88em; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: 10px 0; }
+  th, td { border: 1px solid #e2e8f0; padding: 8px 10px; text-align: left; }
+  th { background: #f0f9ff; color: var(--blue-deep); }
+</style>
+</head>
+<body>
+<div class="page">
+  <button class="btn no-print" onclick="window.print()">Imprimir / Guardar como PDF</button>
+
+  <header class="hero">
+    <h1>HackaToB 2026</h1>
+    <p class="subtitle">Guía de Aprendizajes</p>
+    <p>Resumen de lo esencial para construir el landing profesional: estrategia, arquitectura, contenido, Motion, trabajo en pareja, stack técnico y plan de 5 días.</p>
+    <div class="tag">Innova. Conecta. Impacta. · 17–20 ago 2026 · 60 cupos · GreenTrack · MediTrack · FinTrack · ToB · TEC</div>
+    <p class="meta">Documento de estudio personal · Versión 1.0 · Julio 2026</p>
+  </header>
+
+  <section>
+    <h2>1. Visión del producto</h2>
+    <p>HackaToB no es solo una competencia: es un <strong>sistema digital del evento</strong>. La web debe explicar qué es, generar confianza (ToB + TEC), convertir interés en postulaciones de calidad y acompañar hasta el Demo Day.</p>
+    <div class="callout">En menos de 20 segundos: qué es, si puedo participar, y cuál es el siguiente paso (Postularme).</div>
+    <h3>Ciclo</h3>
+    <ul>
+      <li><strong>Descubrir</strong> — propósito, fechas, tracks, valor</li>
+      <li><strong>Postular</strong> — solicitud individual o por equipo</li>
+      <li><strong>Preparar</strong> — cupo, equipo, retos, agenda</li>
+      <li><strong>Construir</strong> — mentorías, checkpoints, entregables</li>
+      <li><strong>Presentar</strong> — Demo Day, Top 3, continuidad</li>
+    </ul>
+    <h3>Fuente de verdad (no inventar)</h3>
+    <ul>
+      <li>17–20 agosto 2026 · Demo Day 20 · 60 cupos · 10–15 equipos · máx. 4</li>
+      <li>Tracks: GreenTrack, MediTrack, FinTrack</li>
+      <li>Modalidades: Ideación + MVP · Tagline: Innova. Conecta. Impacta.</li>
+      <li>Lovable = inspiración visual, <strong>no</strong> fuente de datos</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Relación ToB + HackaToB</h2>
+    <p>HackaToB pertenece a ToB. En marca es hijo; en web puede ser sitio hermano con identidad Spark.</p>
+    <ul>
+      <li><code>tobcr.com</code> → congreso ToB (compañero)</li>
+      <li><code>hackatob.tobcr.com</code> → HackaToB (tú)</li>
+      <li>Dos repos + dos proyectos Vercel + Cloudflare DNS</li>
+      <li>Branch protection + PRs obligatorios</li>
+    </ul>
+    <div class="callout">Ownership claro: cada quien su repo. Se integran por contrato (URLs, marca, copy), no pelean el mismo archivo.</div>
+  </section>
+
+  <section>
+    <h2>3. Alcance en 5 días</h2>
+    <h3>Sí (lanzamiento)</h3>
+    <ul>
+      <li>Landing one-page, Hero + Spark, confianza, 5 pasos, tracks, retos, modalidades, agenda</li>
+      <li>Form de postulación (Supabase o Tally), FAQ, Motion básico, mobile, Vercel</li>
+    </ul>
+    <h3>No (después)</h3>
+    <ul>
+      <li>Portal, admin, Demo Day en vivo, galería dinámica, CMS pesado</li>
+    </ul>
+    <div class="callout">Día 5 profesional = landing + postulación. La plataforma es Fase 2+.</div>
+  </section>
+
+  <section>
+    <h2>4. Stack técnico</h2>
+    <table>
+      <tr><th>Capa</th><th>Tech</th></tr>
+      <tr><td>DNS / WAF</td><td>Cloudflare</td></tr>
+      <tr><td>Hosting</td><td>Vercel</td></tr>
+      <tr><td>App</td><td>Next.js + TypeScript</td></tr>
+      <tr><td>UI</td><td>Tailwind + tokens CSS</td></tr>
+      <tr><td>Animación</td><td>Motion</td></tr>
+      <tr><td>Backend</td><td>Supabase (Postgres + RLS)</td></tr>
+      <tr><td>Forms</td><td>Zod + React Hook Form</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>5. Orden del landing</h2>
+    <ol>
+      <li>Announcement · Header · Hero</li>
+      <li>Confianza · Qué es (5 pasos) · Quiénes pueden</li>
+      <li>Tracks · Retos · Modalidades · Programa</li>
+      <li>Postulación + requisitos · Mentores/Jurado · Premios · Aliados</li>
+      <li>FAQ · CTA final · Footer</li>
+    </ol>
+    <p><strong>Regla:</strong> cada sección = una pregunta + una acción.</p>
+  </section>
+
+  <section>
+    <h2>6. Contenido y diseño</h2>
+    <ul>
+      <li>H1: «Cuatro días para convertir retos reales en soluciones con impacto.»</li>
+      <li>Solicitud <strong>no</strong> garantiza cupo</li>
+      <li>Sin premios/logos no confirmados</li>
+      <li>Hero full-bleed: marca + headline + frase + CTAs + Spark (sin cards)</li>
+      <li>Spark solo en: hero, confirmación, CTA final, Demo Day espera</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Motion — qué es y cómo usarlo</h2>
+    <p>Motion describe <strong>estados</strong> visuales (<code>initial</code> / <code>animate</code> / <code>exit</code>). Tú no programas el frame a frame.</p>
+    <div class="callout">De «cómo animo esto» → a «en qué estado está esto».</div>
+    <h3>Tres capas</h3>
+    <ul>
+      <li><strong>Ambiental</strong> (8–20s): glows, anillo del logo, Spark float</li>
+      <li><strong>Explicativo</strong> (una vez): timelines, barras, pasos</li>
+      <li><strong>Interactivo</strong>: hover ≤1.03, tabs, filtros, form</li>
+    </ul>
+    <h3>80% del poder</h3>
+    <ul>
+      <li><code>initial / animate / transition</code></li>
+      <li><code>variants + staggerChildren</code></li>
+      <li><code>whileHover / whileTap / whileInView</code></li>
+    </ul>
+    <h3>Nivel premium</h3>
+    <ul>
+      <li><code>AnimatePresence</code>, <code>layout / layoutId</code></li>
+      <li><code>useScroll + useTransform</code>, <code>pathLength</code></li>
+      <li>Motion values + <code>useSpring</code>, <code>useAnimate</code></li>
+    </ul>
+    <h3>Reglas</h3>
+    <ul>
+      <li>Solo <code>transform</code> y <code>opacity</code></li>
+      <li><code>viewport once: true</code> · <code>prefers-reduced-motion</code></li>
+      <li>Tween = scroll/carga · Spring = gestos del usuario</li>
+      <li>Tokens: rise 18–24px · 450–650ms · stagger 80–120ms</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Día 1 (4 horas)</h2>
+    <ol>
+      <li><strong>50 min</strong> — Next + GitHub + Vercel</li>
+      <li><strong>60 min</strong> — tokens, Header, Footer, assets</li>
+      <li><strong>75 min</strong> — Hero + Spark + Motion mínimo</li>
+      <li><strong>40 min</strong> — README + mensaje al compañero + retro</li>
+    </ol>
+    <p><strong>Días 2–5:</strong> historia → conversión → form → launch.</p>
+  </section>
+
+  <section>
+    <h2>9. Flujo profesional</h2>
+    <ul>
+      <li>Ramas <code>feature/...</code> · commits <code>feat:/fix:/docs:</code> · 1 PR = 1 cosa</li>
+      <li>Standup: Hoy / Mañana / Bloqueo</li>
+      <li>Si algo tarda &gt;2h → córtalo · 70% hacer / 30% leer</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Checklist de lanzamiento</h2>
+    <ul>
+      <li>[ ] &lt;20s: qué / cuándo / cupos / cómo postular</li>
+      <li>[ ] Mobile OK · CTA en 3 sitios · form funciona</li>
+      <li>[ ] Sin datos no confirmados · HTTPS · OG</li>
+      <li>[ ] Reduced motion · legales · link ToB ↔ HackaToB</li>
+    </ul>
+    <div class="callout">
+      Landing corta que convierte + sitemap después.<br/>
+      Motion explica, no decora. Spark guía, no satura.<br/>
+      Dos repos, un dominio padre, un objetivo: postulaciones de calidad.
+    </div>
+    <p class="meta">Technology on Business · Tecnológico de Costa Rica · Cartago</p>
+  </section>
+</div>
+</body>
+</html>

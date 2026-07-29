@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="HackaToB 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030914"/>
+      <stop offset="55%" stop-color="#071528"/>
+      <stop offset="100%" stop-color="#02060f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3d7cff"/>
+      <stop offset="50%" stop-color="#5ce1ff"/>
+      <stop offset="100%" stop-color="#ffe14a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="180" fill="#5ce1ff" opacity="0.12"/>
+  <circle cx="160" cy="520" r="160" fill="#8b5cf6" opacity="0.14"/>
+  <text x="80" y="170" fill="#ffe14a" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">HACKATOB 2026</text>
+  <text x="80" y="280" fill="#f4f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">Cuatro d�as.</text>
+  <text x="80" y="360" fill="#f4f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">Cuatro �reas.</text>
+  <text x="80" y="430" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">Una oportunidad para construir.</text>
+  <text x="80" y="520" fill="#9aadc8" font-family="Segoe UI, Arial, sans-serif" font-size="24">1720 ago � TEC Cartago � 80 builders � Powered by ToB</text>
+  <rect x="80" y="560" width="220" height="8" rx="4" fill="url(#accent)"/>
+</svg>

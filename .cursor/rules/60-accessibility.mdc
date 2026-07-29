@@ -1,0 +1,40 @@
+---
+description: WCAG básicos HackaToB — semántica, foco, contraste, reduced motion
+globs: app/**/*.{tsx,ts},components/**/*.{tsx,ts}
+alwaysApply: false
+---
+
+# Accessibility (WCAG AA baseline)
+
+## Semántica
+
+- HTML semántico (`header`, `main`, `nav`, `section`, `footer`)
+- Un solo `h1` por página
+- Jerarquía `h2` / `h3` sin saltos
+- Skip link → `#contenido`
+
+## Interacción
+
+- Navegación completa por teclado
+- Foco visible (`:focus-visible` con `--cyan`)
+- `aria-expanded` / `aria-controls` en acordeones
+- `aria-current` en nav activa
+- Labels asociados en formularios; `aria-invalid` en error
+- Targets táctiles ≥ 44 × 44 px
+
+## Media
+
+- `alt` específico en fotos reales
+- `alt=""` en decoración
+- No información solo por color (tracks: código + nombre)
+
+## Motion / percepción
+
+- Respetar `prefers-reduced-motion`
+- Contraste texto/fondo AA
+- Countdown / live regions: `aria-live="polite"` cuando aplique
+
+## Contenido
+
+- No depender de hover para datos críticos
+- Errores de form en texto, no solo color

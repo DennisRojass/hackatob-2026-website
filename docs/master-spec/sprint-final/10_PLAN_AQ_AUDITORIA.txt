@@ -1,0 +1,22 @@
+================================================================================
+PLAN A–Q — AUDITORÍA SPRINT FINAL (congelada al aprobar ejecución)
+Opción de rutas aprobada por defecto del plan: A (raíz + redirects /hackatob)
+================================================================================
+
+A. Estado: Next 15 App Router en `/`; INTEREST_OPEN; Syne+DM; specs/assets ingeridos.
+B. Sitemap: deep routes fuera de alcance; landing sections presentes; anchors renombrados.
+C. Assets: PNG ToB/isotipo/Spark/TEC/tracks publicados; staging separado.
+D. Cableado: brand-assets.ts + Logo/Spark/Tracks/Trust/Footer.
+E. Reemplazos: SVG genéricos → PNG oficiales; TEC fuera de partners.
+F. Oculto: aliados/personas draft; galería trayectoria; premios con montos.
+G. Bloqueantes humanos: legales, dominio, postular definitivo, aliados, edad, etc.
+H. P0 resueltos en ejecución: assets, anchors, CTA fase, redirects, persistencia leads.
+I. P1: LCP PNG, backend leads, Git init, Stack Sans opcional.
+J–L. Ver 09_REPORTE_CIERRE_SPRINT_FINAL.txt
+M. Dependencias: sin nuevas.
+N. Lotes 0–9 ejecutados en Agent Mode tras aprobación.
+O. Pruebas: typecheck + lint + build OK.
+P. Riesgos: PNG grandes, leads locales, legales provisionales.
+Q. Aceptación: build limpio; sin ficticios published; Opción A; fase INTEREST_OPEN.
+
+================================================================================

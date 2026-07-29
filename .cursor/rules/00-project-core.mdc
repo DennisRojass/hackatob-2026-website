@@ -1,0 +1,46 @@
+---
+description: Reglas maestras HackaToB 2026 — stack, contenido y definición de terminado
+alwaysApply: true
+---
+
+# HackaToB 2026 — Project Core
+
+HackaToB es el programa de innovación aplicada de Technology on Business (ToB).
+El sitio público convierte visitantes en interés/postulación con datos verificables.
+
+## Antes de editar
+
+1. Lee `docs/content/official-data.md`
+2. Lee `docs/brand/brand-system.md`
+3. Lee `docs/design/art-direction.md`
+4. Reutiliza tokens CSS y componentes existentes
+5. No inventes contenido, logos, personas ni premios
+
+## Stack
+
+- Next.js App Router + TypeScript estricto
+- Server Components por defecto; Client Components solo con interacción real
+- Datos oficiales en `config/event.ts` (no hardcodear cifras en JSX)
+- Campaña en `config/campaign.ts` — fase live: `INTEREST_OPEN` (`PRELAUNCH` = alias)
+- Copy publicado solo vía `lib/content/*` + status `published`
+
+## Prohibiciones
+
+- Inventar sponsors, mentores, jueces, retos, montos o links
+- Avatares / LinkedIn / logos placeholder en producción
+- Plantilla SaaS, dashboard falso, blobs masivos, glassmorphism generalizado, gradientes arcoíris, grids de cards repetidos
+- Más de dos secciones por ejecución de rediseño
+- Migrar tipografía fuera de Syne + DM Sans sin aprobación (ver `docs/brand/brand-system.md`)
+
+## Definición de terminado
+
+Una tarea no termina sin:
+
+1. typecheck
+2. lint
+3. build
+4. revisión visual 1440 / 1280 / 768 / 390
+5. teclado + foco + contraste AA + `prefers-reduced-motion`
+6. sin overflow ni contenido inventado
+
+Informa: archivos tocados, pruebas, pendientes. No rediseñes UI salvo pedido explícito.

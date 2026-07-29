@@ -1,0 +1,81 @@
+================================================================================
+HACKATOB 2026 — PAQUETE PARA EL SPRINT FINAL EN CURSOR
+ORDEN DE USO Y FUENTES DE VERDAD
+================================================================================
+
+OBJETIVO
+--------------------------------------------------------------------------------
+Cerrar el micrositio /hackatob dentro del website de Technology on Business,
+utilizando una sola arquitectura, una sola versión de contenido y una sola
+estructura de assets.
+
+ORDEN OBLIGATORIO DE LECTURA
+--------------------------------------------------------------------------------
+1. 00_LEEME_SPRINT_FINAL.txt
+2. 01_HACKATOB_2026_SITEMAP_MAESTRO_FINAL_DEFINITIVO_V3.txt
+3. 02_HACKATOB_2026_LANDING_MAESTRO_FINAL_CURSOR.txt
+4. 03_HACKATOB_2026_ASSET_MANIFEST_MAESTRO_FINAL.txt
+5. 04_CONTENIDO_DEPURADO_Y_MATRIZ_CALIDAD_HACKATOB_2026.txt
+6. 05_MAPEO_AUDIOVISUAL_Y_MOTION_HACKATOB_2026.txt
+7. 06_CHECKLIST_ADJUNTOS_VISUALES_SPRINT_FINAL.txt
+8. 07_PROMPT_SPRINT_FINAL_CURSOR.txt
+
+JERARQUÍA
+--------------------------------------------------------------------------------
+1. Decisiones confirmadas expresamente por el equipo organizador.
+2. Sitemap Maestro Final Definitivo V3.
+3. Landing Maestro Final para Cursor.
+4. Contenido depurado y matriz de calidad.
+5. Asset Manifest y mapeo de movimiento.
+6. Implementación actual del repositorio.
+
+Si existe una contradicción:
+- no elegir en silencio;
+- registrarla;
+- usar estado “Próximamente” o contenido oculto;
+- pedir una decisión humana solo cuando impida publicar.
+
+ARCHIVOS QUE NO DEBEN ADJUNTARSE
+--------------------------------------------------------------------------------
+No adjuntar borradores anteriores del sitemap, landing o prompts que compitan
+con estas versiones. Evitar duplicar archivos con nombres similares.
+
+ALCANCE DEL SPRINT FINAL
+--------------------------------------------------------------------------------
+Incluye:
+- /hackatob;
+- /hackatob/postular;
+- navegación y enlaces;
+- Hero;
+- contenido P0 y P1;
+- assets reales disponibles;
+- responsive;
+- accesibilidad;
+- SEO;
+- analítica;
+- legal básico;
+- limpieza de placeholders;
+- QA final.
+
+No incluye, salvo que ya exista:
+- portal completo;
+- admin;
+- mentorías internas;
+- team matching;
+- votación;
+- certificados;
+- galería postevento avanzada.
+
+FORMA DE TRABAJO
+--------------------------------------------------------------------------------
+1. Abrir el repositorio raíz.
+2. Copiar este paquete a docs/master-spec/sprint-final/.
+3. Adjuntar o copiar assets oficiales.
+4. Pegar 07_PROMPT_SPRINT_FINAL_CURSOR.txt en Plan Mode.
+5. Aprobar el plan.
+6. Ejecutar el sprint.
+7. Revisar Browser en 1440, 1280, 768 y 390.
+8. Ejecutar typecheck, lint y build.
+9. Entregar reporte final.
+
+================================================================================

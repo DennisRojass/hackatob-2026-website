@@ -1,0 +1,111 @@
+================================================================================
+HACKATOB 2026 — CHECKLIST DE ADJUNTOS VISUALES PARA EL SPRINT FINAL
+================================================================================
+
+A. ADJUNTAR OBLIGATORIAMENTE
+--------------------------------------------------------------------------------
+[ ] Logo HackaToB en SVG.
+    Nombre: hackatob-logo.svg
+
+[ ] Logo ToB en SVG.
+    Nombre: tob-logo.svg
+
+[ ] Logo TEC autorizado en SVG.
+    Nombre: tec-logo.svg
+
+[ ] Paleta oficial.
+    Formato: TXT, PDF o imagen clara.
+    Nombre sugerido: hackatob-brand-colors.pdf
+
+[ ] Tipografías oficiales o documento con nombres y usos.
+    Nombre sugerido: hackatob-typography-guide.pdf
+    No adjuntar archivos de fuente.
+
+[ ] Imagen principal de Hero en alta resolución.
+    Nombre sugerido del original: hero-source.jpg
+    Cursor deberá generar:
+    hero-poster-desktop.avif
+    hero-poster-mobile.avif
+
+[ ] Fotografía del Campus Central del TEC.
+    Nombre final: campus-tec-cartago.avif
+
+[ ] Fotografía del Centro de las Artes.
+    Nombre final: centro-artes-tec.avif
+
+[ ] Cuatro imágenes de tracks:
+    healthtrack-source.jpg
+    greentrack-source.jpg
+    fintrack-source.jpg
+    next-big-thing-source.jpg
+
+[ ] Entre 6 y 10 fotografías reales de Technology on Business.
+    Nombres de origen claros:
+    tob-stage-source.jpg
+    tob-audience-source.jpg
+    tob-speaker-source.jpg
+    tob-workshop-source.jpg
+    tob-networking-source.jpg
+    tob-team-source.jpg
+
+[ ] Imagen de cierre o CTA final.
+    Nombre sugerido: final-cta-source.jpg
+
+B. ADJUNTAR SI YA EXISTEN
+--------------------------------------------------------------------------------
+[ ] Hero loop de 6–9 segundos.
+[ ] Fotografías de tecnología, producto/diseño y negocio/impacto.
+[ ] Fotografías de Pre-HackaToB y los cuatro días.
+[ ] Retratos confirmados de mentores.
+[ ] Retratos confirmados de jueces.
+[ ] Logos autorizados de aliados.
+[ ] PDFs de convocatoria, reglamento, rúbrica y código de conducta.
+[ ] Link final o embed del formulario de postulación.
+
+C. NO ADJUNTAR TODAVÍA
+--------------------------------------------------------------------------------
+[ ] Logos de empresas solo contactadas.
+[ ] Retratos de personas pendientes.
+[ ] Premios no confirmados.
+[ ] Rúbricas no aprobadas.
+[ ] Retos sin organización proponente confirmada.
+[ ] Videos largos sin editar.
+[ ] Fotografías de stock genérico.
+[ ] Versiones repetidas del mismo logo.
+[ ] Archivos de fuente.
+[ ] PSD, AI, RAW o HEIC como archivos de producción.
+
+D. REGLA PARA CADA ARCHIVO
+--------------------------------------------------------------------------------
+Cursor debe indicar antes de publicarlo:
+- nombre final;
+- carpeta;
+- formato;
+- resolución;
+- peso;
+- alt text;
+- permiso;
+- estado;
+- sección donde se utilizará.
+
+E. FALLBACKS
+--------------------------------------------------------------------------------
+Sin video:
+usar poster.
+
+Sin foto:
+usar composición de marca.
+
+Sin mentor:
+mostrar Próximamente.
+
+Sin aliado:
+ocultar.
+
+Sin reto:
+mostrar Retos oficiales próximamente.
+
+Sin PDF:
+no mostrar enlace vacío.
+
+================================================================================

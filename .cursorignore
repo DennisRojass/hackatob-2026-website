@@ -1,0 +1,13 @@
+﻿node_modules/
+.next/
+out/
+dist/
+coverage/
+playwright-report/
+test-results/
+.vercel/
+.env
+.env.*
+*.log
+public/raw/
+public/video/

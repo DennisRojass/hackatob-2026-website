@@ -1,0 +1,110 @@
+================================================================================
+HACKATOB 2026 — QUÉ ADJUNTAR A CURSOR EN EL SPRINT FINAL
+VERSIÓN ACTUALIZADA DESPUÉS DE ANALIZAR LA CARPETA REAL
+================================================================================
+
+ADJUNTAR EN ESTE ORDEN
+--------------------------------------------------------------------------------
+1. Esta carpeta completa:
+   docs/master-spec/sprint-final/
+
+2. La carpeta:
+   assets-normalizados/
+
+3. El repositorio actual del website.
+
+4. Cuando estén disponibles:
+   - link/formulario de postulación;
+   - reglamento;
+   - convocatoria;
+   - política de privacidad;
+   - fotografías reales;
+   - confirmaciones de aliados y personas.
+
+NO ADJUNTAR COMO FUENTE DE VERDAD
+--------------------------------------------------------------------------------
+- borradores anteriores;
+- sitemap V1 o V2;
+- manifest anterior con nombres hipotéticos;
+- prompts anteriores;
+- duplicado `hackatob-logoy texto.png`;
+- logos no confirmados como si ya fueran públicos;
+- archivos de fuente dentro del paquete compartido.
+
+ORDEN DE LECTURA PARA CURSOR
+--------------------------------------------------------------------------------
+00_ANALISIS_CARPETA_REAL.txt
+01_MAPEO_NOMBRES_REALES_A_PRODUCCION.txt
+02_ASSET_MANIFEST_REAL_ACTUALIZADO.txt
+03_SITEMAP_MAESTRO_FINAL_ASSETS_REALES.txt
+04_LANDING_MAESTRO_FINAL_ASSETS_REALES.txt
+05_DECISIONES_PENDIENTES_ANTES_DE_EJECUTAR.txt
+06_PROMPT_MAESTRO_PLAN_ANTES_DE_EJECUTAR.txt
+
+CARPETAS QUE CURSOR DEBE COPIAR
+--------------------------------------------------------------------------------
+Desde assets-normalizados:
+
+public/brand/
+→ copiar a la carpeta public/brand/ del proyecto.
+
+public/media/tracks/
+→ copiar a public/media/tracks/.
+
+docs/brand/
+→ copiar a docs/brand/.
+
+staging/
+→ NO copiar a public.
+→ mantener fuera de producción hasta confirmar.
+
+archive/
+→ no utilizar.
+
+FUENTES
+--------------------------------------------------------------------------------
+Familias identificadas:
+- Stack Sans Notch — principal.
+- Radnika — complementaria.
+
+No se incluyen binarios de fuentes en este paquete.
+
+Para el sprint:
+- conservar las fuentes actuales si ya están implementadas;
+- o configurar Stack Sans Notch desde el archivo local del usuario;
+- no desplegar Radnika hasta verificar licencia de uso web.
+
+ESTADO REAL DEL MATERIAL
+--------------------------------------------------------------------------------
+LISTO:
+- identidad ToB;
+- isotipo HackaToB;
+- Spark principal;
+- Sparks por track;
+- paleta;
+- guía del isotipo;
+- logo TEC.
+
+PENDIENTE DE CONFIRMACIÓN:
+- Dojo Coding;
+- WWT;
+- P&G;
+- rol público del retrato de Dennis Rojas.
+
+FALTANTE:
+- Hero fotográfico/video;
+- campus;
+- Centro de las Artes;
+- audiencia;
+- programa;
+- trayectoria;
+- retos;
+- PDFs;
+- formulario final.
+
+INSTRUCCIÓN
+--------------------------------------------------------------------------------
+El sprint debe poder terminar sin los assets faltantes mediante composiciones
+de marca. Cursor no debe buscar stock ni inventar archivos.
+
+================================================================================

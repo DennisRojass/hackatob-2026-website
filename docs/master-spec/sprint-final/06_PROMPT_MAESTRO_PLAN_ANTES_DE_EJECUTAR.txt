@@ -1,0 +1,235 @@
+================================================================================
+PROMPT MAESTRO PARA CURSOR — PLAN ANTES DE EJECUTAR
+SPRINT FINAL HACKATOB 2026 · ASSETS REALES YA ANALIZADOS
+================================================================================
+
+MODO
+--------------------------------------------------------------------------------
+Trabaja primero en PLAN MODE.
+
+No modifiques código.
+No copies assets.
+No instales dependencias.
+No cambies rutas.
+No ejecutes el sprint hasta recibir aprobación expresa.
+
+CONTEXTO
+--------------------------------------------------------------------------------
+Estoy cerrando el micrositio oficial de HackaToB 2026 dentro del website de
+Technology on Business.
+
+He añadido:
+
+docs/master-spec/sprint-final/
+assets-normalizados/
+
+Los documentos ya fueron actualizados con base en la carpeta real de assets.
+
+ORDEN OBLIGATORIO DE LECTURA
+--------------------------------------------------------------------------------
+1. docs/master-spec/sprint-final/00_ANALISIS_CARPETA_REAL.txt
+2. docs/master-spec/sprint-final/01_MAPEO_NOMBRES_REALES_A_PRODUCCION.txt
+3. docs/master-spec/sprint-final/02_ASSET_MANIFEST_REAL_ACTUALIZADO.txt
+4. docs/master-spec/sprint-final/03_SITEMAP_MAESTRO_FINAL_ASSETS_REALES.txt
+5. docs/master-spec/sprint-final/04_LANDING_MAESTRO_FINAL_ASSETS_REALES.txt
+6. docs/master-spec/sprint-final/05_DECISIONES_PENDIENTES_ANTES_DE_EJECUTAR.txt
+7. assets-normalizados/ASSET_INVENTORY_ACTUAL.csv, si está disponible.
+
+JERARQUÍA
+--------------------------------------------------------------------------------
+1. Decisiones confirmadas por el equipo.
+2. Sitemap actualizado con assets reales.
+3. Landing actualizado con assets reales.
+4. Asset Manifest actualizado.
+5. Implementación actual.
+
+No usar documentos anteriores como fuente de verdad.
+
+ASSETS REALES CONFIRMADOS PARA DISEÑO
+--------------------------------------------------------------------------------
+- tob-imagotipo-color-horizontal.png
+- tob-imagotipo-color-vertical.png
+- tob-imagotipo-blanco-horizontal.png
+- tob-isotipo-color.png
+- tob-isotipo-blanco.png
+- hackatob-isotipo-oficial.png
+- spark-principal.png
+- spark-health.png
+- spark-green.png
+- spark-fin.png
+- spark-next.png
+- tec-logo.png
+- tob-paleta-oficial.png
+- tob-guia-color-isotipo.png
+
+ASSETS QUE NO PUEDES PUBLICAR SIN CONFIRMACIÓN
+--------------------------------------------------------------------------------
+- dojo-coding.png
+- wwt.png
+- pg.png
+- portrait.png de Dennis Rojas
+
+TIPOGRAFÍA Y PALETA
+--------------------------------------------------------------------------------
+Paleta oficial:
+#0DB6FF
+#00ACFC
+#0D9AD8
+#068EC9
+#195592
+#114A82
+
+Tipografía principal:
+Stack Sans Notch
+
+Tipografía complementaria:
+Radnika
+
+No desplegar Radnika hasta confirmar licencia.
+No crear una paleta institucional paralela.
+
+ACTIVOS QUE NO EXISTEN
+--------------------------------------------------------------------------------
+No existen aún:
+- Hero fotográfico o video;
+- campus;
+- Centro de las Artes;
+- audiencia;
+- programa;
+- trayectoria;
+- retos;
+- documentos PDF.
+
+No los inventes.
+No uses stock.
+No crees rutas a archivos inexistentes.
+
+FALLBACKS
+--------------------------------------------------------------------------------
+Hero:
+isotipo HackaToB + Spark + Signal Rail generado en código + gradiente ToB.
+
+Respaldo:
+logos ToB y TEC + timeline institucional.
+
+Participantes:
+composición tipográfica y nodos.
+
+Tracks:
+Sparks reales.
+
+Programa:
+timeline gráfico.
+
+Trayectoria:
+ocultar hasta disponer de fotografías reales.
+
+CTA final:
+Spark principal y composición de marca.
+
+PRIMERA FASE — AUDITORÍA
+--------------------------------------------------------------------------------
+1. Inspecciona el repositorio completo.
+2. Identifica stack, rutas, componentes y estado de Git.
+3. Ejecuta la aplicación.
+4. Revisa:
+   - 1440 × 1000;
+   - 1280 × 800;
+   - 768 × 1024;
+   - 390 × 844.
+5. Compara la implementación con el Sitemap y Landing actualizados.
+6. Revisa si los nombres anteriores siguen en código.
+7. Localiza:
+   - rutas rotas;
+   - imports antiguos;
+   - assets inexistentes;
+   - placeholders;
+   - contenido duplicado;
+   - datos contradictorios;
+   - sponsors ficticios;
+   - perfiles no confirmados;
+   - problemas responsive;
+   - problemas de accesibilidad;
+   - SEO;
+   - analítica;
+   - errores de consola.
+8. No modifiques nada.
+
+ENTREGA DEL PLAN
+--------------------------------------------------------------------------------
+Entrega exactamente estas secciones:
+
+A. Estado actual del repositorio.
+B. Comparación con el sitemap maestro.
+C. Inventario de assets encontrados en el proyecto.
+D. Assets que se copiarían desde assets-normalizados.
+E. Imports y nombres antiguos que deben reemplazarse.
+F. Contenido que debe ocultarse.
+G. Decisiones bloqueantes.
+H. P0.
+I. P1.
+J. Archivos a crear.
+K. Archivos a modificar.
+L. Archivos a eliminar o archivar.
+M. Dependencias: conservar, eliminar o justificar.
+N. Plan por lotes.
+O. Pruebas por lote.
+P. Riesgos.
+Q. Criterios de aceptación.
+
+PLAN POR LOTES PROPUESTO
+--------------------------------------------------------------------------------
+Lote 0:
+Configuración, tokens, tipografías, contenido y nombres de assets.
+
+Lote 1:
+Campaign Bar + Header + Hero.
+
+Lote 2:
+Respaldo + Experiencia.
+
+Lote 3:
+Participantes + Tracks.
+
+Lote 4:
+Retos + Modalidades.
+
+Lote 5:
+Programa + Participar.
+
+Lote 6:
+Evaluación + Ecosistema.
+
+Lote 7:
+Trayectoria + FAQ.
+
+Lote 8:
+CTA + Footer.
+
+Lote 9:
+Postular + Legal + SEO + Analítica.
+
+REGLAS PARA EL PLAN
+--------------------------------------------------------------------------------
+- No más de dos secciones por lote.
+- No usar stock.
+- No publicar staging.
+- No inventar.
+- No convertir el isotipo de HackaToB en un wordmark falso.
+- No duplicar logoOFICIAL y hackatob-logoy texto.
+- No clasificar TEC como partner.
+- No instalar animación compleja si CSS o Motion existente es suficiente.
+- No copiar archivos de fuente a public.
+- No cambiar la home de ToB salvo integración necesaria.
+- No ejecutar hasta aprobar el plan.
+
+RESPUESTA FINAL OBLIGATORIA
+--------------------------------------------------------------------------------
+Finaliza exactamente con:
+
+FASE DE PLANIFICACIÓN COMPLETADA.
+NO SE HA MODIFICADO EL CÓDIGO.
+ESPERANDO LA INSTRUCCIÓN:
+APRUEBO EL PLAN DEL SPRINT FINAL.
+
+================================================================================

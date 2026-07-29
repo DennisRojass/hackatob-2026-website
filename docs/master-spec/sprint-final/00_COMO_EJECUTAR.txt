@@ -1,0 +1,25 @@
+﻿================================================================================
+CÓMO EJECUTAR EL SPRINT FINAL
+================================================================================
+
+1. Backup ya creado:
+   Desktop\HackaToB_v01_BACKUP_20260728_223420
+
+2. Specs + assets ya ingeridos en HackaToB_v01:
+   docs/master-spec/sprint-final/
+   public/brand/*.png oficiales
+   public/media/tracks/*/
+   staging/ (NO publicar)
+
+3. Prompt maestro:
+   docs/master-spec/sprint-final/08_PROMPT_MAESTRO_SPRINT_FINAL_EJECUTABLE.txt
+   Copia en Desktop: PROMPT_MAESTRO_SPRINT_FINAL_HACKATOB.txt
+
+4. En Cursor:
+   - Abre HackaToB_v01
+   - Plan Mode
+   - Pega el contenido de 08_PROMPT_MAESTRO...
+   - Revisa plan A-Q
+   - Responde: APRUEBO EL PLAN DEL SPRINT FINAL.
+
+================================================================================

@@ -1,0 +1,136 @@
+================================================================================
+AUTO-PROMPT UNIFICADO — SPRINT FINAL HACKATOB 2026 (PLAN → EJECUCIÓN)
+Repositorio: HackaToB_v01 · Micrositio ToB · Julio 2026
+================================================================================
+
+NOTA
+--------------------------------------------------------------------------------
+Este archivo es la versión corta unificada del plan.
+Para ejecución completa con reglas, lotes y QA detallados, usar también:
+
+  08_PROMPT_MAESTRO_SPRINT_FINAL_EJECUTABLE.txt
+
+Backup del proyecto previo al sprint:
+  Desktop\HackaToB_v01_BACKUP_20260728_223420
+
+================================================================================
+MODO INICIAL: PLAN MODE
+================================================================================
+No modifiques código. No copies assets. No instales dependencias.
+
+LECTURA OBLIGATORIA (orden)
+1. docs/master-spec/sprint-final/00_ANALISIS_CARPETA_REAL.txt
+2. docs/master-spec/sprint-final/01_MAPEO_NOMBRES_REALES_A_PRODUCCION.txt
+3. docs/master-spec/sprint-final/02_ASSET_MANIFEST_REAL_ACTUALIZADO.txt
+4. docs/master-spec/sprint-final/ASSET_INVENTORY_ACTUAL.csv
+5. docs/master-spec/sprint-final/03_SITEMAP_MAESTRO_FINAL_ASSETS_REALES.txt
+6. docs/master-spec/sprint-final/04_LANDING_MAESTRO_FINAL_ASSETS_REALES.txt
+7. docs/master-spec/sprint-final/05_DECISIONES_PENDIENTES_ANTES_DE_EJECUTAR.txt
+8. docs/master-spec/sprint-final/suplementos/04_CONTENIDO_DEPURADO_Y_MATRIZ_CALIDAD_HACKATOB_2026.txt
+9. docs/master-spec/sprint-final/suplementos/05_MAPEO_AUDIOVISUAL_Y_MOTION_HACKATOB_2026.txt
+10. .cursor/rules/*.mdc · config/event.ts · config/campaign.ts · config/routes.ts
+
+JERARQUÍA
+--------------------------------------------------------------------------------
+Decisiones humanas confirmadas > sitemap/landing assets reales > manifest/CSV >
+matriz de calidad > motion > config/* > código actual.
+No uses prompts/sitemaps borradores anteriores ni hackatob-logoy texto.png (duplicado).
+
+OBJETIVO
+--------------------------------------------------------------------------------
+Dejar el micrositio HackaToB listo para producción: contenido depurado, assets reales
+donde existan, fallbacks honestos donde no, responsive, a11y, SEO, analítica, sin
+placeholders ficticios.
+
+ALCANCE P0/P1
+--------------------------------------------------------------------------------
+Campaign Bar · Header ToB+HackaToB · Hero · Respaldo · Experiencia · Participantes ·
+Tracks · Retos (estado honesto) · Modalidades · Programa · Participar · Evaluación ·
+Ecosistema · Trayectoria (oculta si no hay fotos) · FAQ · CTA · Footer · postular ·
+legal básico · SEO · QA.
+
+FUERA DE ALCANCE
+--------------------------------------------------------------------------------
+Portal, admin, matching, votación, certificados, galería postevento avanzada.
+
+CONFLICTOS RESUELTOS POR DEFECTO (salvo orden humana distinta)
+--------------------------------------------------------------------------------
+- Rutas: Opción A — mantener `/` y alias `/hackatob/*` vía redirects.
+- CTA: config/campaign.ts (INTEREST_OPEN → “Dejar interés”).
+- Tipografía: Syne + DM Sans.
+- Color: paleta ToB #0DB6FF…#114A82 en tokens.
+- Logo: isotipo oficial + wordmark tipográfico.
+- TEC: institucional, nunca partner comercial.
+- Staging: Dojo/WWT/P&G/Dennis fuera de public.
+
+FASE 1 — AUDITORÍA (sin tocar código)
+--------------------------------------------------------------------------------
+- Inspeccionar repo, Git, stack, rutas, componentes, public/brand, partners/people.
+- npm run dev; Browser 1440/1280/768/390; consola.
+- Comparar secciones vs sitemap/landing maestro (IDs, anchors, copy, CTAs).
+- Inventariar assets en repo vs CSV; listar imports obsoletos.
+- Detectar P0 y proponer decisión de rutas A o B.
+- Entregar secciones A–Q.
+
+CIERRE FASE 1 (texto exacto):
+FASE DE PLANIFICACIÓN COMPLETADA.
+NO SE HA MODIFICADO EL CÓDIGO.
+ESPERANDO LA INSTRUCCIÓN:
+APRUEBO EL PLAN DEL SPRINT FINAL.
+
+FASE 2 — EJECUCIÓN (solo tras: APRUEBO EL PLAN DEL SPRINT FINAL.)
+--------------------------------------------------------------------------------
+Lote 0: tokens ToB + assets + anchors + partners + redirects.
+Lotes 1–9: máximo 2 secciones por lote.
+Reglas: contenido fuera de JSX; solo published; Signal System; no stock;
+prefers-reduced-motion; CTA por fase; Syne+DM Sans; next/image.
+
+QA CIERRE
+--------------------------------------------------------------------------------
+Browser 4 viewports · teclado · contraste · reduced motion · typecheck · lint · build ·
+content integrity · reporte A–Q.
+
+CRITERIOS
+--------------------------------------------------------------------------------
+Promedio ≥9/10; ninguna sección <8; Hero/Participar/Evaluación/postular 10/10;
+sin ficticios; sin overflow horizontal; build limpio.
+
+================================================================================
+ANEXO — QUÉ ADJUNTAR / COPIAR
+================================================================================
+
+ADJUNTAR EN ESTE ORDEN
+1. docs/master-spec/sprint-final/
+2. assets-normalizados/ (o ya ingerido en el repo)
+3. El repositorio HackaToB_v01
+4. Cuando existan: form final, legales, fotos, confirmaciones de aliados/personas
+
+NO ADJUNTAR COMO FUENTE DE VERDAD
+- borradores V1/V2; prompts anteriores; duplicado hackatob-logoy texto.png;
+  logos no confirmados como públicos; archivos de fuente.
+
+CARPETAS A COPIAR DESDE assets-normalizados
+public/brand/          → public/brand/
+public/media/tracks/   → public/media/tracks/
+docs/brand/            → docs/brand/
+staging/               → NO a public (mantener fuera de producción)
+archive/               → no utilizar
+
+FALLBACKS SI FALTAN FOTOS/VIDEO
+Hero: isotipo + Spark + Signal Rail + gradiente ToB
+Respaldo: logos ToB + TEC + timeline
+Participantes: tipografía + nodos
+Tracks: Sparks reales
+Programa: timeline gráfico
+Trayectoria: ocultar galería
+CTA: Spark principal
+
+================================================================================
+ESTADO DE EJECUCIÓN EN ESTE REPO (post-sprint)
+================================================================================
+- Specs ingeridas en docs/master-spec/sprint-final/
+- Assets publicados cableados
+- Opción A redirects activos en next.config.ts
+- Secciones actualizadas; reporte: 09_REPORTE_CIERRE_SPRINT_FINAL.txt
+
+================================================================================

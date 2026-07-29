@@ -1,0 +1,45 @@
+---
+description: Reglas de componentes UI — preferir panel/línea/timeline sobre cards
+globs: components/**/*.{tsx,ts},app/**/*.{tsx,ts}
+alwaysApply: false
+---
+
+# UI Components
+
+## Principios
+
+- Reutilizar `Button`, `Section`, `Eyebrow`, `Reveal`, brand components
+- Contenido fuera del JSX (config / lib/content)
+- Máx. ~12 props salvo justificación; variantes semánticas, no decorativas
+- `next/image` para foto; SVG para logos de marca
+- No rediseñar el sistema UI completo en una pasada; un componente / sección a la vez
+
+## Antes de crear una “card”
+
+Evaluar en este orden:
+
+1. Panel / superficie con borde (`--line`)
+2. Línea / Signal Rail / nodo
+3. Ficha / dossier / brief
+4. Timeline
+5. Tabla / matriz
+6. Bloque editorial (texto + media)
+7. Visualización (rúbrica, progreso)
+8. Fotografía con caption
+9. Card — solo si es contenedor de interacción real
+
+## Botones / acciones
+
+Usar el sistema existente (`components/ui/Button`):
+
+- Primary — CTA de campaña
+- Secondary — exploración
+- Text / link — terciario
+- Icon button — controles compactos (44×44 táctil)
+
+## No hacer
+
+- Nuevas librerías UI sin justificación
+- Variantes “glow / glass / neon” como default
+- Duplicar `Card.tsx` para cada sección
+- Inyectar copy inventado en el componente

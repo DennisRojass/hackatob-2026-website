@@ -1,0 +1,46 @@
+---
+description: SIGNAL SYSTEM — composición por sección, sin card grids consecutivos
+alwaysApply: true
+---
+
+# Visual Direction — SIGNAL SYSTEM
+
+Idea rectora: **una señal que conecta retos, talento y resultados.**
+
+## Motivos propios
+
+- **Signal Rail** — línea narrativa que une la experiencia
+- **Nodos** — tracks, días, entregables, decisiones
+- **Spark** — punto de energía (uso restringido)
+- **Códigos** — HT · GT · FT · TNBT
+- **Progreso** — descubrir → postular → preparar → construir → presentar → continuar
+- Fotografía documental real + composiciones editoriales asimétricas
+
+## Reglas de composición
+
+1. Cada sección tiene una composición distinta
+2. No más de **dos** grids de tarjetas consecutivos
+3. No resolver todo con: título + párrafo + cards + CTA
+4. Preferir panel / línea / timeline / dossier / tablero / escalera / matriz
+5. Evitar: ventanas falsas de browser, dashboards flotantes, glass masivo, blobs, gradientes arcoíris
+6. Espacio negativo y jerarquía editorial claros
+7. Test: ¿se reconoce HackaToB sin leer el logo?
+
+## Composiciones esperadas (referencia)
+
+| Sección | Forma |
+|---------|--------|
+| Hero | Editorial asimétrico · texto dominante · placa fecha · Spark · sin dashboard |
+| Confianza | Línea ToB → TEC → HackaToB → Demo Day · no logo cloud |
+| Evento | Recorrido conectado · no 6 cards iguales |
+| Tracks | Cuadrantes / tablero · textura por track |
+| Retos | Challenge briefs + códigos + estado · no blog cards |
+| Modalidades | Escalera de madurez · no pricing |
+| Programa | Navegación por día · objetivo + resultado |
+| Evaluación | Rúbrica sobria · sin confeti |
+| Comunidad | Editorial / foto · sin avatares fake |
+| Aliados | Jerarquía por categoría · no marquee acelerado |
+| Trayectoria | Foto grande + captions |
+| CTA | Una acción dominante · señales convergentes · Spark |
+
+Detalle: `docs/design/art-direction.md` + `docs/design/section-blueprints.md`.

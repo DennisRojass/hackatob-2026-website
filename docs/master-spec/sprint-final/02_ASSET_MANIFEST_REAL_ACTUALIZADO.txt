@@ -1,0 +1,173 @@
+================================================================================
+HACKATOB 2026 — ASSET MANIFEST ACTUALIZADO CON ARCHIVOS REALES
+Fuente: ArchivosHackatob.rar
+================================================================================
+
+1. IDENTIDAD DISPONIBLE Y APROBADA PARA TRABAJO
+--------------------------------------------------------------------------------
+public/brand/
+  tob-imagotipo-color-horizontal.png
+  tob-imagotipo-color-vertical.png
+  tob-imagotipo-blanco-horizontal.png
+  tob-isotipo-color.png
+  tob-isotipo-blanco.png
+  hackatob-isotipo-oficial.png
+  spark-principal.png
+  tec-logo.png
+
+docs/brand/
+  tob-paleta-oficial.png
+  tob-guia-color-isotipo.png
+
+2. TRACKS DISPONIBLES
+--------------------------------------------------------------------------------
+public/media/tracks/health/spark-health.png
+public/media/tracks/green/spark-green.png
+public/media/tracks/fin/spark-fin.png
+public/media/tracks/next/spark-next.png
+
+Uso:
+- selector de tracks;
+- tabs;
+- panel activo;
+- badges;
+- composición de Hero secundaria;
+- señalización dentro de retos.
+
+No tratarlos como fotografías de problemas reales.
+
+3. ARCHIVOS EN STAGING — NO PUBLICAR AUTOMÁTICAMENTE
+--------------------------------------------------------------------------------
+staging/partners/dojo-coding.png
+staging/partners/wwt.png
+staging/partners/pg.png
+
+Requieren:
+[ ] confirmación formal;
+[ ] autorización de logo;
+[ ] categoría;
+[ ] enlace;
+[ ] participación definida.
+
+staging/people/dennis-rojas/portrait.png
+
+Requiere:
+[ ] confirmar rol público;
+[ ] aprobar nombre;
+[ ] cargo;
+[ ] organización;
+[ ] bio;
+[ ] LinkedIn;
+[ ] autorización de imagen.
+
+4. PALETA REAL
+--------------------------------------------------------------------------------
+--tob-cyan-100: #0DB6FF;
+--tob-cyan-200: #00ACFC;
+--tob-blue-300: #0D9AD8;
+--tob-blue-400: #068EC9;
+--tob-blue-700: #195592;
+--tob-blue-800: #114A82;
+
+Recomendación semántica:
+--color-brand-bright: #0DB6FF;
+--color-brand-primary: #00ACFC;
+--color-brand-medium: #068EC9;
+--color-brand-deep: #195592;
+--color-brand-dark: #114A82;
+
+El amarillo, naranja, verde y morado deben tomarse de los assets Spark o de
+tokens de track aprobados, no sustituir la paleta institucional.
+
+5. TIPOGRAFÍA REAL
+--------------------------------------------------------------------------------
+Principal:
+Stack Sans Notch
+
+Complementaria:
+Radnika
+
+Uso recomendado:
+- Stack Sans Notch:
+  navegación, H1, H2, cuerpo, botones y UI.
+
+- Radnika:
+  acentos, labels, códigos o titulares puntuales.
+
+Regla:
+Radnika solo después de confirmar licencia de uso web.
+
+No colocar archivos de fuente dentro de `public/`.
+Configurar con `next/font/local` desde una carpeta privada del proyecto.
+
+6. ASSETS QUE FALTAN
+--------------------------------------------------------------------------------
+P0:
+[ ] fotografía o poster del Hero;
+[ ] fotografía del Campus TEC;
+[ ] fotografía del Centro de las Artes;
+[ ] imagen de CTA final;
+[ ] favicon derivado del isotipo;
+[ ] imagen Open Graph 1200 × 630;
+[ ] documentos legales activos;
+[ ] destino real de /hackatob/postular.
+
+P1:
+[ ] fotografías de participantes;
+[ ] imágenes del programa;
+[ ] trayectoria real de ToB;
+[ ] retratos confirmados;
+[ ] logos confirmados;
+[ ] reto y sus recursos.
+
+P2:
+[ ] Hero loop;
+[ ] video de postulación;
+[ ] microvideos;
+[ ] recap.
+
+7. FALLBACKS OBLIGATORIOS
+--------------------------------------------------------------------------------
+Hero sin foto:
+isotipo HackaToB + Spark principal + gradiente + Signal Rail en código.
+
+Respaldo sin foto:
+logos ToB y TEC + timeline institucional.
+
+Participantes sin foto:
+composición tipográfica y nodos.
+
+Tracks:
+usar Sparks reales.
+
+Programa sin foto:
+timeline y resultados por día.
+
+Trayectoria sin fotos:
+ocultar sección o mostrar copy breve sin galería.
+
+Aliados no confirmados:
+ocultar logos.
+
+Mentor no confirmado:
+no mostrar tarjeta.
+
+8. REGLA DE PUBLICACIÓN
+--------------------------------------------------------------------------------
+Solo `published` puede aparecer.
+
+`pending_confirmation` y `pending_role_confirmation` deben permanecer fuera del
+DOM público o detrás de una bandera de entorno no productiva.
+
+9. OPTIMIZACIÓN
+--------------------------------------------------------------------------------
+Los PNG de 4096 × 4096 deben optimizarse para web, manteniendo el original en
+una carpeta de fuente fuera de `public/`.
+
+No vectorizar automáticamente logos.
+No cambiar proporciones.
+No recolorear TEC.
+No eliminar transparencias.
+No comprimir hasta introducir artefactos.
+
+================================================================================

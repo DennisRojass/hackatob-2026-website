@@ -1,0 +1,48 @@
+---
+description: Integridad de contenido — publication status, sin placeholders ni inventos
+alwaysApply: true
+---
+
+# Content Integrity
+
+## Source of truth
+
+| Dato | Fuente |
+|------|--------|
+| Evento operativo | `config/event.ts` |
+| Fase / CTA | `config/campaign.ts` |
+| Copy / listas | `lib/content/*` |
+| Estados de publicación | `docs/content/publication-status.md` |
+| Decisiones abiertas | `docs/content/decisions-required.md` |
+
+## Publication statuses
+
+`draft` · `pending` · `confirmed` · `published` · `hidden` · `archived`
+
+**Solo `published` se muestra en producción.**
+
+## No publicar
+
+- Personas ficticias / pravatar / LinkedIn inventado
+- Sponsors objetivo o logos sin autorización
+- Premios con montos no confirmados
+- Retos incompletos (sin responsable / estado)
+- Datos viejos: 60 cupos, MediTrack, 3 tracks, 2 modalidades
+- Social con `XXXX` o URLs vacías
+
+## Copy prohibido (vacío)
+
+“transforma el futuro” · “innovación sin límites” · “experiencia única” · “lleva tus ideas al siguiente nivel” · “change-makers” · “revolucionando la industria”
+
+## Fase actual
+
+- Live: **`INTEREST_OPEN`** (lista de interés)
+- `PRELAUNCH` = alias de INTEREST_OPEN
+- No decir “postulación abierta” / “crear cuenta” hasta `APPLICATIONS_OPEN`
+
+## Fallbacks honestos
+
+- Mentores: “Próximamente conocerás a quienes te acompañarán.”
+- Aliados: “Estamos conformando el ecosistema de aliados de HackaToB 2026.”
+- Retos: “Los retos oficiales serán publicados próximamente.”
+- Premios: “Los premios y oportunidades se anunciarán junto con los aliados oficiales.”

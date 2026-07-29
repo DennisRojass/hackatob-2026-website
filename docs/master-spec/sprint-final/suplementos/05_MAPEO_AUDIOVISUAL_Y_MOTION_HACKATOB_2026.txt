@@ -1,0 +1,632 @@
+HACKATOB 2026 — MAPEO MAESTRO DE FOTOGRAFÍA, VIDEO, ANIMACIÓN Y MOVIMIENTO
+Sistema audiovisual y de motion design para hackatob.cr
+Versión 1.0 · Julio 2026
+
+IDEA CREATIVA CENTRAL
+SIGNAL SYSTEM — RETOS, TALENTO Y RESULTADOS
+
+La experiencia visual representa una señal que nace en el Hero y conecta:
+reto → persona → equipo → construcción → presentación → continuidad.
+
+ELEMENTOS DEL SISTEMA
+1. Signal Rail: línea narrativa que conecta secciones.
+2. Nodos: tracks, días, etapas, entregables y evaluación.
+3. Spark: solo en Hero, confirmación, Demo Day y CTA final.
+4. Códigos: HT, GT, FT y TNBT.
+5. Fotografía documental real.
+6. Video real, breve y bajo demanda.
+7. Movimiento explicativo.
+
+1. NIVELES DE MOVIMIENTO
+AMBIENTAL
+- grid sutil;
+- puntos de señal;
+- glows localizados;
+- órbitas lentas;
+- máximo 3 elementos por viewport;
+- 10–20 s por ciclo;
+- reducir en móvil;
+- detener con prefers-reduced-motion.
+
+EXPLICATIVO
+- línea institucional;
+- proceso;
+- tracks;
+- modalidades;
+- programa;
+- postulación;
+- rúbrica.
+Duración: 500–1.200 ms.
+
+MICROINTERACCIÓN
+- botones;
+- enlaces;
+- tabs;
+- filtros;
+- acordeones;
+- formularios.
+Duración: 120–320 ms.
+Escala máxima: 1.02.
+Desplazamiento máximo: 4 px.
+
+MOVIMIENTO DE ESTADO
+- prelaunch;
+- postulaciones;
+- selección;
+- evento activo;
+- Demo Day;
+- resultados.
+El estado debe cambiar contenido y jerarquía, no solo color.
+
+2. MAPEO POR SECCIÓN
+
+ANNOUNCEMENT BAR
+Elementos:
+- estado;
+- CTA;
+- indicador.
+Movimiento:
+- fade 180–240 ms;
+- pulso sutil solo durante evento activo o Demo Day.
+No usar:
+- ticker rápido;
+- texto en movimiento continuo.
+
+HEADER
+Movimiento:
+- transparente a sólido al hacer scroll;
+- blur moderado;
+- subrayado activo;
+- menú móvil lateral en 280–360 ms.
+No usar:
+- megamenú;
+- efectos 3D;
+- cursor personalizado.
+
+HERO
+Fotografía:
+- estudiantes reales trabajando en TEC;
+- equipo en primer plano;
+- espacio negativo para copy.
+Video opcional:
+- loop de 6–9 s;
+- sin audio;
+- 4–6 planos;
+- manos, pizarras, prototipo, mentoría y escenario;
+- poster obligatorio.
+Movimiento:
+- título por líneas;
+- Spark escala 0.92 → 1;
+- Signal Rail hacia la siguiente sección;
+- métricas una sola vez;
+- countdown estable.
+No usar:
+- máquina de escribir;
+- dashboard;
+- laptop 3D;
+- lluvia de código;
+- video sin contraste.
+Assets:
+- hero-poster-desktop.avif;
+- hero-poster-mobile.avif;
+- hero-loop.webm;
+- hero-loop.mp4;
+- spark.svg;
+- signal-grid.svg.
+
+CONFIANZA
+Fotografía:
+- Campus TEC;
+- Centro de las Artes;
+- equipo ToB.
+Movimiento:
+- línea ToB → TEC → HackaToB → Demo Day;
+- logos por opacidad.
+No usar:
+- logo cloud;
+- TEC mezclado con patrocinadores.
+
+EVENTO
+Video opcional:
+- clips de 2–3 s por etapa.
+Movimiento:
+- rail de seis pasos;
+- nodo activo;
+- crossfade de contenido;
+- desktop horizontal;
+- móvil vertical.
+No usar:
+- seis cards iguales.
+
+AUDIENCIA
+Fotografía:
+- tecnología;
+- producto y diseño;
+- negocio e impacto.
+Movimiento:
+- tres familias convergen en “Equipo”;
+- tabs en móvil.
+No usar:
+- grids de iconos;
+- avatares AI.
+
+TRACKS
+HealthTrack:
+- pulso, señal, datos.
+GreenTrack:
+- topografía, ondas, territorio.
+FinTrack:
+- flujos, nodos, matrices.
+The Next Big Thing:
+- órbitas, expansión, geometría.
+Movimiento:
+- un track activo;
+- panel de detalle;
+- transición 320–480 ms;
+- teclado y touch;
+- no autoplay.
+Assets:
+- track-*-cover.avif;
+- pattern-*.svg;
+- track-*-loop.webm opcional.
+
+RETOS
+Fotografía:
+- contexto real del problema.
+Video:
+- brief de 30–45 s;
+- subtítulos;
+- poster;
+- no autoplay.
+Movimiento:
+- filtros suaves;
+- expediente expandible;
+- estado explícito.
+No usar:
+- cards de blog;
+- stock decorativo;
+- códigos falsos.
+
+MODALIDADES
+Fotografía:
+- ideación;
+- prototipado;
+- MVP.
+Video opcional:
+- “¿Qué modalidad elijo?” 45–60 s.
+Movimiento:
+- escalera Ideación → Prototipado → MVP.
+No usar:
+- pricing cards.
+
+PROGRAMA
+Fotografía:
+- Pre-HackaToB;
+- Día 1;
+- Día 2;
+- Día 3;
+- Día 4.
+Video:
+- teaser 20–30 s;
+- recap diario 30–45 s.
+Movimiento:
+- timeline;
+- día activo sticky;
+- progreso;
+- Demo Day con Spark.
+No usar:
+- cuatro cards iguales;
+- segundo countdown.
+
+PARTICIPAR
+Fotografía:
+- un equipo real.
+Video opcional:
+- cómo postularte, 30–45 s.
+Movimiento:
+- funnel;
+- progreso;
+- guardado;
+- validación;
+- confirmación.
+No usar:
+- mailto como CTA principal;
+- shake agresivo;
+- confeti al iniciar.
+
+EVALUACIÓN
+Fotografía:
+- jueces;
+- pitches;
+- deliberación.
+Video opcional:
+- cómo se evalúa, 30–45 s.
+Movimiento:
+- barras una vez;
+- tooltips accesibles;
+- matriz.
+No usar:
+- podio;
+- confeti;
+- medallas 3D.
+
+COMUNIDAD
+Fotografía:
+- retratos 4:5;
+- foto en acción.
+Video:
+- mentor 15–25 s;
+- una pregunta;
+- subtítulos;
+- versión vertical.
+Movimiento:
+- máscara simple;
+- overlay;
+- navegación manual.
+No usar:
+- pravatar;
+- AI headshots;
+- correos personales.
+
+PREMIOS
+Fotografía:
+- proyectos;
+- feedback;
+- networking;
+- continuidad.
+Video postevento:
+- ganadores 45–60 s.
+Movimiento:
+- rutas de continuidad;
+- Spark final;
+- confeti máximo 1 s.
+No usar:
+- trofeos 3D;
+- dinero animado.
+
+ALIADOS
+Fotografía:
+- workshops;
+- activaciones;
+- aliados con equipos.
+Video:
+- mensaje de 15–30 s.
+Movimiento:
+- gris a color;
+- entrada por nivel;
+- ticker lento y pausable.
+No usar:
+- logos pendientes;
+- logo cloud sin categorías.
+
+TRAYECTORIA
+Fotografía:
+- 8–12 imágenes reales de ToB;
+- conferencias;
+- workshops;
+- público;
+- escenario;
+- networking.
+Video:
+- reel histórico 45–60 s;
+- teaser 12–15 s.
+Movimiento:
+- máscara;
+- desplazamiento leve;
+- captions.
+No usar:
+- “ediciones anteriores de HackaToB”;
+- stock.
+
+FAQ
+Movimiento:
+- acordeón corto;
+- + a ×;
+- foco visible.
+No requiere foto o video.
+
+CTA FINAL
+Fotografía:
+- equipo celebrando o escenario.
+Movimiento:
+- señales convergen;
+- Spark responde;
+- una acción dominante.
+No repetir métricas del Hero.
+
+FOOTER
+Movimiento:
+- subrayado;
+- acordeones móviles.
+Sin movimiento ambiental.
+
+3. PLAN MAESTRO DE VIDEO
+1. Hero loop: 6–9 s, sin audio.
+2. Brand film: 45–60 s.
+3. Teaser de convocatoria: 12–15 s en 16:9, 1:1 y 9:16.
+4. Cómo funciona: 30–45 s.
+5. Loops por track: 5–7 s, opcionales.
+6. Cómo postularte: 30–45 s.
+7. Cómo se evalúa: 30–45 s.
+8. Microentrevistas de mentores: 15–25 s.
+9. Recap por día: 30–45 s.
+10. Aftermovie: 60–90 s.
+
+4. PLAN MAESTRO DE FOTOGRAFÍA
+Institucional:
+- Campus TEC;
+- Centro de las Artes;
+- equipo ToB;
+- espacios.
+
+Personas:
+- mentores;
+- jueces;
+- speakers;
+- organización;
+- equipos.
+
+Construcción:
+- investigación;
+- pizarras;
+- Figma;
+- desarrollo;
+- hardware;
+- mentoría;
+- demo;
+- pitch.
+
+Emocional:
+- concentración;
+- colaboración;
+- frustración y resolución;
+- celebración;
+- networking.
+
+Por track:
+- Health: prevención, nutrición, accesibilidad, datos.
+- Green: biodiversidad, agua, agricultura, territorio.
+- Fin: pymes, pagos, inclusión, seguridad.
+- TNBT: IA, robótica, electrónica y prototipos.
+
+Formatos:
+- 16:9;
+- 3:2;
+- 4:5;
+- 9:16;
+- detalles.
+
+Estilo:
+- personas reales;
+- acción;
+- luz natural o controlada;
+- azul ambiental y punto cálido;
+- espacio negativo;
+- retoque moderado.
+
+5. GUION DE CAPTURA
+Pre-HackaToB:
+- workshops;
+- formación de equipo;
+- herramientas;
+- track;
+- pitch.
+
+Día 1:
+- check-in;
+- colores;
+- retos;
+- equipos;
+- apertura.
+
+Día 2:
+- desarrollo;
+- diseño;
+- mentorías;
+- prototipos;
+- bloqueos.
+
+Día 3:
+- integración;
+- pruebas;
+- ensayo;
+- entrega.
+
+Día 4:
+- escenario;
+- jueces;
+- pitches;
+- deliberación;
+- premiación;
+- networking.
+
+6. ESPECIFICACIONES
+Fotografía:
+- master RAW;
+- web AVIF/WebP;
+- next/image;
+- alt text;
+- dimensiones estables.
+
+Presupuestos recomendados:
+- Hero poster desktop: 180–320 KB.
+- Hero poster móvil: 90–180 KB.
+- Foto de sección: 100–220 KB.
+- Retrato: 60–140 KB.
+- Thumbnail: 30–80 KB.
+
+Video:
+- WebM + MP4;
+- poster AVIF;
+- VTT;
+- transcripción;
+- muted y playsInline en loops;
+- controls en videos informativos;
+- preload metadata o none.
+Presupuestos:
+- Hero loop: 1,5–3,5 MB.
+- Track loop: 300–900 KB.
+- Videos largos: carga bajo demanda.
+
+SVG:
+- logos;
+- Signal Rail;
+- nodos;
+- patrones;
+- diagramas.
+
+Lottie/Rive:
+- solo Spark, confirmación o un diagrama de marca;
+- no reemplazar video real;
+- no cargar varias animaciones complejas.
+
+7. STACK DE MOVIMIENTO
+CSS:
+- hover;
+- focus;
+- color;
+- subrayados;
+- menú.
+
+Motion for React:
+- entrada;
+- layout;
+- tabs;
+- acordeones;
+- microinteracciones;
+- scroll moderado;
+- reduced motion.
+
+GSAP + ScrollTrigger:
+- solo secuencias complejas;
+- Signal Rail;
+- programa sticky;
+- pinning controlado.
+
+No animar el mismo elemento con Motion y GSAP.
+
+8. TOKENS
+--motion-instant: 120ms;
+--motion-fast: 180ms;
+--motion-normal: 320ms;
+--motion-reveal: 560ms;
+--motion-sequence: 900ms;
+--motion-ambient: 14000ms;
+
+--ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+--ease-emphasis: cubic-bezier(0.16, 1, 0.3, 1);
+--ease-exit: cubic-bezier(0.4, 0, 1, 1);
+
+Entrada:
+opacity 0 → 1;
+translateY 18–24 px → 0.
+
+Hover:
+scale máximo 1.02;
+translateY máximo -4 px.
+
+Stagger:
+70–110 ms.
+
+9. ACCESIBILIDAD
+- prefers-reduced-motion;
+- sin parallax en reduced;
+- no audio automático;
+- subtítulos;
+- transcripción;
+- controles;
+- sin flashes;
+- no depender del color;
+- foco visible;
+- touch targets 44 × 44 px;
+- no ocultar contenido en hover;
+- autoplay solo en loops mudos y no informativos.
+
+10. PRIORIDADES
+P0:
+- logos;
+- Spark;
+- poster de Hero;
+- fotos reales de ToB;
+- TEC;
+- Centro de las Artes;
+- patterns de tracks;
+- reduced motion.
+
+P1:
+- Hero loop;
+- teaser;
+- retratos;
+- fotos de audiencia;
+- fotos de programa;
+- brand film.
+
+P2:
+- explicadores;
+- video de postulación;
+- video de evaluación;
+- briefs;
+- mentores;
+- aliados.
+
+P3:
+- recaps;
+- aftermovie;
+- proyectos;
+- ganadores;
+- continuidad.
+
+11. ESTRUCTURA DE CARPETAS
+public/
+  brand/
+  media/
+    hero/
+    institutional/
+    audience/
+    tracks/
+    program/
+    people/
+    partners/
+    history/
+    challenges/
+    video/
+  subtitles/
+
+12. REGLAS ANTI-GENÉRICAS
+NO:
+- stock de programadores;
+- manos tecleando sin contexto;
+- ciudades futuristas;
+- código verde;
+- cerebros de IA;
+- robots;
+- moneditas;
+- video en cada sección;
+- autoplay con sonido;
+- carrusel automático;
+- cursor personalizado;
+- scroll hijacking.
+
+SÍ:
+- personas reales;
+- campus real;
+- escenario real;
+- trabajo real;
+- Signal Rail;
+- Spark con propósito;
+- identidad por track;
+- fotografía documental;
+- movimiento que explica;
+- espacios de calma.
+
+13. CRITERIOS DE APROBACIÓN
+[ ] Idea visual dominante.
+[ ] Movimiento con función.
+[ ] Se entiende sin animación.
+[ ] No repite la sección anterior.
+[ ] No usa stock genérico.
+[ ] Tiene móvil.
+[ ] Tiene reduced motion.
+[ ] No daña LCP o CLS.
+[ ] Usa assets reales o estado honesto.
+[ ] Se reconoce como HackaToB sin ver el logo.

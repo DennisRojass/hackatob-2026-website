@@ -1,0 +1,763 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R] /Count 12 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 720 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+() Tj
+T*
+() Tj
+T*
+/F1 14 Tf
+(HACKATOB 2026) Tj
+/F1 11 Tf
+T*
+/F1 14 Tf
+(Guia de Aprendizajes) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(Resumen de lo esencial para construir el landing) Tj
+T*
+(profesional: estrategia, arquitectura, contenido,) Tj
+T*
+(Motion, trabajo en pareja, stack y plan de 5 dias.) Tj
+T*
+() Tj
+T*
+(------------------------------------------------) Tj
+T*
+(Innova. Conecta. Impacta.) Tj
+T*
+(17-20 agosto 2026  |  60 cupos) Tj
+T*
+(GreenTrack / MediTrack / FinTrack) Tj
+T*
+(Technology on Business / TEC) Tj
+T*
+(------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Documento de estudio personal - Version 1.0) Tj
+T*
+(Julio 2026) Tj
+ET
+
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 964 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(1. VISION DEL PRODUCTO) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(HackaToB no es solo una competencia: es un sistema) Tj
+T*
+(digital del evento. La web debe explicar que es,) Tj
+T*
+(generar confianza \(ToB + TEC\), convertir interes en) Tj
+T*
+(postulaciones de calidad y acompanhar hasta Demo Day.) Tj
+T*
+() Tj
+T*
+(OBJETIVO DE CONVERSION) Tj
+T*
+(En menos de 20 segundos: que es, si puedo participar,) Tj
+T*
+(y cual es el siguiente paso \(Postularme\).) Tj
+T*
+() Tj
+T*
+(CICLO: Descubrir > Postular > Preparar > Construir > Presentar) Tj
+T*
+() Tj
+T*
+(FUENTE DE VERDAD \(no inventar\)) Tj
+T*
+(- Fechas: 17-20 agosto 2026 / Demo Day 20) Tj
+T*
+(- 60 cupos / 10-15 equipos / max. 4 personas) Tj
+T*
+(- Tracks: GreenTrack, MediTrack, FinTrack) Tj
+T*
+(- Modalidades: Ideacion + MVP funcional) Tj
+T*
+(- Tagline: Innova. Conecta. Impacta.) Tj
+T*
+(- Lovable = inspiracion visual, NO fuente de datos) Tj
+ET
+
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 1106 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(2. RELACION TOB + HACKATOB) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(HackaToB pertenece a Technology on Business.) Tj
+T*
+(En marca es hijo de ToB; en web puede vivir como) Tj
+T*
+(sitio hermano con identidad propia \(Spark\).) Tj
+T*
+() Tj
+T*
+(DOMINIOS RECOMENDADOS) Tj
+T*
+(- tobcr.com              -> congreso ToB \(companhero\)) Tj
+T*
+(- hackatob.tobcr.com     -> HackaToB \(tu\)) Tj
+T*
+(- Links cruzados en ambos navs) Tj
+T*
+() Tj
+T*
+(REPOS \(mejor para 2 personas\)) Tj
+T*
+(- Dos repos: tob-website y hackatob-website) Tj
+T*
+(- Dos proyectos Vercel en el mismo team) Tj
+T*
+(- Cloudflare DNS + SSL Full \(strict\)) Tj
+T*
+(- Branch protection en main + PRs) Tj
+T*
+() Tj
+T*
+(Ownership claro: cada quien su repo. Se integran) Tj
+T*
+(por contrato \(URLs, marca, copy\), no pelean archivos.) Tj
+T*
+() Tj
+T*
+(CONTRATO MINIMO) Tj
+T*
+(- URLs finales acordadas) Tj
+T*
+(- Logos TEC/ToB compartidos; Spark solo HackaToB) Tj
+T*
+(- Fechas/metricas solo del Documento Maestro) Tj
+T*
+(- Sync diseno 2x/semana / standup async diario) Tj
+ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 11 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 794 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(3. ALCANCE EN 5 DIAS) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(SI \(lanzamiento de convocatoria\)) Tj
+T*
+(- Landing one-page con anclas) Tj
+T*
+(- Hero + Spark + metricas + countdown) Tj
+T*
+(- Confianza, que es \(5 pasos\), quien puede) Tj
+T*
+(- 3 tracks, retos, modalidades, agenda) Tj
+T*
+(- Requisitos + form \(Supabase o Tally\)) Tj
+T*
+(- FAQ + CTA final + footer) Tj
+T*
+(- Motion basico + mobile + Vercel) Tj
+T*
+() Tj
+T*
+(NO \(despues del launch\)) Tj
+T*
+(- Portal privado, login, team matching) Tj
+T*
+(- Admin panel completo) Tj
+T*
+(- Demo Day en vivo / votacion) Tj
+T*
+(- Galeria dinamica / CMS pesado) Tj
+T*
+() Tj
+T*
+(Entrega profesional dia 5 = landing + postulacion.) Tj
+T*
+(La plataforma completa es Fase 2+.) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 13 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 925 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(4. STACK TECNICO) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(Dominio/DNS/WAF ...... Cloudflare) Tj
+T*
+(Hosting/Deploy ....... Vercel \(preview por PR\)) Tj
+T*
+(Framework ............ Next.js App Router + TypeScript) Tj
+T*
+(UI ................... Tailwind + tokens CSS de marca) Tj
+T*
+(Animaciones .......... Motion \(ex Framer Motion\)) Tj
+T*
+(Backend/Auth/DB ...... Supabase \(Postgres + RLS\)) Tj
+T*
+(Forms ................ Zod + RHF + Server Actions) Tj
+T*
+(Email \(opcional\) ..... Resend) Tj
+T*
+(Captcha .............. Cloudflare Turnstile) Tj
+T*
+() Tj
+T*
+(CARPETAS MENTALES) Tj
+T*
+(- app/\(marketing\)/  paginas publicas) Tj
+T*
+(- components/ layout, marketing, motion, spark, ui) Tj
+T*
+(- lib/content/  todo el copy) Tj
+T*
+(- lib/motion.ts tokens de animacion) Tj
+T*
+(- public/ logo + spark) Tj
+T*
+(- supabase/migrations/ cuando llegue el form) Tj
+ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 15 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 766 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(5. ORDEN DEL LANDING \(SCROLL\)) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(0  Announcement bar) Tj
+T*
+(1  Header \(logo, nav, Postularme, link ToB\)) Tj
+T*
+(2  Hero \(que/cuando/cupos/CTAs/Spark\)) Tj
+T*
+(3  Confianza \(ToB + TEC\)) Tj
+T*
+(4  Que es \(5 pasos\)) Tj
+T*
+(5  Quienes pueden) Tj
+T*
+(6  Tracks \(Green / Medi / Fin + Top 3 global\)) Tj
+T*
+(7  Retos) Tj
+T*
+(8  Modalidades \(Ideacion vs MVP\)) Tj
+T*
+(9  Programa \(17-20 ago\)) Tj
+T*
+(10 Postulacion + requisitos \(60 cupos\)) Tj
+T*
+(11 Mentores / Jurado / Rubrica) Tj
+T*
+(12 Premios + continuidad) Tj
+T*
+(13 Aliados) Tj
+T*
+(14 FAQ) Tj
+T*
+(15 CTA final + Footer) Tj
+T*
+() Tj
+T*
+(Regla: cada seccion = UNA pregunta + UNA accion.) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 17 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 896 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(6. CONTENIDO Y DISENO) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(COPY) Tj
+T*
+(- H1: Cuatro dias para convertir retos reales) Tj
+T*
+(  en soluciones con impacto.) Tj
+T*
+(- Solicitud NO garantiza cupo \(mensaje obligatorio\)) Tj
+T*
+(- Nunca publicar premios/logos sin confirmar) Tj
+T*
+(- Placeholders honestos > datos inventados) Tj
+T*
+() Tj
+T*
+(DISENO) Tj
+T*
+(- Azul oscuro / electrico / celeste + amarillo Spark) Tj
+T*
+(- Hero full-bleed: marca + headline + frase + CTAs + Spark) Tj
+T*
+(- No cards en el hero; una idea por seccion) Tj
+T*
+(- Spark = guia narrativa, no wallpaper) Tj
+T*
+() Tj
+T*
+(MOMENTOS SPARK \(solo 4\)) Tj
+T*
+(- Hero \(idle\)) Tj
+T*
+(- Confirmacion postulacion \(celebrate\)) Tj
+T*
+(- CTA final \(point\)) Tj
+T*
+(- Demo Day espera \(waiting\)) Tj
+T*
+(Prohibido en jurado, rechazos o pitch en vivo.) Tj
+ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 19 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 1039 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(7. MOTION - QUE ES Y COMO USARLO) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(Motion es una libreria de animacion para React.) Tj
+T*
+(Describes ESTADOS visuales; Motion interpola.) Tj
+T*
+() Tj
+T*
+(Cambio mental:) Tj
+T*
+(  De 'como animo esto' -> 'en que estado esta esto') Tj
+T*
+() Tj
+T*
+(TRES CAPAS) Tj
+T*
+(- Ambiental \(8-20s\): glows, anillo logo, Spark float) Tj
+T*
+(- Explicativo \(una vez\): timelines, barras, pasos) Tj
+T*
+(- Interactivo: hover <=1.03, tabs, filtros, form) Tj
+T*
+() Tj
+T*
+(80% DEL PODER) Tj
+T*
+(- initial / animate / transition) Tj
+T*
+(- variants + staggerChildren \(grids\)) Tj
+T*
+(- whileHover / whileTap / whileInView) Tj
+T*
+() Tj
+T*
+(NIVEL PREMIUM) Tj
+T*
+(- AnimatePresence \(salidas / filtros\)) Tj
+T*
+(- layout / layoutId \(FAQ, tabs\)) Tj
+T*
+(- useScroll + useTransform \(agenda\)) Tj
+T*
+(- pathLength \(anillo del logo\)) Tj
+T*
+(- motion values + useSpring \(sin re-renders\)) Tj
+T*
+(- useAnimate \(secuencia intro logo\)) Tj
+ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 21 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 870 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(7B. MOTION - REGLAS Y TOKENS) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(RENDIMIENTO) Tj
+T*
+(- Solo transform y opacity \(GPU\)) Tj
+T*
+(- viewport once: true en reveals) Tj
+T*
+(- prefers-reduced-motion / MotionConfig) Tj
+T*
+(- Menos loops en movil) Tj
+T*
+(- Confetti max 1s, una sola vez) Tj
+T*
+() Tj
+T*
+(TOKENS) Tj
+T*
+(- Rise: 18-24px) Tj
+T*
+(- Duracion reveal: 450-650ms) Tj
+T*
+(- Stagger: 80-120ms) Tj
+T*
+(- Hover scale <= 1.03 / elevacion 4-8px) Tj
+T*
+(- Ease: [0.22, 1, 0.36, 1]) Tj
+T*
+(- Tween = scroll/carga / Spring = gestos) Tj
+T*
+() Tj
+T*
+(LOGO) Tj
+T*
+(- Intro: barras -> anillo -> estrella) Tj
+T*
+(- Idle: anillo ~22s; hover: destello) Tj
+T*
+(- Ideal: SVG inline \(PNG ok en Dia 1\)) Tj
+T*
+() Tj
+T*
+(SPARK ESTADOS) Tj
+T*
+(- idle / enter / hover / point / celebrate / waiting) Tj
+ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 23 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 930 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(8. PLAN DIA 1 \(4 HORAS\)) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(Meta: repo + Vercel + tokens + Header/Footer + Hero.) Tj
+T*
+() Tj
+T*
+(BLOQUE 1 \(50 min\) - cimientos) Tj
+T*
+(- create-next-app \(TS + Tailwind + App Router\)) Tj
+T*
+(- GitHub + push main) Tj
+T*
+(- Importar en Vercel -> preview) Tj
+T*
+() Tj
+T*
+(BLOQUE 2 \(60 min\) - marca) Tj
+T*
+(- public/logo-hackatob.png + spark.png) Tj
+T*
+(- CSS variables en globals.css) Tj
+T*
+(- Header + Footer + layout) Tj
+T*
+() Tj
+T*
+(BLOQUE 3 \(75 min\) - Hero) Tj
+T*
+(- Copy oficial + metricas + CTAs) Tj
+T*
+(- Responsive 390px) Tj
+T*
+(- Motion: reveal titulo + Spark float) Tj
+T*
+() Tj
+T*
+(BLOQUE 4 \(40 min\) - cierre pro) Tj
+T*
+(- README + mensaje al companhero) Tj
+T*
+(- Retro: aprendi / corte / Dia 2) Tj
+T*
+() Tj
+T*
+(DIAS 2-5) Tj
+T*
+(2 secciones historia / 3 conversion / 4 form / 5 launch) Tj
+ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 25 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+25 0 obj
+<< /Length 942 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(9. FLUJO PROFESIONAL \(GIT + EQUIPO\)) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+(- No trabajar directo en main \(post-setup\)) Tj
+T*
+(- Rama: feature/hero-spark) Tj
+T*
+(- Commits: feat: / fix: / style: / docs:) Tj
+T*
+(- 1 PR = 1 cosa; review del companhero) Tj
+T*
+(- Preview Vercel en el PR) Tj
+T*
+() Tj
+T*
+(STANDUP ASYNC) Tj
+T*
+(Hoy: ...) Tj
+T*
+(Manana: ...) Tj
+T*
+(Bloqueo: ...) Tj
+T*
+() Tj
+T*
+(APRENDER SIN BLOQUEARTE) Tj
+T*
+(- 70/30: docs minimas + construir) Tj
+T*
+(- Si algo tarda >2h: cortalo) Tj
+T*
+(- Roto en staging > perfecto en la cabeza) Tj
+T*
+(- Preguntar sin miedo; PRs chicos; README) Tj
+T*
+() Tj
+T*
+(RUTA MOTION \(PRACTICA\)) Tj
+T*
+(1 Hero / 2 botones / 3 Reveal / 4 tracks stagger) Tj
+T*
+(5 Spark loop / 6 FAQ layout / 7 tabs layoutId) Tj
+T*
+(8 filtros AnimatePresence / 9 agenda scroll) Tj
+T*
+(10 logo pathLength / 11-13 opcionales Dia 5) Tj
+ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 27 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+27 0 obj
+<< /Length 1179 >>
+stream
+BT
+/F1 11 Tf
+50 780 Td
+15 TL
+/F1 14 Tf
+(10. CHECKLIST DE LANZAMIENTO) Tj
+/F1 11 Tf
+T*
+() Tj
+T*
+([ ] <20s: que / cuando / cupos / como postular) Tj
+T*
+([ ] Mobile usable sin zoom) Tj
+T*
+([ ] CTA Postularme en nav + hero + final) Tj
+T*
+([ ] Form recibe datos reales) Tj
+T*
+([ ] Sin logos/premios no confirmados) Tj
+T*
+([ ] HTTPS + dominio apuntando) Tj
+T*
+([ ] Title + Open Graph correctos) Tj
+T*
+([ ] prefers-reduced-motion respetado) Tj
+T*
+([ ] Legales enlazados o placeholder honesto) Tj
+T*
+([ ] Link cruzado ToB <-> HackaToB) Tj
+T*
+() Tj
+T*
+(------------------------------------------------) Tj
+T*
+(FRASE PARA RECORDAR) Tj
+T*
+() Tj
+T*
+(Landing corta que convierte + sitemap despues.) Tj
+T*
+(Motion explica, no decora.) Tj
+T*
+(Spark guia, no satura.) Tj
+T*
+(Dos repos, un dominio padre,) Tj
+T*
+(un objetivo: postulaciones de calidad.) Tj
+T*
+(------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Basado en Documento Maestro HackaToB 2026,) Tj
+T*
+(arquitectura Cloudflare/Vercel/Next/Supabase/Motion) Tj
+T*
+(y plan de trabajo ToB + HackaToB.) Tj
+T*
+() Tj
+T*
+(Technology on Business / TEC / Cartago) Tj
+ET
+
+endstream
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000000 00000 n 
+0000000000 00000 n 
+0000000000 00000 n 
+0000000000 00000 n 
+0000000000 00000 n 
+0000001024 00000 n 
+0000001024 00000 n 
+0000002048 00000 n 
+0000002048 00000 n 
+0000003072 00000 n 
+0000003072 00000 n 
+0000004096 00000 n 
+0000004096 00000 n 
+0000005120 00000 n 
+0000005120 00000 n 
+0000006144 00000 n 
+0000006144 00000 n 
+0000007168 00000 n 
+0000007168 00000 n 
+0000008192 00000 n 
+0000008192 00000 n 
+0000009216 00000 n 
+0000009216 00000 n 
+0000010240 00000 n 
+0000010240 00000 n 
+0000011264 00000 n 
+0000012288 00000 n 
+trailer
+<< /Size 28 /Root 1 0 R >>
+startxref
+13312
+%%EOF

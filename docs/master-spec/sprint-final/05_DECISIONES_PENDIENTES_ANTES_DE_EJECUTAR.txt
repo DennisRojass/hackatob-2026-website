@@ -1,0 +1,51 @@
+================================================================================
+HACKATOB 2026 — DECISIONES PENDIENTES ANTES DE EJECUTAR
+================================================================================
+
+BLOQUEANTES DE PUBLICACIÓN
+--------------------------------------------------------------------------------
+[ ] ¿HealthTrack es el nombre definitivo?
+[ ] ¿La participación será presencial, remota o híbrida?
+[ ] ¿Cuál es la edad mínima?
+[ ] ¿Cómo se gestionan participantes menores?
+[ ] ¿Cuál es el destino real de /hackatob/postular?
+[ ] ¿Qué documentos legales existen?
+[ ] ¿La rúbrica está aprobada?
+[ ] ¿Qué premios están confirmados?
+[ ] ¿Qué dominio será canónico?
+
+ASSETS Y PERSONAS
+--------------------------------------------------------------------------------
+[ ] ¿Dojo Coding puede publicarse como aliado?
+[ ] ¿WWT puede publicarse como aliado?
+[ ] ¿P&G puede publicarse como aliado?
+[ ] ¿Qué categoría tiene cada aliado?
+[ ] ¿Dennis Rojas se publica como mentor, coordinador, equipo organizador o no
+    se publica en esta sección?
+[ ] ¿Existe un wordmark textual oficial de HackaToB?
+[ ] ¿Existe versión vectorial del isotipo HackaToB?
+[ ] ¿Existe versión vectorial del logo TEC?
+
+TIPOGRAFÍA
+--------------------------------------------------------------------------------
+[ ] Confirmar uso web de Stack Sans Notch.
+[ ] Confirmar licencia de Radnika antes de desplegarla.
+
+FALTANTES NO BLOQUEANTES
+--------------------------------------------------------------------------------
+[ ] Hero fotográfico.
+[ ] Campus TEC.
+[ ] Centro de las Artes.
+[ ] Imágenes de audiencia.
+[ ] Imágenes de programa.
+[ ] Fotos de trayectoria.
+[ ] Video.
+[ ] Imágenes de retos.
+
+REGLA
+--------------------------------------------------------------------------------
+Los faltantes visuales no bloquean el sprint si se utilizan composiciones de
+marca. Las decisiones legales, de postulación y de publicación sí pueden
+bloquear producción.
+
+================================================================================

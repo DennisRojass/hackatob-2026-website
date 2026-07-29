@@ -1,0 +1,47 @@
+---
+description: Personalidad de marca HackaToB, Spark y tono — no SaaS/gamer/crypto
+alwaysApply: true
+---
+
+# Brand System
+
+## Personalidad
+
+Joven · tecnológica · premium · institucional · energética · rigurosa · optimista.
+
+No: infantil · gamer · criptoespeculativa · corporativa genérica · plantilla SaaS · “AI startup purple”.
+
+## Lenguaje
+
+- Directo, concreto, verificable
+- Español Costa Rica
+- Sin slogans vacíos (“transforma el futuro”, “innovación sin límites”, “change-makers”)
+
+## Jerarquía de marca
+
+1. **HackaToB** — producto / competencia
+2. **Technology on Business (ToB)** — organizador
+3. **TEC Cartago** — sede institucional
+4. Aliados — solo `published`
+
+## Spark
+
+Mascota de energía y guía narrativa. Solo en:
+
+- Hero (idle)
+- Confirmación de interés/postulación (celebrate)
+- CTA final (point)
+- Demo Day / espera (waiting)
+
+Prohibido: jurado, rechazos, pitch en vivo, spam en cada sección.
+
+## Tipografía (decisión congelada)
+
+- **Display:** Syne (`--font-syne`)
+- **Body:** DM Sans (`--font-body`)
+
+No migrar a Inter / Space Grotesk / Sora sin aprobación explícita. Mejorar jerarquía con escala, peso, tracking y line-height.
+
+## Color
+
+Usar tokens de `app/globals.css` (`--blue`, `--cyan`, `--spark`, `--purple`, tracks). No inventar hex sueltos en componentes.

@@ -1,0 +1,233 @@
+================================================================================
+PROMPT PARA CURSOR — SPRINT FINAL HACKATOB 2026
+================================================================================
+
+CONTEXTO
+--------------------------------------------------------------------------------
+Estoy cerrando el micrositio oficial de HackaToB 2026 dentro del website de
+Technology on Business.
+
+He añadido la carpeta:
+docs/master-spec/sprint-final/
+
+Lee los archivos completos en orden numérico.
+
+FUENTES DE VERDAD
+--------------------------------------------------------------------------------
+1. 01_HACKATOB_2026_SITEMAP_MAESTRO_FINAL_DEFINITIVO_V3.txt
+2. 02_HACKATOB_2026_LANDING_MAESTRO_FINAL_CURSOR.txt
+3. 03_HACKATOB_2026_ASSET_MANIFEST_MAESTRO_FINAL.txt
+4. 04_CONTENIDO_DEPURADO_Y_MATRIZ_CALIDAD_HACKATOB_2026.txt
+5. 05_MAPEO_AUDIOVISUAL_Y_MOTION_HACKATOB_2026.txt
+6. Los assets oficiales adjuntados.
+7. El repositorio actual.
+
+No uses borradores anteriores como fuente de verdad.
+
+OBJETIVO DEL SPRINT
+--------------------------------------------------------------------------------
+Dejar /hackatob listo para producción con contenido completo, conciso,
+profesional, consistente, responsive, accesible y visualmente propio.
+
+ALCANCE
+--------------------------------------------------------------------------------
+- Campaign Bar.
+- Header integrado ToB + HackaToB.
+- Hero.
+- Respaldo.
+- Experiencia.
+- Participantes.
+- Tracks.
+- Retos con estado honesto.
+- Modalidades.
+- Programa.
+- Participar.
+- Evaluación.
+- Ecosistema.
+- Trayectoria.
+- FAQ.
+- CTA final.
+- Footer.
+- /hackatob/postular.
+- Legal básico.
+- SEO.
+- Analítica.
+- QA final.
+
+NO IMPLEMENTAR EN ESTE SPRINT
+--------------------------------------------------------------------------------
+- portal completo;
+- admin;
+- votación;
+- certificados;
+- mentorías internas;
+- team matching;
+- galería postevento avanzada;
+salvo que ya existan y solo requieran corrección.
+
+PRIMERA FASE — AUDITORÍA
+--------------------------------------------------------------------------------
+Antes de modificar:
+
+1. Inspecciona el repositorio completo.
+2. Ejecuta la aplicación.
+3. Revisa /hackatob en Browser:
+   - 1440 × 1000
+   - 1280 × 800
+   - 768 × 1024
+   - 390 × 844
+4. Revisa Git.
+5. Identifica:
+   - secciones existentes;
+   - secciones faltantes;
+   - contenido duplicado;
+   - contradicciones;
+   - placeholders;
+   - enlaces rotos;
+   - assets faltantes;
+   - problemas responsive;
+   - problemas de accesibilidad;
+   - SEO incompleto;
+   - errores de consola;
+   - componentes que pueden reutilizarse.
+6. No instales dependencias.
+7. No modifiques código todavía.
+
+ENTREGA DE LA AUDITORÍA
+--------------------------------------------------------------------------------
+A. Estado general.
+B. Diferencias frente al Sitemap Maestro.
+C. P0 bloqueantes.
+D. P1 importantes.
+E. Assets disponibles.
+F. Assets faltantes y fallback.
+G. Archivos a crear.
+H. Archivos a modificar.
+I. Plan exacto de implementación.
+J. Riesgos.
+
+Finaliza exactamente con:
+
+FASE DE AUDITORÍA COMPLETADA.
+ESPERANDO LA INSTRUCCIÓN:
+APRUEBO EL PLAN DEL SPRINT FINAL.
+
+SEGUNDA FASE — IMPLEMENTACIÓN
+--------------------------------------------------------------------------------
+Cuando reciba:
+
+APRUEBO EL PLAN DEL SPRINT FINAL.
+
+Procede con el sprint completo en el orden acordado.
+
+REGLAS DE IMPLEMENTACIÓN
+--------------------------------------------------------------------------------
+- Utiliza contenido fuera del JSX.
+- Centraliza datos en config/event.ts.
+- Centraliza campaña en config/campaign.ts.
+- Solo contenido published aparece.
+- No inventes personas, sponsors, premios, retos o enlaces.
+- No uses cards para todas las secciones.
+- No uses stock.
+- No añadas dependencias sin justificar.
+- No alteres la home de ToB salvo navegación o integración necesaria.
+- No sustituyas assets oficiales sin informarlo.
+- Mantén la identidad y tipografías oficiales adjuntadas.
+- Respeta reduced motion.
+- No autoplay con sonido.
+- No mailto como formulario principal.
+- No enlaces legales vacíos.
+
+ASSETS
+--------------------------------------------------------------------------------
+Para cada archivo adjuntado:
+
+1. Propón nombre final.
+2. Propón carpeta.
+3. Optimiza.
+4. Crea alt text.
+5. Registra permiso y estado.
+6. Usa solo en la sección indicada.
+7. Mantén fallback.
+8. No publiques si está pending.
+
+CALIDAD VISUAL
+--------------------------------------------------------------------------------
+Aplicar Signal System:
+
+reto
+→ persona
+→ equipo
+→ construcción
+→ presentación
+→ continuidad
+
+Evitar:
+- dashboard;
+- navegador falso;
+- laptop 3D;
+- exceso de glassmorphism;
+- partículas densas;
+- blobs;
+- texto animado palabra por palabra;
+- carrusel automático;
+- scroll hijacking;
+- patrones genéricos de SaaS.
+
+QA OBLIGATORIO
+--------------------------------------------------------------------------------
+Después de implementar:
+
+1. Browser en 1440, 1280, 768 y 390.
+2. Revisar overflow.
+3. Revisar Header.
+4. Revisar anchors.
+5. Revisar CTA.
+6. Revisar imágenes.
+7. Revisar formularios.
+8. Revisar teclado.
+9. Revisar contraste.
+10. Revisar reduced motion.
+11. Revisar console.
+12. Ejecutar typecheck.
+13. Ejecutar lint.
+14. Ejecutar build.
+15. Corregir P0 y P1.
+
+CRITERIOS DE CIERRE
+--------------------------------------------------------------------------------
+- Promedio visual y de contenido mínimo 9/10.
+- Ninguna sección bajo 8/10.
+- Hero 10/10.
+- Participar 10/10.
+- Evaluación 10/10.
+- /postular 10/10.
+- Un solo conjunto de datos oficiales.
+- Todos los links principales funcionan.
+- No hay contenido ficticio.
+- No hay overflow horizontal.
+- No hay errores de build.
+- La landing se reconoce como HackaToB sin depender solo del logo.
+
+REPORTE FINAL
+--------------------------------------------------------------------------------
+A. Resumen de lo implementado.
+B. Decisiones de diseño.
+C. Archivos creados.
+D. Archivos modificados.
+E. Assets utilizados y optimizados.
+F. Links configurados.
+G. Contenido oculto por falta de confirmación.
+H. Viewports revisados.
+I. Accesibilidad.
+J. SEO.
+K. Analítica.
+L. Typecheck.
+M. Lint.
+N. Build.
+O. Pendientes no bloqueantes.
+P. Riesgos.
+Q. Recomendación de despliegue.
+
+Comienza con la auditoría.
+================================================================================

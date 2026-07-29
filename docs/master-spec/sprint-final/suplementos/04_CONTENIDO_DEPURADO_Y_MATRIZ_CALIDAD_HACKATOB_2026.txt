@@ -1,0 +1,1040 @@
+HACKATOB 2026 — CONTENIDO WEB DEPURADO Y MATRIZ DE CALIDAD
+Versión maestra para diseño, desarrollo, revisión y publicación
+
+DATOS OPERATIVOS DE ESTA VERSIÓN
+Nombre: HackaToB 2026
+Marca madre: Technology on Business — ToB
+Fechas: 17–20 de agosto de 2026
+Lugar: Campus Central del Tecnológico de Costa Rica, Cartago
+Demo Day: Centro de las Artes
+Capacidad: hasta 80 participantes
+Equipos: 15–20
+Tamaño máximo: 4 personas
+Tracks: HealthTrack, GreenTrack, FinTrack y The Next Big Thing
+Modalidades: Ideación, Prototipado y MVP funcional
+
+REGLA CRÍTICA
+Antes de publicar, estos datos deben quedar congelados en una sola fuente. No alternar HealthTrack/MediTrack, 60/80 participantes, 3/4 tracks o 2/3 modalidades.
+
+1. MATRIZ GENERAL DE CALIDAD — 10 PUNTOS
+
+CLARIDAD — 0 a 2
+0: no se entiende. 1: se entiende con esfuerzo. 2: se entiende en una lectura.
+
+RELEVANCIA — 0 a 2
+0: decorativo o redundante. 1: aporta parcialmente. 2: responde una pregunta real.
+
+CREDIBILIDAD — 0 a 2
+0: contiene datos no confirmados. 1: mezcla estados. 2: todo es verificable o está marcado como “Próximamente”.
+
+COHERENCIA — 0 a 2
+0: contradice otras secciones. 1: pequeñas inconsistencias. 2: mismos términos, cifras y tono.
+
+CONVERSIÓN — 0 a 2
+0: no indica qué hacer. 1: acción débil. 2: acción clara y pertinente.
+
+INTERPRETACIÓN
+9–10: publicar. 7–8: corregir detalles. 5–6: reescribir. 0–4: eliminar o replantear.
+
+REGLA EDITORIAL
+Cada apartado debe responder una pregunta concreta y terminar con una acción clara. Nada se publica solo para llenar espacio.
+
+2. ANNOUNCEMENT BAR
+
+PRELANZAMIENTO
+HackaToB 2026 · 17–20 de agosto · TEC Cartago
+CTA: Recibir novedades
+
+POSTULACIONES ABIERTAS
+Postulaciones abiertas para HackaToB 2026
+CTA: Postularme
+
+ÚLTIMOS DÍAS
+Últimos días para postular a HackaToB 2026
+CTA: Completar solicitud
+
+SELECCIÓN
+La selección de participantes está en proceso
+CTA: Consultar estado
+
+EVENTO ACTIVO
+HackaToB 2026 está en marcha
+CTA: Ver programa
+
+DEMO DAY
+Demo Day de HackaToB 2026
+CTA: Ver transmisión
+
+POSTEVENTO
+Conoce los proyectos y resultados de HackaToB 2026
+CTA: Ver proyectos
+
+CONTROL DE CALIDAD
+[ ] Corresponde a la fase real.
+[ ] El CTA coincide con la fase.
+[ ] No contiene más de una idea.
+[ ] No repite todo el Hero.
+[ ] No crea urgencia falsa.
+Meta: 10/10.
+
+3. HEADER
+
+NAVEGACIÓN PRINCIPAL
+El evento
+Tracks
+Retos
+Programa
+Participar
+FAQ
+[Postularme]
+
+MENÚ SECUNDARIO O MÓVIL
+Evaluación
+Mentores y jurado
+Premios
+Aliados
+Trayectoria
+Contacto
+Technology on Business
+
+CONTROL DE CALIDAD
+[ ] Postularme es visible.
+[ ] Cabe en 1280 px.
+[ ] Los nombres coinciden con los H2.
+[ ] No hay enlaces duplicados.
+[ ] ToB está marcado como externo.
+Meta: 9/10 o superior.
+
+4. HERO — #INICIO
+
+EYEBROW
+17–20 de agosto de 2026 · TEC Campus Central · Cartago
+
+H1
+Cuatro días para convertir retos reales
+en soluciones con impacto.
+
+DESCRIPCIÓN
+HackaToB reúne estudiantes, organizaciones, mentores y especialistas para desarrollar soluciones aplicadas a desafíos reales de Costa Rica.
+
+DATOS VISIBLES
+Hasta 80 participantes
+15–20 equipos
+Máximo 4 personas por equipo
+4 tracks de impacto
+3 modalidades de entrega
+Demo Day en el Centro de las Artes
+
+CTA PRINCIPAL
+Postularme
+
+CTA SECUNDARIO
+Explorar retos
+
+TEXTO AUXILIAR
+Puedes postularte individualmente o con un equipo.
+
+COUNTDOWN
+Faltan [X] días para HackaToB 2026
+
+NO PUBLICAR
+“La hackathon más grande de Costa Rica”.
+“La experiencia tecnológica más importante del país”.
+“Transformaremos el futuro”.
+Premios o sponsors no confirmados.
+
+CONTROL DE CALIDAD
+[ ] En 20 segundos se entiende qué, cuándo, dónde y cómo participar.
+[ ] H1 máximo 3 líneas en desktop.
+[ ] Descripción menor a 35 palabras.
+[ ] Una acción principal dominante.
+[ ] Datos idénticos al resto del sitio.
+Meta: 10/10.
+
+5. CONFIANZA INSTITUCIONAL — #CONFIANZA
+
+EYEBROW
+Organización y sede
+
+H2
+Innovación estudiantil con respaldo institucional.
+
+PÁRRAFO
+HackaToB es una iniciativa de Technology on Business, desarrollada en el ecosistema del Tecnológico de Costa Rica para conectar talento joven, organizaciones y retos de innovación aplicada.
+
+JERARQUÍA
+Organiza: Technology on Business
+Institución y sede: Tecnológico de Costa Rica · Campus Central, Cartago
+Demo Day: Centro de las Artes
+
+CTA
+Conocer aliados
+
+CONTROL DE CALIDAD
+[ ] Se entiende quién organiza.
+[ ] Se entiende dónde se realiza.
+[ ] La relación ToB–HackaToB es clara.
+[ ] No se exagera el respaldo.
+[ ] TEC y sponsors no están mezclados.
+Meta: 10/10.
+
+6. EL EVENTO — #EVENTO
+
+EYEBROW
+Cómo funciona
+
+H2
+No es solo una competencia.
+Es un proceso para construir.
+
+INTRODUCCIÓN
+La experiencia comienza antes de los días de desarrollo y continúa después del Demo Day. Cada participante avanza desde la postulación hasta la presentación de una solución validada.
+
+1. DESCUBRE
+Conoce los tracks, retos, modalidades y reglas del evento.
+
+2. POSTÚLATE
+Presenta tu perfil individualmente o junto a un equipo.
+
+3. PREPÁRATE
+Participa en workshops, forma tu equipo y comprende los entregables.
+
+4. CONSTRUYE
+Investiga, diseña, valida y desarrolla una solución durante HackaToB.
+
+5. PRESENTA
+Demuestra el resultado ante un jurado multidisciplinario.
+
+6. CONTINÚA
+Recibe retroalimentación, visibilidad y posibles oportunidades de seguimiento.
+
+CTA
+Ver cómo participar
+
+CONTROL DE CALIDAD
+[ ] Incluye preparación y continuidad.
+[ ] Cada paso comienza con un verbo.
+[ ] No confunde proceso con agenda diaria.
+[ ] No repite Programa.
+[ ] CTA coherente.
+Meta: 10/10.
+
+7. AUDIENCIA — #AUDIENCIA
+
+EYEBROW
+Quiénes pueden participar
+
+H2
+Diferentes talentos.
+Un mismo propósito.
+
+MENSAJE PRINCIPAL
+No necesitas llegar con una idea perfecta ni con un equipo completo.
+
+DESCRIPCIÓN
+HackaToB está dirigido a estudiantes de colegios y universidades que deseen trabajar en equipos interdisciplinarios para resolver desafíos reales mediante tecnología, diseño, investigación, negocio e impacto.
+
+TECNOLOGÍA
+Desarrollo de software
+Datos e inteligencia artificial
+Ciberseguridad
+Cloud e infraestructura
+Electrónica e ingeniería
+
+PRODUCTO Y DISEÑO
+UX/UI
+Investigación de usuarios
+Diseño de servicios
+Prototipado
+Gestión de producto
+Comunicación y storytelling
+
+NEGOCIO E IMPACTO
+Administración
+Finanzas
+Emprendimiento
+Salud y bienestar
+Sostenibilidad
+Turismo
+Impacto social
+
+ACLARACIONES
+Puedes postularte individualmente.
+Puedes postularte con un equipo.
+No es obligatorio haber participado antes en una hackathon.
+Los equipos deben combinar habilidades complementarias.
+
+CTA
+Revisar requisitos
+
+DEPENDENCIA
+Confirmar edad mínima, documentación y participación de menores.
+
+CONTROL DE CALIDAD
+[ ] Una persona no técnica puede reconocerse.
+[ ] No parece una competencia solo de programación.
+[ ] Coincide con el formulario.
+[ ] Explica postulación individual.
+[ ] No amplía perfiles sin sentido.
+Meta: 9/10 o superior.
+
+8. TRACKS — #TRACKS
+
+EYEBROW
+Áreas de impacto
+
+H2
+Cuatro caminos para generar impacto.
+
+INTRODUCCIÓN
+Cada track reúne desafíos relacionados con un ámbito prioritario. Los equipos podrán elegir el área que mejor conecte con sus capacidades e intereses.
+
+HEALTHTRACK
+Salud, bienestar y accesibilidad
+Soluciones orientadas a prevención, nutrición, bienestar, acceso a servicios, experiencia del paciente y uso responsable de tecnología y datos en salud.
+Líneas: salud digital, prevención, nutrición, accesibilidad, gestión de servicios y datos responsables.
+
+GREENTRACK
+Sostenibilidad, territorio y resiliencia
+Soluciones para biodiversidad, agricultura, agua, energía, residuos, turismo sostenible y adaptación ante desafíos ambientales.
+Líneas: biodiversidad, agricultura y ganadería, agua y energía, economía circular, turismo sostenible y resiliencia climática.
+
+FINTRACK
+Finanzas, inclusión y seguridad
+Soluciones para ampliar el acceso, mejorar la educación financiera, fortalecer pymes y desarrollar servicios digitales seguros y responsables.
+Líneas: inclusión, educación financiera, pagos, pymes, fraude, ciberseguridad y banca digital.
+
+THE NEXT BIG THING
+Tecnologías emergentes y nuevas posibilidades
+Un espacio para explorar soluciones basadas en inteligencia artificial, automatización, robótica, blockchain, semiconductores y otras tecnologías emergentes.
+Líneas: IA, automatización, robótica, blockchain, semiconductores y nuevos modelos digitales.
+
+CTA
+Explorar retos
+
+REGLA
+No alternar HealthTrack y MediTrack. Aprobar un único nombre.
+
+CONTROL DE CALIDAD
+[ ] Profundidad equivalente en los cuatro tracks.
+[ ] Explican problemas, no solo herramientas.
+[ ] Poco solapamiento.
+[ ] Nombres iguales en formulario, retos y agenda.
+[ ] Lenguaje accesible.
+Meta: 9/10 o superior.
+
+9. RETOS — #RETOS
+
+ESTADO SIN RETOS CONFIRMADOS
+
+EYEBROW
+Desafíos reales
+
+H2
+Elige un problema que valga la pena resolver.
+
+PÁRRAFO
+Los retos oficiales serán publicados junto con las organizaciones proponentes. Cada ficha incluirá contexto, población beneficiada, alcance, recursos disponibles y modalidades permitidas.
+
+TARJETAS
+HealthTrack — Retos oficiales próximamente
+GreenTrack — Retos oficiales próximamente
+FinTrack — Retos oficiales próximamente
+The Next Big Thing — Retos oficiales próximamente
+
+CTA PRINCIPAL
+Recibir novedades
+
+CTA SECUNDARIO
+Proponer un reto
+
+CADA RETO PUBLICADO DEBE INCLUIR
+Código real
+Nombre
+Track
+Organización proponente
+Problema
+Población beneficiada
+Objetivo
+Alcance
+Restricciones
+Recursos o datos
+Modalidades permitidas
+Dificultad
+Estado
+Fecha de actualización
+
+REGLA
+No inventar códigos antes de aprobar la ficha.
+
+CONTROL DE CALIDAD
+[ ] Describe un problema, no una solución predeterminada.
+[ ] Organización confirmada.
+[ ] Alcance viable.
+[ ] Restricciones y recursos claros.
+[ ] Siguiente acción visible.
+Meta: 10/10 por reto.
+
+10. MODALIDADES — #MODALIDADES
+
+EYEBROW
+Formas de construir
+
+H2
+Construye según la etapa de tu solución.
+
+INTRODUCCIÓN
+No todos los equipos comienzan desde el mismo punto. Elige la modalidad que mejor represente el nivel de desarrollo que podrás demostrar.
+
+IDEACIÓN
+Para equipos que necesitan validar el problema y definir una solución sólida.
+Entregables: problema validado, usuario, evidencia, propuesta de valor, solución conceptual, prototipo inicial, viabilidad, roadmap y pitch.
+
+PROTOTIPADO
+Para equipos que transformarán una solución en una experiencia navegable y validada.
+Entregables: flujo de usuario, prototipo navegable, diseño, pruebas, evidencia, factibilidad, roadmap y pitch.
+
+MVP FUNCIONAL
+Para equipos que pueden demostrar el funcionamiento esencial de su solución.
+Entregables: producto demostrable, repositorio, arquitectura, pruebas, documentación, demo, continuidad y pitch.
+
+MENSAJE OBLIGATORIO
+Las tres modalidades se evaluarán proporcionalmente. Más código no implica automáticamente una mejor calificación.
+
+CTA
+Conocer la evaluación
+
+CONTROL DE CALIDAD
+[ ] Diferencias comprensibles.
+[ ] Ninguna parece inferior.
+[ ] Entregables verificables.
+[ ] Evaluación proporcional visible.
+[ ] Coincide con reglamento y formulario.
+Meta: 10/10.
+
+11. PROGRAMA — #PROGRAMA
+
+EYEBROW
+La experiencia completa
+
+H2
+Prepárate antes.
+Construye durante cuatro días.
+
+INTRODUCCIÓN
+HackaToB combina preparación previa, trabajo intensivo, mentoría y una presentación final ante jurado y aliados.
+
+PRE-HACKATOB
+Objetivo: llegar al evento con equipo, track, herramientas y claridad sobre el reto.
+Contenido: formato, equipos, validación, producto, UX, arquitectura, colaboración, IA responsable, pitch y demo.
+Publicar fechas solo cuando estén aprobadas.
+
+LUNES 17 — ACTIVACIÓN Y DEFINICIÓN
+Objetivo: comprender el reto y establecer un plan.
+Actividades: apertura, retos, equipos, workshops, definición y organización.
+Resultado: problema, usuario, enfoque y plan definidos.
+
+MARTES 18 — DISEÑO Y DESARROLLO I
+Objetivo: convertir la propuesta en una solución comprobable.
+Actividades: investigación, diseño, arquitectura, prototipado, desarrollo, mentorías y checkpoint.
+Resultado: prototipo avanzado o MVP parcial.
+
+MIÉRCOLES 19 — DESARROLLO II Y ENTREGA
+Objetivo: completar, probar y preparar la presentación.
+Actividades: integración, pruebas, validación, documentación, pitch y entrega.
+Resultado: proyecto, demo, documentación y pitch entregados.
+
+JUEVES 20 — DEMO DAY
+Objetivo: presentar proyectos y activar continuidad.
+Actividades: revisión, pitches, preguntas, deliberación, Top 3, reconocimientos, premiación, networking y cierre.
+Resultado: resultados, retroalimentación y próximos pasos.
+
+CTA
+Ver programa completo
+
+CONTROL DE CALIDAD
+[ ] Pre-Hack separado de los cuatro días.
+[ ] Cada etapa tiene objetivo y resultado.
+[ ] No hay horarios no aprobados.
+[ ] Coincide con entregables y evaluación.
+[ ] Demo Day forma parte del recorrido.
+Meta: 10/10.
+
+12. PARTICIPAR — #PARTICIPAR
+
+EYEBROW
+Proceso de postulación
+
+H2
+Postúlate individualmente
+o con un equipo.
+
+INTRODUCCIÓN
+Buscamos personas comprometidas, curiosas y dispuestas a colaborar con habilidades distintas para construir una solución durante HackaToB.
+
+REQUISITOS
+Disponibilidad durante actividades obligatorias
+Compromiso con el equipo
+Cumplimiento del reglamento y código de conducta
+Participación en checkpoints y entrega
+Declaración del uso de IA
+Máximo cuatro personas por equipo
+Autorizaciones adicionales cuando correspondan
+
+PROCESO
+1. Revisa la convocatoria.
+2. Completa tu solicitud.
+3. Indica habilidades e intereses.
+4. Envía la postulación.
+5. Espera la evaluación.
+6. Confirma tu cupo.
+7. Forma o valida tu equipo.
+8. Participa en la preparación.
+
+MENSAJES OBLIGATORIOS
+Enviar una solicitud no garantiza un cupo.
+No es obligatorio llegar con equipo.
+La organización podrá facilitar la formación de equipos.
+
+CTA PRINCIPAL
+Iniciar solicitud
+
+CTA SECUNDARIO
+Resolver dudas
+
+CONTROL DE CALIDAD
+[ ] Requisitos verificables.
+[ ] Distingue postulación de confirmación.
+[ ] No promete aceptación.
+[ ] Explica qué ocurre sin equipo.
+[ ] CTA dirige a /postular.
+Meta: 10/10.
+
+13. EVALUACIÓN — #EVALUACION
+
+EYEBROW
+Criterios de evaluación
+
+H2
+Evaluación multidisciplinaria
+y transparente.
+
+INTRODUCCIÓN
+Los proyectos serán evaluados según la calidad del problema, el impacto potencial, la viabilidad de la solución y la claridad de la demostración. Cada modalidad se valorará de acuerdo con sus entregables.
+
+RÚBRICA PROPUESTA
+Comprensión del problema — 15 %
+Impacto — 20 %
+Innovación — 15 %
+Viabilidad técnica — 20 %
+Producto y experiencia de usuario — 15 %
+Continuidad — 10 %
+Pitch y demo — 5 %
+
+ACLARACIONES
+Evaluación proporcional a la modalidad.
+Conflictos de interés declarados.
+Voto del público separado, si existe.
+Reglas de desempate publicadas antes del evento.
+
+PERFILES DEL JURADO
+Innovación
+Tecnología y arquitectura
+Producto y UX
+Negocio y escalabilidad
+Impacto y viabilidad sectorial
+
+CTA
+Consultar rúbrica completa
+
+REGLA
+Publicar porcentajes solo después de aprobación formal.
+
+CONTROL DE CALIDAD
+[ ] Suma 100 %.
+[ ] Cada criterio se puede explicar.
+[ ] Proporcionalidad aclarada.
+[ ] Conflictos y desempate contemplados.
+[ ] Patrocinio no influye en resultados.
+Meta: 10/10.
+
+14. COMUNIDAD — #COMUNIDAD
+
+ESTADO SIN PERFILES CONFIRMADOS
+
+EYEBROW
+Acompañamiento
+
+H2
+No construyes solo.
+
+PÁRRAFO
+Estamos conformando un equipo de especialistas en tecnología, producto, diseño, negocio, impacto y las cuatro áreas de HackaToB.
+
+MENTORES
+Acompañan decisiones técnicas, de producto, validación, negocio y pitch.
+
+JURADO
+Evalúa mediante una rúbrica pública y multidisciplinaria.
+
+SPEAKERS Y FACILITADORES
+Imparten workshops y sesiones de preparación.
+
+CTA
+Quiero ser mentor
+
+CADA PERFIL CONFIRMADO
+Fotografía real
+Nombre
+Cargo
+Organización
+Especialidad
+Track o área
+Biografía breve
+LinkedIn verificado
+
+NO PUBLICAR
+Avatares
+Fotos generadas por IA
+Perfiles pendientes
+Correos personales
+Cifras no cerradas
+
+CONTROL DE CALIDAD
+[ ] Perfiles reales y autorizados.
+[ ] Roles diferenciados.
+[ ] Experiencia relevante.
+[ ] Sin datos privados.
+[ ] Funciona sin perfiles confirmados.
+Meta: 10/10.
+
+15. PREMIOS Y CONTINUIDAD — #PREMIOS
+
+EYEBROW
+Resultados y siguientes pasos
+
+H2
+Reconocer el resultado.
+Abrir la siguiente oportunidad.
+
+PÁRRAFO
+HackaToB reconocerá a los proyectos más sólidos y buscará conectar las mejores soluciones con espacios de retroalimentación, difusión, mentoría y posibles conversaciones de continuidad.
+
+RESULTADOS
+Top 3 global
+Reconocimientos por track
+Mayor impacto
+Mejor experiencia de usuario
+Mejor uso de tecnología
+Mejor pitch
+Premio del público, si se confirma
+
+CONTINUIDAD POSIBLE
+Mentoría posterior
+Difusión
+Conexión con aliados
+Pilotaje
+Incubación
+Galería de proyectos
+
+TEXTO SI LOS PREMIOS NO ESTÁN CERRADOS
+Los premios y oportunidades de continuidad serán anunciados junto con los aliados oficiales de HackaToB 2026.
+
+CONTROL DE CALIDAD
+[ ] Separa reconocimiento de continuidad.
+[ ] No promete pilotos.
+[ ] No publica premios pendientes.
+[ ] Mantiene el Top 3 como resultado principal.
+[ ] Explica valor más allá de ganar.
+Meta: 10/10.
+
+16. ALIADOS — #ALIADOS
+
+EYEBROW
+Ecosistema de colaboración
+
+H2
+Organizaciones que convierten
+retos en oportunidades.
+
+PÁRRAFO
+HackaToB se construye junto a organizaciones que aportan desafíos, conocimiento, tecnología, mentoría, infraestructura, premios y oportunidades de continuidad.
+
+CATEGORÍAS
+Organiza
+Respalda
+Presenting Partner
+Track Partner
+Challenge Partner
+Technology Partner
+Academic Partner
+Community Partner
+Media Partner
+In-kind Partner
+
+CTA
+Patrocinar HackaToB
+Proponer un reto
+Ser mentor
+
+PUBLICAR SOLO CON
+Confirmación formal
+Categoría definida
+Logo autorizado
+Enlace verificado
+Participación publicada
+
+NO PUBLICAR
+Empresas objetivo
+Empresas contactadas
+Propuestas enviadas
+Logos sin autorización
+Organizaciones en negociación
+
+CONTROL DE CALIDAD
+[ ] Categoría real.
+[ ] Organización y patrocinio diferenciados.
+[ ] Aliados confirmados.
+[ ] Se explica su participación.
+[ ] CTA cubren colaboración.
+Meta: 10/10.
+
+17. TRAYECTORIA — #TRAYECTORIA
+
+EYEBROW
+La experiencia que nos respalda
+
+H2
+El ecosistema que inspira HackaToB.
+
+PÁRRAFO
+HackaToB nace dentro de Technology on Business, una iniciativa que durante quince ediciones ha conectado estudiantes, especialistas y organizaciones mediante conferencias, workshops, networking y experiencias de aprendizaje.
+
+CAPTIONS SUGERIDOS
+Equipos de Technology on Business durante la preparación del evento.
+Sesiones de aprendizaje y conexión con especialistas.
+Experiencias realizadas en el Tecnológico de Costa Rica.
+Comunidad estudiantil construyendo nuevas oportunidades.
+
+CTA
+Conocer Technology on Business
+
+NO USAR
+“Ediciones anteriores de HackaToB”.
+“Ganadores anteriores”.
+Fotos de eventos externos.
+Imágenes sin contexto.
+
+CONTROL DE CALIDAD
+[ ] Fotos identificadas como ToB.
+[ ] Imágenes reales.
+[ ] Contexto y captions.
+[ ] Construye confianza.
+[ ] No compite con CTA principal.
+Meta: 9/10 o superior.
+
+18. FAQ — #FAQ
+
+H2
+Preguntas frecuentes
+
+¿Quién puede participar?
+La convocatoria está dirigida a estudiantes de colegios y universidades que cumplan los requisitos publicados. Edad, institución y documentación se indicarán en la convocatoria oficial.
+
+¿Necesito tener un equipo?
+No. Puedes postularte individualmente. La organización podrá facilitar espacios para conocer perfiles complementarios y formar equipos.
+
+¿Cuántas personas integran un equipo?
+Cada equipo puede tener un máximo de cuatro integrantes.
+
+¿Necesito saber programar?
+No. HackaToB requiere perfiles de tecnología, producto, diseño, investigación, negocio, salud, sostenibilidad, finanzas y comunicación.
+
+¿Puedo participar sin experiencia previa?
+Sí. Se valorarán motivación, disposición para aprender y capacidad de trabajo en equipo.
+
+¿Cómo elijo un track?
+En la solicitud podrás indicar tus intereses. La elección final dependerá de los retos, el equipo y las reglas.
+
+¿Cuál modalidad debo elegir?
+Ideación valida el problema y la propuesta; Prototipado construye y prueba una experiencia navegable; MVP funcional demuestra el funcionamiento esencial.
+
+¿Puedo utilizar inteligencia artificial?
+Sí, si declaras las herramientas, verificas los resultados y no cargas datos sensibles o restringidos.
+
+¿Quién conserva la propiedad del proyecto?
+Las condiciones se establecerán en el reglamento oficial.
+
+¿Cómo se evaluarán los proyectos?
+Se utilizará una rúbrica pública que considera problema, impacto, innovación, viabilidad, producto, continuidad y pitch. La evaluación será proporcional.
+
+¿Habrá premios?
+Habrá Top 3 global y reconocimientos adicionales. Los premios específicos se publicarán una vez confirmados.
+
+¿Dónde y cuándo se realiza?
+Del 17 al 20 de agosto de 2026 en el Campus Central del TEC, Cartago. El Demo Day será en el Centro de las Artes.
+
+¿La asistencia es obligatoria?
+La disponibilidad para actividades obligatorias será requisito. Los horarios finales se publicarán en la agenda.
+
+¿Cómo resuelvo otra duda?
+Escribe al correo institucional de la sección de contacto.
+
+CONTROL DE CALIDAD
+[ ] Coincide con reglamento.
+[ ] No compromete información pendiente.
+[ ] Respuestas breves.
+[ ] Actualizada cuando cambia la convocatoria.
+[ ] Enlaces legales correctos.
+Meta: 10/10.
+
+19. CTA FINAL — #CONTACTO
+
+EYEBROW
+Tu siguiente paso
+
+H2
+Costa Rica necesita nuevas soluciones.
+Tal vez la próxima empiece contigo.
+
+PÁRRAFO
+Forma parte de la primera edición de HackaToB y trabaja junto a otros talentos para convertir un reto real en una solución con impacto.
+
+CTA PRINCIPAL
+Postularme ahora
+
+CTA SECUNDARIO
+Explorar retos
+
+CONTACTO
+Technology on Business
+tob@itcr.ac.cr
+
+Coordinación de Innovación
+derojas@estudiantec.cr
+
+RECOMENDACIÓN
+No publicar teléfonos personales salvo necesidad y autorización.
+
+CONTROL DE CALIDAD
+[ ] Cierra la narrativa.
+[ ] Una acción dominante.
+[ ] No repite métricas del Hero.
+[ ] Contacto institucional.
+[ ] CTA medible.
+Meta: 10/10.
+
+20. FOOTER
+
+HACKATOB
+Qué es
+Tracks
+Retos
+Programa
+FAQ
+
+PARTICIPAR
+Requisitos
+Postularme
+Evaluación
+Premios
+Reglamento
+
+COMUNIDAD
+Mentores y jurado
+Trayectoria
+Aliados
+Contacto
+
+ORGANIZACIÓN Y LEGAL
+Technology on Business
+Privacidad
+Términos
+Propiedad intelectual
+Uso de IA
+Uso de imagen
+Código de conducta
+
+CIERRE
+HackaToB 2026
+Una iniciativa de Technology on Business
+Tecnológico de Costa Rica · Cartago, Costa Rica
+
+CONTROL DE CALIDAD
+[ ] Enlaces funcionales.
+[ ] Legal en rutas reales.
+[ ] No usa #legal como sustituto.
+[ ] Relación ToB–HackaToB clara.
+[ ] Sin datos innecesarios.
+Meta: 10/10.
+
+21. RUTA /POSTULAR
+
+H1
+Postúlate a HackaToB 2026
+
+INTRODUCCIÓN
+Completa tu solicitud individual o de equipo. Antes de comenzar, revisa los requisitos, las fechas y las condiciones de participación.
+
+DATOS
+17–20 de agosto de 2026
+TEC Campus Central, Cartago
+Máximo 4 personas por equipo
+Postulación individual o por equipo
+
+AVISO
+Enviar una solicitud no garantiza un cupo. La selección se realizará según los criterios publicados y la capacidad disponible.
+
+CTA
+Iniciar solicitud
+
+ENLACES
+Requisitos
+Reglamento
+Privacidad
+Uso de IA
+FAQ
+
+ESTADOS
+Próximamente
+Abierta
+Últimos días
+Cerrada
+Selección en proceso
+
+CONTROL DE CALIDAD
+[ ] Ruta estable.
+[ ] No usa mailto.
+[ ] Estado real.
+[ ] Términos visibles.
+[ ] Confirmación posterior.
+Meta: 10/10.
+
+22. CONTENIDO LEGAL MÍNIMO
+
+RUTAS
+/legal/privacidad
+/legal/terminos
+/legal/reglamento
+/legal/propiedad-intelectual
+/legal/uso-de-ia
+/legal/uso-de-imagen
+/legal/codigo-de-conducta
+
+INTRODUCCIÓN COMÚN
+Estos documentos regulan la participación y el tratamiento de información en HackaToB 2026. Consulta la versión vigente y su fecha de actualización.
+
+REGLA
+No generar términos legales definitivos sin revisión responsable.
+
+CONTROL DE CALIDAD
+[ ] Versión y fecha.
+[ ] Coincide con formulario.
+[ ] Contempla menores si participan.
+[ ] Incluye datos e IA.
+[ ] Accesible antes de aceptar.
+Meta: revisión jurídica obligatoria.
+
+23. PRUEBA DE COHERENCIA GLOBAL
+
+DATOS
+[ ] Una cifra de participantes.
+[ ] Un número de tracks.
+[ ] Mismos nombres de tracks.
+[ ] Mismas modalidades.
+[ ] Fechas y sede coinciden.
+[ ] Tamaño de equipo coincide.
+
+NARRATIVA
+[ ] Hero explica.
+[ ] Confianza demuestra respaldo.
+[ ] Evento explica recorrido.
+[ ] Audiencia identifica.
+[ ] Tracks y retos orientan.
+[ ] Modalidades aclaran entregables.
+[ ] Programa explica tiempo.
+[ ] Participar convierte.
+[ ] Evaluación genera confianza.
+[ ] Comunidad aporta prueba social.
+[ ] Premios explican continuidad.
+[ ] Aliados demuestran ecosistema.
+[ ] Trayectoria legitima.
+[ ] FAQ elimina dudas.
+[ ] CTA final conduce.
+
+CREDIBILIDAD
+[ ] Sin personas ficticias.
+[ ] Sin logos no autorizados.
+[ ] Sin retos inventados.
+[ ] Sin premios pendientes.
+[ ] Sin testimonios falsos.
+[ ] Sin enlaces placeholder.
+[ ] Contenido pendiente marcado.
+
+TONO
+[ ] Frases directas.
+[ ] Sin “innovación sin límites”.
+[ ] Sin “transformar el futuro”.
+[ ] Sin “experiencia única”.
+[ ] Sin sobrepromesas.
+[ ] Sin repetir “impacto” en cada frase.
+[ ] Comprensible para estudiantes.
+
+CONVERSIÓN
+[ ] /postular funciona.
+[ ] CTA principal consistente.
+[ ] CTA secundarios claros.
+[ ] Inicio de solicitud medido.
+[ ] Formulario confirma envío.
+[ ] Usuario conoce siguiente paso.
+
+24. FICHA DE REVISIÓN POR SECCIÓN
+
+SECCIÓN:
+RESPONSABLE:
+FECHA:
+ESTADO: Borrador / En revisión / Aprobado / Publicado
+
+CLARIDAD:       __ / 2
+RELEVANCIA:     __ / 2
+CREDIBILIDAD:   __ / 2
+COHERENCIA:     __ / 2
+CONVERSIÓN:     __ / 2
+TOTAL:          __ / 10
+
+PREGUNTA QUE RESPONDE:
+
+DATO PRINCIPAL:
+
+ACCIÓN PRINCIPAL:
+
+CONTRADICCIONES:
+
+CONTENIDO PENDIENTE:
+
+CAMBIO REQUERIDO:
+
+DECISIÓN
+[ ] Publicar
+[ ] Corregir
+[ ] Reescribir
+[ ] Ocultar hasta confirmar
+[ ] Eliminar
+
+25. UMBRAL FINAL
+
+No publicar si:
+- obtiene menos de 8/10;
+- contiene una contradicción P0;
+- muestra organización o persona no confirmada;
+- publica un premio no cerrado;
+- enlaza a ruta vacía;
+- presenta un reto incompleto;
+- contradice formulario o reglamento;
+- no tiene acción clara;
+- existe solo para decorar.
+
+PUNTAJE RECOMENDADO
+Promedio mínimo del website: 9/10.
+Ninguna sección por debajo de 8/10.
+Hero, Participar, Evaluación y /postular: 10/10 obligatorio.

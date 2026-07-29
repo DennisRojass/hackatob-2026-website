@@ -1,0 +1,2533 @@
+================================================================================
+NOTA DE ACTUALIZACIÓN — ASSETS REALES DE ARCHIVOSHACKATOB.RAR
+Documento: SITEMAP MAESTRO FINAL — ACTUALIZADO CON ASSETS REALES
+================================================================================
+
+Este documento fue actualizado después de inspeccionar la carpeta real.
+
+FUENTES VISUALES DISPONIBLES
+--------------------------------------------------------------------------------
+- ToB: imagotipos e isotipos a color y blancos.
+- HackaToB: isotipo oficial azul con Spark amarillo.
+- Spark principal.
+- Sparks Health, Green, Fin y Next.
+- Logo TEC.
+- Logos Dojo Coding, WWT y P&G en estado pendiente de confirmación.
+- Retrato de Dennis Rojas en estado pendiente de confirmación de rol.
+- Paleta ToB oficial.
+- Stack Sans Notch y Radnika identificadas como tipografías.
+
+NO DISPONIBLE
+--------------------------------------------------------------------------------
+- Hero fotográfico o video.
+- Campus TEC.
+- Centro de las Artes.
+- Imágenes de audiencia.
+- Imágenes de programa.
+- Galería histórica.
+- PDFs.
+- Retos.
+- Wordmark textual completo de HackaToB.
+
+REGLA
+--------------------------------------------------------------------------------
+No usar stock para llenar faltantes. Aplicar los fallbacks gráficos definidos
+en `02_ASSET_MANIFEST_REAL_ACTUALIZADO.txt`.
+
+================================================================================
+
+================================================================================
+HACKATOB 2026 — SITEMAP MAESTRO FINAL DEFINITIVO
+Arquitectura · Contenido · Links · Visuales · Movimiento · Responsive · SEO · QA
+Micrositio integrado dentro de Technology on Business
+Versión 3.0 · Julio 2026
+================================================================================
+
+SITIO MADRE DE REFERENCIA
+--------------------------------------------------------------------------------
+Technology on Business:
+https://tob-flashship-website.lovable.app
+
+RUTA PRINCIPAL RECOMENDADA
+--------------------------------------------------------------------------------
+/hackatob
+
+RELACIÓN DE MARCA
+--------------------------------------------------------------------------------
+Technology on Business es la marca madre.
+HackaToB es su experiencia de innovación aplicada.
+
+Forma de presentación recomendada:
+HackaToB 2026
+by Technology on Business
+
+HackaToB debe sentirse como una experiencia propia, pero siempre conectada
+institucional, visual y narrativamente con ToB.
+
+================================================================================
+0. OBJETIVO DEL DOCUMENTO
+================================================================================
+
+Este documento es la especificación maestra final para diseñar, desarrollar,
+revisar y publicar el micrositio oficial de HackaToB 2026.
+
+Debe funcionar como fuente de verdad para:
+
+- arquitectura de información;
+- contenido;
+- navegación;
+- enlaces;
+- diseño visual;
+- fotografía;
+- video;
+- movimiento;
+- responsive;
+- accesibilidad;
+- SEO;
+- analítica;
+- estados de campaña;
+- publicación de contenido;
+- control de calidad;
+- implementación en Cursor.
+
+Este documento reemplaza borradores anteriores cuando exista conflicto, salvo
+que el equipo organizador apruebe expresamente una decisión distinta.
+
+================================================================================
+1. DECISIÓN MAESTRA DE ARQUITECTURA
+================================================================================
+
+El sitio principal continúa representando a Technology on Business.
+
+HackaToB no debe ser únicamente una sección dentro de la home de ToB.
+Debe tener una ruta propia:
+
+/hackatob
+
+La ruta debe funcionar como un micrositio integrado:
+
+- mantiene la identidad institucional de ToB;
+- incorpora una subnavegación propia;
+- comunica una experiencia diferenciada;
+- lleva a tracks, retos, programa y postulación;
+- permite crecer hacia portal, Demo Day y proyectos;
+- conserva un único sistema de contenido y navegación.
+
+RELACIÓN DE EXPERIENCIAS
+--------------------------------------------------------------------------------
+
+Technology on Business
+├── Congreso
+│   ├── Conferencias
+│   ├── Workshops
+│   ├── Networking
+│   └── Speakers
+│
+└── HackaToB
+    ├── Descubrir
+    ├── Postular
+    ├── Preparar
+    ├── Construir
+    ├── Presentar
+    └── Continuar
+
+REGLA
+--------------------------------------------------------------------------------
+No mezclar la agenda general del congreso con la operación específica de
+HackaToB. Deben estar relacionadas, pero no duplicadas.
+
+================================================================================
+2. OBJETIVO DEL LANDING
+================================================================================
+
+La landing debe lograr que una persona comprenda en menos de 20 segundos:
+
+1. Qué es HackaToB.
+2. Quién lo organiza.
+3. Cuándo y dónde se realiza.
+4. Quién puede participar.
+5. Qué puede construir.
+6. Qué tracks existen.
+7. Cómo postularse.
+8. Qué ocurre después de postularse.
+
+OBJETIVO DE CONVERSIÓN PRINCIPAL
+--------------------------------------------------------------------------------
+Postulación.
+
+CTA principal:
+Postularme
+
+Destino:
+ /hackatob/postular
+
+OBJETIVOS SECUNDARIOS
+--------------------------------------------------------------------------------
+- explorar tracks;
+- consultar retos;
+- conocer modalidades;
+- revisar el programa;
+- comprender la evaluación;
+- conocer mentores, jueces y aliados;
+- contactar a la organización;
+- proponer un reto;
+- participar como mentor o aliado.
+
+================================================================================
+3. VERSIÓN OPERATIVA DEL EVENTO
+================================================================================
+
+Nombre:
+HackaToB 2026
+
+Marca madre:
+Technology on Business
+
+Fechas:
+17–20 de agosto de 2026
+
+Zona horaria:
+America/Costa_Rica
+
+Lugar:
+Campus Central del Tecnológico de Costa Rica, Cartago
+
+Demo Day:
+Centro de las Artes
+
+Capacidad:
+Hasta 80 participantes
+
+Equipos esperados:
+15–20
+
+Tamaño máximo:
+4 personas por equipo
+
+Tracks:
+4
+
+Modalidades:
+3
+
+TRACKS
+--------------------------------------------------------------------------------
+HealthTrack
+GreenTrack
+FinTrack
+The Next Big Thing
+
+MODALIDADES
+--------------------------------------------------------------------------------
+Ideación
+Prototipado
+MVP funcional
+
+DECISIONES QUE DEBEN CERRARSE ANTES DE PUBLICAR
+--------------------------------------------------------------------------------
+[ ] Confirmar HealthTrack como nombre definitivo.
+[ ] Confirmar si habrá participación remota.
+[ ] Confirmar edad mínima.
+[ ] Confirmar tratamiento de menores de edad.
+[ ] Confirmar fechas y horarios de Pre-HackaToB.
+[ ] Confirmar rúbrica.
+[ ] Confirmar premios.
+[ ] Confirmar mentores y jueces.
+[ ] Confirmar aliados.
+[ ] Confirmar formulario.
+[ ] Confirmar textos legales.
+[ ] Confirmar dominio canónico.
+
+REGLA TÉCNICA
+--------------------------------------------------------------------------------
+Todos estos datos deben vivir en:
+
+config/event.ts
+
+No repetir cifras manualmente dentro de componentes.
+
+================================================================================
+4. PRINCIPIOS DE CONTENIDO
+================================================================================
+
+CADA SECCIÓN DEBE
+--------------------------------------------------------------------------------
+- responder una pregunta;
+- presentar una idea principal;
+- evitar repeticiones;
+- usar información verificable;
+- terminar con una acción;
+- funcionar sin animación;
+- conservar coherencia con formulario y reglamento.
+
+TONO
+--------------------------------------------------------------------------------
+- claro;
+- directo;
+- profesional;
+- joven;
+- institucional;
+- tecnológico;
+- optimista;
+- concreto;
+- sin exageraciones.
+
+COPY PROHIBIDO
+--------------------------------------------------------------------------------
+- “Innovación sin límites”.
+- “Transforma el futuro”.
+- “Una experiencia única”.
+- “La hackathon más grande de Costa Rica”.
+- “Lleva tus ideas al siguiente nivel”.
+- “Revolucionamos la industria”.
+- “Conecta con líderes de clase mundial” sin evidencia.
+- “Cambia el mundo” como promesa vacía.
+
+ESTADOS DE PUBLICACIÓN
+--------------------------------------------------------------------------------
+draft
+pending
+confirmed
+published
+hidden
+archived
+
+Solo `published` aparece en producción.
+
+NO PUBLICAR
+--------------------------------------------------------------------------------
+- patrocinadores no confirmados;
+- personas ficticias;
+- fotografías generadas para representar personas reales;
+- logos no autorizados;
+- retos incompletos;
+- códigos falsos;
+- premios pendientes;
+- montos no aprobados;
+- testimonios inventados;
+- enlaces placeholder;
+- cifras objetivo como si fueran resultados.
+
+================================================================================
+5. MAPA GENERAL DE RUTAS
+================================================================================
+
+FASE 1 — LANZAMIENTO PÚBLICO
+--------------------------------------------------------------------------------
+/                                       Home de ToB
+/hackatob                               Landing principal
+/hackatob/postular                      Postulación
+/hackatob/contacto                      Contacto
+/hackatob/documentos                    Documentos oficiales
+/hackatob/legal                         Índice legal
+/hackatob/legal/privacidad              Privacidad
+/hackatob/legal/terminos                Términos
+/hackatob/legal/reglamento              Reglamento
+/hackatob/legal/propiedad-intelectual   Propiedad intelectual
+/hackatob/legal/uso-de-ia               Uso de IA
+/hackatob/legal/uso-de-imagen           Uso de imagen
+/hackatob/legal/codigo-de-conducta      Código de conducta
+
+FASE 2 — CONTENIDO EXPANDIDO
+--------------------------------------------------------------------------------
+/hackatob/tracks                         Índice de tracks
+/hackatob/tracks/[slug]                  Página de track
+/hackatob/retos                          Catálogo de retos
+/hackatob/retos/[slug]                   Ficha de reto
+/hackatob/programa                       Programa completo
+/hackatob/pre-hackatob                   Preparación y workshops
+/hackatob/mentores-y-jurado              Perfiles
+/hackatob/aliados                        Ecosistema de aliados
+
+FASE 3 — OPERACIÓN
+--------------------------------------------------------------------------------
+/hackatob/acceso                         Inicio de sesión
+/hackatob/acceso/recuperar               Recuperar acceso
+
+/hackatob/portal                         Dashboard
+/hackatob/portal/perfil                  Perfil
+/hackatob/portal/solicitud               Estado de postulación
+/hackatob/portal/equipo                  Equipo
+/hackatob/portal/reto                    Reto
+/hackatob/portal/agenda                  Agenda
+/hackatob/portal/recursos                Recursos
+/hackatob/portal/mentorias               Mentorías
+/hackatob/portal/checkpoints             Seguimiento
+/hackatob/portal/entregables             Entrega oficial
+/hackatob/portal/certificados            Certificados
+
+FASE 4 — DEMO DAY Y POSTEVENTO
+--------------------------------------------------------------------------------
+/hackatob/en-vivo                        Programa y transmisión
+/hackatob/en-vivo/finalistas             Finalistas
+/hackatob/en-vivo/votacion               Votación, si existe
+/hackatob/en-vivo/resultados             Resultados
+
+/hackatob/proyectos                       Galería
+/hackatob/proyectos/[slug]                Proyecto
+/hackatob/ganadores                       Ganadores
+/hackatob/impacto                         Métricas
+/hackatob/continuidad                     Seguimiento
+
+RUTAS INTERNAS NO INDEXABLES
+--------------------------------------------------------------------------------
+/admin/hackatob
+/admin/hackatob/postulaciones
+/admin/hackatob/seleccion
+/admin/hackatob/equipos
+/admin/hackatob/retos
+/admin/hackatob/programa
+/admin/hackatob/personas
+/admin/hackatob/aliados
+/admin/hackatob/evaluaciones
+/admin/hackatob/demo-day
+/admin/hackatob/proyectos
+/admin/hackatob/certificados
+/admin/hackatob/analitica
+
+================================================================================
+6. NAVEGACIÓN GLOBAL Y SUBNAVEGACIÓN
+================================================================================
+
+HEADER GLOBAL DE TOB
+--------------------------------------------------------------------------------
+Logo ToB
+Inicio
+El congreso
+Agenda
+Speakers
+HackaToB
+Aliados
+Contacto
+
+CTA global:
+definido por la campaña de ToB.
+
+LINK HACKATOB
+--------------------------------------------------------------------------------
+Texto:
+HackaToB
+
+Destino:
+ /hackatob
+
+Tratamiento:
+- visible como experiencia principal;
+- puede usar badge “Nuevo”;
+- no competir con CTA principal de ToB;
+- activar subnavegación al entrar.
+
+SUBNAVEGACIÓN HACKATOB
+--------------------------------------------------------------------------------
+Descripción
+#experiencia
+
+Tracks
+#tracks
+
+Retos
+#retos
+
+Programa
+#programa
+
+Participar
+#participar
+
+FAQ
+#faq
+
+CTA
+Postularme
+/hackatob/postular
+
+MENÚ SECUNDARIO
+--------------------------------------------------------------------------------
+Modalidades
+#modalidades
+
+Evaluación
+#evaluacion
+
+Mentores y jurado
+#ecosistema
+
+Premios
+#ecosistema
+
+Aliados
+#ecosistema
+
+Trayectoria
+#trayectoria
+
+Contacto
+#contacto
+
+Volver a ToB
+/
+
+REGLAS
+--------------------------------------------------------------------------------
+- máximo seis enlaces visibles más CTA;
+- mostrar sección activa;
+- usar aria-current;
+- incluir skip link;
+- CTA visible en móvil;
+- no crear dos headers completos compitiendo;
+- mantener “HackaToB · by Technology on Business”.
+
+================================================================================
+7. ORDEN FINAL DEL LANDING
+================================================================================
+
+00. Campaign Bar
+01. Header
+02. Hero
+03. Respaldo y confianza
+04. Experiencia HackaToB
+05. Participantes y perfiles
+06. Tracks
+07. Retos
+08. Modalidades
+09. Programa
+10. Participar
+11. Evaluación
+12. Ecosistema
+    12.1 Mentores y jurado
+    12.2 Premios y continuidad
+    12.3 Aliados
+13. Trayectoria de ToB
+14. FAQ
+15. CTA final y contacto
+16. Footer
+
+ANCHORS
+--------------------------------------------------------------------------------
+#inicio
+#respaldo
+#experiencia
+#participantes
+#tracks
+#retos
+#modalidades
+#programa
+#participar
+#evaluacion
+#ecosistema
+#trayectoria
+#faq
+#contacto
+
+NARRATIVA
+--------------------------------------------------------------------------------
+IMPACTO
+Hero
+
+CONFIANZA
+Respaldo
+
+COMPRENSIÓN
+Experiencia
+
+IDENTIFICACIÓN
+Participantes
+
+ELECCIÓN
+Tracks, retos y modalidades
+
+PLANIFICACIÓN
+Programa
+
+DECISIÓN
+Participar
+
+TRANSPARENCIA
+Evaluación
+
+PRUEBA SOCIAL
+Ecosistema y trayectoria
+
+CONVERSIÓN
+FAQ y CTA final
+
+================================================================================
+8. SISTEMA VISUAL GLOBAL
+================================================================================
+
+CONCEPTO
+--------------------------------------------------------------------------------
+SIGNAL SYSTEM — RETOS, TALENTO Y RESULTADOS
+
+La señal conecta:
+
+RETO
+→ PERSONA
+→ EQUIPO
+→ CONSTRUCCIÓN
+→ PRESENTACIÓN
+→ CONTINUIDAD
+
+ELEMENTOS
+--------------------------------------------------------------------------------
+Signal Rail:
+línea narrativa.
+
+Nodos:
+tracks, etapas, días y criterios.
+
+Spark:
+energía y punto de activación.
+
+Códigos:
+HT, GT, FT y TNBT.
+
+Fotografía:
+documental, real y contextual.
+
+PALETA OFICIAL ENCONTRADA EN LA CARPETA
+--------------------------------------------------------------------------------
+--tob-cyan-100: #0DB6FF;
+--tob-cyan-200: #00ACFC;
+--tob-blue-300: #0D9AD8;
+--tob-blue-400: #068EC9;
+--tob-blue-700: #195592;
+--tob-blue-800: #114A82;
+
+Los acentos amarillo, verde, naranja y morado se mantienen a través de los
+Sparks reales por track. No crear otra paleta institucional paralela.
+
+DÓNDE CONFIGURAR
+--------------------------------------------------------------------------------
+app/globals.css
+
+TIPOGRAFÍA OFICIAL ENCONTRADA
+--------------------------------------------------------------------------------
+Principal:
+Stack Sans Notch
+
+Complementaria:
+Radnika
+
+Regla:
+Stack Sans Notch puede sostener toda la interfaz.
+Radnika se usa solo como acento y después de confirmar licencia web.
+
+DÓNDE CONFIGURAR
+--------------------------------------------------------------------------------
+app/layout.tsx
+mediante next/font/local
+
+GRID
+--------------------------------------------------------------------------------
+Container máximo:
+1240 px
+
+Desktop:
+12 columnas
+
+Tablet:
+8 columnas
+
+Móvil:
+4 columnas
+
+Gutters:
+40 px desktop
+32 px tablet
+16 px móvil
+
+Espaciado entre secciones:
+144 px desktop
+104 px tablet
+80 px móvil
+
+================================================================================
+9. SISTEMA GLOBAL DE MOVIMIENTO
+================================================================================
+
+TOKENS
+--------------------------------------------------------------------------------
+--motion-instant: 120ms;
+--motion-fast: 180ms;
+--motion-normal: 320ms;
+--motion-reveal: 560ms;
+--motion-sequence: 900ms;
+--motion-ambient: 14000ms;
+
+ENTRADA
+--------------------------------------------------------------------------------
+opacity 0 → 1
+translateY 20 px → 0
+duración 500–600 ms
+once: true
+
+HOVER
+--------------------------------------------------------------------------------
+scale máximo 1.02
+translateY máximo -4 px
+
+MOVIMIENTO AMBIENTAL
+--------------------------------------------------------------------------------
+Máximo tres elementos simultáneos.
+
+Puede incluir:
+- nodos;
+- líneas;
+- glow localizado;
+- una órbita;
+- grid sutil.
+
+PREFERS-REDUCED-MOTION
+--------------------------------------------------------------------------------
+Eliminar:
+- parallax;
+- órbitas;
+- loops decorativos;
+- desplazamientos amplios;
+- smooth scroll forzado.
+
+Conservar:
+- cambios de estado;
+- foco;
+- feedback;
+- fades breves.
+
+================================================================================
+10. ESPECIFICACIÓN COMPLETA POR SECCIÓN
+================================================================================
+
+--------------------------------------------------------------------------------
+00. CAMPAIGN BAR
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Cuál es el estado actual?
+
+PRELAUNCH
+HackaToB 2026 · 17–20 de agosto · TEC Cartago
+CTA: Recibir novedades
+Link: /hackatob/postular?estado=espera
+
+APPLICATIONS_OPEN
+Postulaciones abiertas para HackaToB 2026
+CTA: Postularme
+Link: /hackatob/postular
+
+APPLICATIONS_CLOSING
+Últimos días para completar tu solicitud
+CTA: Postularme
+Link: /hackatob/postular
+
+SELECTION
+La selección de participantes está en proceso
+CTA: Consultar estado
+Link: /hackatob/acceso
+
+EVENT_ACTIVE
+HackaToB 2026 está en marcha
+CTA: Ver programa
+Link: #programa
+
+DEMO_DAY
+Demo Day de HackaToB 2026
+CTA: Ver transmisión
+Link: /hackatob/en-vivo
+
+POST_EVENT
+Conoce los proyectos y resultados
+CTA: Ver proyectos
+Link: /hackatob/proyectos
+
+VISUAL
+--------------------------------------------------------------------------------
+Barra compacta.
+Indicador de estado.
+CTA textual.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Fade 180–240 ms.
+Pulso solo en EVENT_ACTIVE o DEMO_DAY.
+
+NO USAR
+--------------------------------------------------------------------------------
+Ticker rápido.
+Urgencia falsa.
+Texto desplazándose.
+
+--------------------------------------------------------------------------------
+01. HEADER
+--------------------------------------------------------------------------------
+
+CONTENIDO
+--------------------------------------------------------------------------------
+Logo ToB.
+Identificador HackaToB 2026.
+Navegación.
+CTA Postularme.
+
+DESKTOP
+--------------------------------------------------------------------------------
+Logo ToB a la izquierda.
+Divisor.
+HackaToB.
+Navegación central.
+CTA a la derecha.
+
+MÓVIL
+--------------------------------------------------------------------------------
+Logo ToB.
+HackaToB.
+CTA compacto.
+Menú.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Transparente → sólido al scroll.
+Blur moderado.
+Subrayado activo.
+Menú 280–360 ms.
+
+ACCESIBILIDAD
+--------------------------------------------------------------------------------
+Skip link.
+Escape.
+Focus trap.
+aria-expanded.
+aria-current.
+
+--------------------------------------------------------------------------------
+02. HERO — #INICIO
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Qué es y qué hago?
+
+EYEBROW
+--------------------------------------------------------------------------------
+17–20 de agosto de 2026 · TEC Campus Central · Cartago
+
+H1
+--------------------------------------------------------------------------------
+Cuatro días para convertir retos reales
+en soluciones con impacto.
+
+DESCRIPCIÓN
+--------------------------------------------------------------------------------
+HackaToB reúne estudiantes, organizaciones, mentores y especialistas para
+desarrollar soluciones aplicadas a desafíos reales de Costa Rica.
+
+DATOS
+--------------------------------------------------------------------------------
+Hasta 80 participantes
+15–20 equipos
+Máximo 4 personas por equipo
+4 tracks
+3 modalidades
+Demo Day en el Centro de las Artes
+
+CTA PRINCIPAL
+--------------------------------------------------------------------------------
+Postularme
+/hackatob/postular
+
+CTA SECUNDARIO
+--------------------------------------------------------------------------------
+Explorar retos
+#retos
+
+TEXTO DE APOYO
+--------------------------------------------------------------------------------
+Puedes postularte individualmente o con un equipo.
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Desktop:
+7 columnas texto.
+5 columnas visual.
+
+Móvil:
+texto primero;
+CTA ancho completo;
+visual después;
+datos compactos.
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/hero/hero-poster-desktop.avif
+public/media/hero/hero-poster-mobile.avif
+public/media/hero/hero-loop.webm
+public/media/hero/hero-loop.mp4
+public/brand/spark-principal.png
+components/visual/SignalRail.tsx
+
+VIDEO
+--------------------------------------------------------------------------------
+6–9 segundos.
+Sin audio.
+Muted.
+PlaysInline.
+Loop.
+Poster.
+Máximo 3.5 MB ideal.
+
+FALLBACK
+--------------------------------------------------------------------------------
+Poster + Signal Rail.
+Nunca stock.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+H1 por líneas.
+Descripción después.
+CTA.
+Spark 0.92 → 1.
+Signal Rail hacia Respaldo.
+
+NO USAR
+--------------------------------------------------------------------------------
+Dashboard.
+Laptop 3D.
+Máquina de escribir.
+Planeta digital.
+Código verde.
+Partículas densas.
+
+--------------------------------------------------------------------------------
+03. RESPALDO Y CONFIANZA — #RESPALDO
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Quién organiza y dónde ocurre?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Una experiencia de Technology on Business
+
+H2
+--------------------------------------------------------------------------------
+Innovación estudiantil con respaldo institucional.
+
+PÁRRAFO
+--------------------------------------------------------------------------------
+HackaToB es la experiencia de innovación aplicada de Technology on Business,
+desarrollada en el ecosistema del Tecnológico de Costa Rica para conectar
+talento joven, organizaciones y desafíos reales.
+
+JERARQUÍA
+--------------------------------------------------------------------------------
+ORGANIZA
+Technology on Business
+
+INSTITUCIÓN Y SEDE
+Tecnológico de Costa Rica
+Campus Central, Cartago
+
+DEMO DAY
+Centro de las Artes
+
+CTA
+--------------------------------------------------------------------------------
+Conocer el ecosistema
+#ecosistema
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+ToB → TEC → HackaToB → Centro de las Artes
+
+ASSETS
+--------------------------------------------------------------------------------
+public/brand/tob-imagotipo-color-horizontal.png
+public/brand/tec-logo.png
+public/brand/hackatob-isotipo-oficial.png
+public/media/institutional/campus-tec.avif
+public/media/institutional/centro-artes.avif
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Línea se dibuja una vez.
+Móvil vertical.
+
+NO USAR
+--------------------------------------------------------------------------------
+Logo cloud.
+TEC como sponsor.
+Centro de las Artes como patrocinador.
+
+--------------------------------------------------------------------------------
+04. EXPERIENCIA — #EXPERIENCIA
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Cómo funciona?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Cómo funciona
+
+H2
+--------------------------------------------------------------------------------
+No es solo una competencia.
+Es un proceso para construir.
+
+INTRODUCCIÓN
+--------------------------------------------------------------------------------
+La experiencia comienza antes de los días de desarrollo y continúa después
+del Demo Day. Cada participante avanza desde la postulación hasta la
+presentación de una solución validada.
+
+ETAPAS
+--------------------------------------------------------------------------------
+01 DESCUBRE
+Conoce tracks, retos, modalidades y reglas.
+
+02 POSTÚLATE
+Presenta tu perfil individualmente o con equipo.
+
+03 PREPÁRATE
+Participa en workshops, forma equipo y comprende entregables.
+
+04 CONSTRUYE
+Investiga, diseña, valida y desarrolla.
+
+05 PRESENTA
+Demuestra el resultado ante jurado.
+
+06 CONTINÚA
+Recibe retroalimentación, visibilidad y seguimiento.
+
+CTA
+--------------------------------------------------------------------------------
+Ver cómo participar
+#participar
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Rail de seis pasos.
+Desktop horizontal.
+Móvil vertical.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Nodos activados.
+Crossfade.
+Sin loop.
+
+NO USAR
+--------------------------------------------------------------------------------
+Seis cards iguales.
+Seis iconos circulares.
+
+--------------------------------------------------------------------------------
+05. PARTICIPANTES — #PARTICIPANTES
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Hay lugar para mi perfil?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Quiénes pueden participar
+
+H2
+--------------------------------------------------------------------------------
+Diferentes talentos.
+Un mismo propósito.
+
+MENSAJE
+--------------------------------------------------------------------------------
+No necesitas llegar con una idea perfecta ni con un equipo completo.
+
+DESCRIPCIÓN
+--------------------------------------------------------------------------------
+HackaToB está dirigido a estudiantes de colegios y universidades que deseen
+trabajar en equipos interdisciplinarios para resolver desafíos reales mediante
+tecnología, diseño, investigación, negocio e impacto.
+
+TECNOLOGÍA
+--------------------------------------------------------------------------------
+Desarrollo de software
+Datos e IA
+Ciberseguridad
+Cloud e infraestructura
+Electrónica e ingeniería
+
+PRODUCTO Y DISEÑO
+--------------------------------------------------------------------------------
+UX/UI
+Investigación
+Diseño de servicios
+Prototipado
+Producto
+Comunicación y storytelling
+
+NEGOCIO E IMPACTO
+--------------------------------------------------------------------------------
+Administración
+Finanzas
+Emprendimiento
+Salud
+Sostenibilidad
+Turismo
+Impacto social
+
+ACLARACIONES
+--------------------------------------------------------------------------------
+Puedes postularte individualmente.
+Puedes postularte con equipo.
+No necesitas experiencia previa.
+Los equipos deben combinar habilidades.
+
+CTA
+--------------------------------------------------------------------------------
+Revisar requisitos
+#participar
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/audience/technology.avif
+public/media/audience/product-design.avif
+public/media/audience/business-impact.avif
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Tres familias convergen en Equipo interdisciplinario.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Tabs o acordeón en móvil.
+
+DEPENDENCIA
+--------------------------------------------------------------------------------
+Confirmar edad y menores.
+
+--------------------------------------------------------------------------------
+06. TRACKS — #TRACKS
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿En qué área genero impacto?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Áreas de impacto
+
+H2
+--------------------------------------------------------------------------------
+Cuatro caminos para generar impacto.
+
+INTRODUCCIÓN
+--------------------------------------------------------------------------------
+Cada track reúne desafíos relacionados con un ámbito prioritario. Elige el
+área que mejor conecte con las capacidades e intereses de tu equipo.
+
+HEALTHTRACK
+--------------------------------------------------------------------------------
+Código: HT
+Título: Salud, bienestar y accesibilidad
+
+Descripción:
+Soluciones para prevención, nutrición, bienestar, acceso a servicios,
+experiencia del paciente y uso responsable de tecnología y datos.
+
+Temas:
+Salud digital
+Prevención
+Nutrición
+Accesibilidad
+Servicios
+Datos responsables
+
+GREENTRACK
+--------------------------------------------------------------------------------
+Código: GT
+Título: Sostenibilidad, territorio y resiliencia
+
+Descripción:
+Soluciones para biodiversidad, agricultura, agua, energía, residuos, turismo
+sostenible y adaptación ambiental.
+
+Temas:
+Biodiversidad
+Agricultura y ganadería
+Agua y energía
+Economía circular
+Turismo sostenible
+Resiliencia climática
+
+FINTRACK
+--------------------------------------------------------------------------------
+Código: FT
+Título: Finanzas, inclusión y seguridad
+
+Descripción:
+Soluciones para ampliar acceso, mejorar educación financiera, fortalecer pymes
+y desarrollar servicios digitales seguros.
+
+Temas:
+Inclusión financiera
+Educación financiera
+Pagos
+Pymes
+Fraude y ciberseguridad
+Banca digital
+
+THE NEXT BIG THING
+--------------------------------------------------------------------------------
+Código: TNBT
+Título: Tecnologías emergentes y nuevas posibilidades
+
+Descripción:
+Explora IA, automatización, robótica, blockchain, semiconductores y nuevos
+modelos digitales.
+
+Temas:
+IA
+Automatización
+Robótica
+Blockchain
+Semiconductores
+Nuevos modelos
+
+CTA
+--------------------------------------------------------------------------------
+Explorar retos
+#retos
+
+LINK FUTURO
+--------------------------------------------------------------------------------
+Ver todos los tracks
+/hackatob/tracks
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Tablero de cuatro cuadrantes.
+Un track activo.
+Panel de detalle.
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/tracks/health/spark-health.png
+public/media/tracks/health/pattern.svg
+public/media/tracks/green/spark-green.png
+public/media/tracks/green/pattern.svg
+public/media/tracks/fin/spark-fin.png
+public/media/tracks/fin/pattern.svg
+public/media/tracks/next/spark-next.png
+public/media/tracks/next/pattern.svg
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Health: pulso.
+Green: topografía.
+Fin: flujos.
+TNBT: órbitas.
+
+No autoplay.
+
+--------------------------------------------------------------------------------
+07. RETOS — #RETOS
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Qué problema puedo resolver?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Desafíos reales
+
+H2
+--------------------------------------------------------------------------------
+Elige un problema que valga la pena resolver.
+
+ESTADO SIN RETOS
+--------------------------------------------------------------------------------
+Los retos oficiales serán publicados junto con las organizaciones proponentes.
+Cada ficha incluirá contexto, población beneficiada, alcance, recursos
+disponibles y modalidades permitidas.
+
+HealthTrack
+Retos oficiales próximamente
+
+GreenTrack
+Retos oficiales próximamente
+
+FinTrack
+Retos oficiales próximamente
+
+The Next Big Thing
+Retos oficiales próximamente
+
+CTA 1
+--------------------------------------------------------------------------------
+Recibir novedades
+/hackatob/postular?estado=espera
+
+CTA 2
+--------------------------------------------------------------------------------
+Proponer un reto
+/hackatob/contacto?tipo=reto
+
+FICHA PUBLICADA
+--------------------------------------------------------------------------------
+Código
+Nombre
+Track
+Organización
+Problema
+Beneficiarios
+Objetivo
+Alcance
+Restricciones
+Recursos
+Datos
+Modalidades
+Dificultad
+Estado
+Fecha
+
+LINK
+--------------------------------------------------------------------------------
+/hackatob/retos/[slug]
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/challenges/[slug]/cover.avif
+public/media/challenges/[slug]/poster.avif
+public/media/challenges/[slug]/brief.webm
+public/media/challenges/[slug]/brief.mp4
+public/media/challenges/[slug]/data-preview.svg
+public/subtitles/[slug]-brief.vtt
+
+VIDEO
+--------------------------------------------------------------------------------
+30–45 segundos.
+Bajo demanda.
+Subtítulos.
+
+NO USAR
+--------------------------------------------------------------------------------
+Códigos falsos.
+Organizaciones pendientes.
+Stock decorativo.
+
+--------------------------------------------------------------------------------
+08. MODALIDADES — #MODALIDADES
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Qué nivel debo construir?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Formas de construir
+
+H2
+--------------------------------------------------------------------------------
+Construye según la etapa de tu solución.
+
+INTRODUCCIÓN
+--------------------------------------------------------------------------------
+No todos los equipos comienzan desde el mismo punto. Elige la modalidad que
+mejor represente el nivel de desarrollo que podrás demostrar.
+
+IDEACIÓN
+--------------------------------------------------------------------------------
+Problema validado
+Usuario
+Evidencia
+Propuesta de valor
+Solución conceptual
+Prototipo inicial
+Viabilidad
+Roadmap
+Pitch
+
+PROTOTIPADO
+--------------------------------------------------------------------------------
+Flujo
+Prototipo navegable
+Diseño
+Pruebas
+Evidencia
+Factibilidad
+Roadmap
+Pitch
+
+MVP FUNCIONAL
+--------------------------------------------------------------------------------
+Producto demostrable
+Repositorio
+Arquitectura
+Pruebas
+Documentación
+Demo
+Continuidad
+Pitch
+
+MENSAJE
+--------------------------------------------------------------------------------
+Las tres modalidades se evaluarán proporcionalmente. Más código no implica
+automáticamente una mejor calificación.
+
+CTA
+--------------------------------------------------------------------------------
+Conocer evaluación
+#evaluacion
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Escalera de madurez.
+No pricing cards.
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/modalities/ideation.avif
+public/media/modalities/prototype.avif
+public/media/modalities/mvp.avif
+
+--------------------------------------------------------------------------------
+09. PROGRAMA — #PROGRAMA
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Cuál es el recorrido?
+
+EYEBROW
+--------------------------------------------------------------------------------
+La experiencia completa
+
+H2
+--------------------------------------------------------------------------------
+Prepárate antes.
+Construye durante cuatro días.
+
+PRE-HACKATOB
+--------------------------------------------------------------------------------
+Objetivo:
+Llegar con equipo, track, herramientas y claridad.
+
+Contenido:
+Formato
+Equipos
+Validación
+Producto y UX
+Arquitectura
+Trabajo colaborativo
+IA responsable
+Pitch
+
+Resultado:
+Preparación inicial completada.
+
+LUNES 17
+--------------------------------------------------------------------------------
+Activación y definición
+
+Objetivo:
+Comprender reto y planificar.
+
+Resultado:
+Problema, usuario, enfoque y plan.
+
+MARTES 18
+--------------------------------------------------------------------------------
+Diseño y desarrollo I
+
+Objetivo:
+Convertir propuesta en solución comprobable.
+
+Resultado:
+Prototipo avanzado o MVP parcial.
+
+MIÉRCOLES 19
+--------------------------------------------------------------------------------
+Desarrollo II y entrega
+
+Objetivo:
+Completar, probar y preparar.
+
+Resultado:
+Proyecto, demo, documentación y pitch.
+
+JUEVES 20
+--------------------------------------------------------------------------------
+Demo Day
+
+Objetivo:
+Presentar y activar continuidad.
+
+Resultado:
+Resultados, retroalimentación y próximos pasos.
+
+CTA
+--------------------------------------------------------------------------------
+Ver programa completo
+/hackatob/programa
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Navegación sticky + panel.
+Móvil acordeón.
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/program/prehack.avif
+public/media/program/day-1.avif
+public/media/program/day-2.avif
+public/media/program/day-3.avif
+public/media/program/day-4.avif
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Línea de progreso.
+Crossfade.
+Spark en Demo Day.
+
+NO USAR
+--------------------------------------------------------------------------------
+Horarios no aprobados.
+Segundo countdown.
+Cuatro cards idénticas.
+
+--------------------------------------------------------------------------------
+10. PARTICIPAR — #PARTICIPAR
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Qué necesito y cómo postulo?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Proceso de postulación
+
+H2
+--------------------------------------------------------------------------------
+Postúlate individualmente
+o con un equipo.
+
+INTRODUCCIÓN
+--------------------------------------------------------------------------------
+Buscamos personas comprometidas, curiosas y dispuestas a colaborar con
+habilidades distintas para construir una solución durante HackaToB.
+
+REQUISITOS
+--------------------------------------------------------------------------------
+Disponibilidad
+Compromiso
+Reglamento
+Checkpoints
+Entrega
+Declaración de IA
+Máximo 4 personas
+Autorizaciones
+
+PROCESO
+--------------------------------------------------------------------------------
+01 Revisa convocatoria.
+02 Completa solicitud.
+03 Indica habilidades.
+04 Envía.
+05 Espera evaluación.
+06 Confirma cupo.
+07 Forma o valida equipo.
+08 Participa en preparación.
+
+MENSAJES
+--------------------------------------------------------------------------------
+Enviar una solicitud no garantiza cupo.
+No es obligatorio llegar con equipo.
+La organización podrá facilitar formación de equipos.
+
+CTA 1
+--------------------------------------------------------------------------------
+Iniciar solicitud
+/hackatob/postular
+
+CTA 2
+--------------------------------------------------------------------------------
+Resolver dudas
+#faq
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/participation/team.avif
+public/media/participation/how-to-apply.mp4
+public/media/participation/how-to-apply-poster.avif
+public/subtitles/how-to-apply.vtt
+
+VIDEO
+--------------------------------------------------------------------------------
+30–45 segundos.
+Bajo demanda.
+Subtítulos.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Funnel.
+Progreso.
+Confirmación con Spark.
+
+--------------------------------------------------------------------------------
+11. EVALUACIÓN — #EVALUACION
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Cómo se elegirán los proyectos destacados?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Criterios y transparencia
+
+H2
+--------------------------------------------------------------------------------
+Evaluación multidisciplinaria
+y transparente.
+
+INTRODUCCIÓN
+--------------------------------------------------------------------------------
+Los proyectos serán evaluados según la calidad del problema, el impacto
+potencial, la viabilidad y la claridad de la demostración. Cada modalidad se
+valorará de acuerdo con sus entregables.
+
+RÚBRICA PROPUESTA
+--------------------------------------------------------------------------------
+Comprensión del problema — 15 %
+Impacto — 20 %
+Innovación — 15 %
+Viabilidad técnica — 20 %
+Producto y UX — 15 %
+Continuidad — 10 %
+Pitch y demo — 5 %
+
+TOTAL
+100 %
+
+ACLARACIONES
+--------------------------------------------------------------------------------
+Evaluación proporcional.
+Conflictos de interés.
+Reglas de desempate.
+Voto público separado.
+
+CTA
+--------------------------------------------------------------------------------
+Consultar rúbrica
+/hackatob/documentos/rubrica
+
+ESTADO SIN APROBACIÓN
+--------------------------------------------------------------------------------
+Los criterios oficiales serán publicados antes del evento.
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Barras o matriz sobria.
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/evaluation/panel.avif
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Barras una vez.
+Sin confeti.
+
+--------------------------------------------------------------------------------
+12. ECOSISTEMA — #ECOSISTEMA
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Quién acompaña, reconoce y hace posible HackaToB?
+
+ESTRUCTURA
+--------------------------------------------------------------------------------
+12.1 Mentores y jurado
+12.2 Premios y continuidad
+12.3 Aliados
+
+12.1 MENTORES Y JURADO
+--------------------------------------------------------------------------------
+EYEBROW
+Acompañamiento
+
+H2
+No construyes solo.
+
+ESTADO SIN PERFILES
+Estamos conformando un equipo de especialistas en tecnología, producto,
+diseño, negocio, impacto y las cuatro áreas de HackaToB.
+
+MENTORES
+Acompañan decisiones técnicas, producto, validación, negocio y pitch.
+
+JURADO
+Evalúa mediante rúbrica pública y multidisciplinaria.
+
+SPEAKERS
+Imparten preparación y workshops.
+
+CTA
+Quiero ser mentor
+/hackatob/contacto?tipo=mentor
+
+PERFIL
+Fotografía
+Nombre
+Cargo
+Organización
+Especialidad
+Track
+Bio
+LinkedIn verificado
+
+ASSETS
+public/media/people/mentors/[slug]/portrait.avif
+public/media/people/judges/[slug]/portrait.avif
+public/media/people/speakers/[slug]/portrait.avif
+
+12.2 PREMIOS Y CONTINUIDAD
+--------------------------------------------------------------------------------
+EYEBROW
+Resultados y siguientes pasos
+
+H2
+Reconocer el resultado.
+Abrir la siguiente oportunidad.
+
+TEXTO
+HackaToB reconocerá proyectos sólidos y buscará conectarlos con
+retroalimentación, difusión, mentoría y posibles conversaciones de continuidad.
+
+RESULTADOS
+Top 3 global
+Reconocimientos por track
+Impacto
+UX
+Tecnología
+Pitch
+Público, si se confirma
+
+CONTINUIDAD
+Mentoría
+Difusión
+Conexión con aliados
+Posible pilotaje
+Incubación
+Galería
+
+ESTADO PENDIENTE
+Los premios y oportunidades se anunciarán junto con aliados oficiales.
+
+12.3 ALIADOS
+--------------------------------------------------------------------------------
+EYEBROW
+Ecosistema de colaboración
+
+H2
+Organizaciones que convierten
+retos en oportunidades.
+
+TEXTO
+HackaToB se construye junto a organizaciones que aportan desafíos,
+conocimiento, tecnología, mentoría, infraestructura, premios y continuidad.
+
+CATEGORÍAS
+Organiza
+Respalda
+Presenting Partner
+Track Partner
+Challenge Partner
+Technology Partner
+Academic Partner
+Community Partner
+Media Partner
+In-kind Partner
+
+CTA 1
+Patrocinar
+/hackatob/contacto?tipo=patrocinio
+
+CTA 2
+Proponer reto
+/hackatob/contacto?tipo=reto
+
+CTA 3
+Ser mentor
+/hackatob/contacto?tipo=mentor
+
+REGLAS
+Confirmación
+Categoría
+Logo autorizado
+Link verificado
+Participación definida
+status: published
+
+ASSETS
+public/media/partners/logos/[slug].svg
+
+NO USAR
+--------------------------------------------------------------------------------
+AI headshots.
+Avatares.
+Perfiles pending.
+Premios no cerrados.
+Empresas objetivo.
+Logo cloud sin jerarquía.
+
+--------------------------------------------------------------------------------
+13. TRAYECTORIA — #TRAYECTORIA
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Por qué confiar?
+
+EYEBROW
+--------------------------------------------------------------------------------
+La experiencia que nos respalda
+
+H2
+--------------------------------------------------------------------------------
+El ecosistema que inspira HackaToB.
+
+PÁRRAFO
+--------------------------------------------------------------------------------
+HackaToB nace dentro de Technology on Business, una iniciativa que durante
+quince ediciones ha conectado estudiantes, especialistas y organizaciones
+mediante conferencias, workshops, networking y aprendizaje.
+
+CONTENIDO
+--------------------------------------------------------------------------------
+6–10 fotografías reales de ToB:
+Escenario
+Speakers
+Público
+Workshops
+Networking
+Equipo
+Centro de las Artes
+Comunidad
+
+CAPTIONS
+--------------------------------------------------------------------------------
+Sesiones de aprendizaje y conexión realizadas por Technology on Business.
+
+Comunidad estudiantil durante una edición anterior de ToB.
+
+Experiencias desarrolladas en el Tecnológico de Costa Rica.
+
+CTA
+--------------------------------------------------------------------------------
+Conocer Technology on Business
+/
+
+ASSETS
+--------------------------------------------------------------------------------
+public/media/history/photos/tob-01.avif
+...
+public/media/history/photos/tob-10.avif
+
+VIDEO OPCIONAL
+--------------------------------------------------------------------------------
+public/media/history/tob-history-film.webm
+public/media/history/tob-history-film.mp4
+public/media/history/tob-history-poster.avif
+
+NO USAR
+--------------------------------------------------------------------------------
+“Ediciones anteriores de HackaToB”.
+Stock.
+Fotos sin contexto.
+
+--------------------------------------------------------------------------------
+14. FAQ — #FAQ
+--------------------------------------------------------------------------------
+
+H2
+--------------------------------------------------------------------------------
+Preguntas frecuentes
+
+PREGUNTAS
+--------------------------------------------------------------------------------
+1. ¿Quién puede participar?
+La convocatoria está dirigida a estudiantes de colegios y universidades que
+cumplan los requisitos publicados. Edad y documentación se indicarán en la
+convocatoria oficial.
+
+2. ¿Necesito equipo?
+No. Puedes postularte individualmente.
+
+3. ¿Cuántas personas?
+Máximo cuatro por equipo.
+
+4. ¿Necesito programar?
+No. Se requieren perfiles diversos.
+
+5. ¿Puedo participar sin experiencia?
+Sí. Se valoran motivación, aprendizaje y colaboración.
+
+6. ¿Cómo elijo track?
+En la solicitud indicarás intereses. La elección final dependerá de retos,
+equipo y reglas.
+
+7. ¿Qué modalidad elijo?
+Ideación valida problema y propuesta; Prototipado construye y prueba una
+experiencia; MVP demuestra funcionamiento esencial.
+
+8. ¿Puedo usar IA?
+Sí, declarando herramientas, verificando resultados y evitando datos sensibles.
+
+9. ¿Quién conserva propiedad?
+Las condiciones estarán en el reglamento.
+
+10. ¿Cómo se evalúa?
+Mediante rúbrica pública y proporcional.
+
+11. ¿Habrá premios?
+Habrá Top 3 y reconocimientos. Los premios específicos se publicarán cuando
+estén confirmados.
+
+12. ¿Cuándo y dónde?
+17–20 de agosto de 2026, TEC Cartago. Demo Day en Centro de las Artes.
+
+13. ¿La asistencia es obligatoria?
+La disponibilidad para actividades obligatorias será requisito.
+
+14. ¿Otra duda?
+Escribe al correo institucional.
+
+COMPOSICIÓN
+--------------------------------------------------------------------------------
+Acordeón accesible.
+Una pregunta abierta en móvil.
+Buscador opcional.
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Transición corta.
++ → ×
+
+--------------------------------------------------------------------------------
+15. CTA FINAL Y CONTACTO — #CONTACTO
+--------------------------------------------------------------------------------
+
+PREGUNTA
+¿Cuál es mi siguiente paso?
+
+EYEBROW
+--------------------------------------------------------------------------------
+Tu siguiente paso
+
+H2
+--------------------------------------------------------------------------------
+Costa Rica necesita nuevas soluciones.
+Tal vez la próxima empiece contigo.
+
+PÁRRAFO
+--------------------------------------------------------------------------------
+Forma parte de la primera edición de HackaToB y trabaja junto a otros talentos
+para convertir un reto real en una solución con impacto.
+
+CTA 1
+--------------------------------------------------------------------------------
+Postularme ahora
+/hackatob/postular
+
+CTA 2
+--------------------------------------------------------------------------------
+Explorar retos
+#retos
+
+CONTACTO
+--------------------------------------------------------------------------------
+Technology on Business
+tob@itcr.ac.cr
+
+Coordinación de Innovación
+derojas@estudiantec.cr
+
+IMAGEN
+--------------------------------------------------------------------------------
+public/media/final-cta/final-cta.avif
+
+MOVIMIENTO
+--------------------------------------------------------------------------------
+Signal Rail converge.
+Spark.
+Una acción dominante.
+
+--------------------------------------------------------------------------------
+16. FOOTER
+--------------------------------------------------------------------------------
+
+HACKATOB
+--------------------------------------------------------------------------------
+Descripción
+Tracks
+Retos
+Programa
+FAQ
+
+PARTICIPAR
+--------------------------------------------------------------------------------
+Requisitos
+Postularme
+Evaluación
+Premios
+Reglamento
+
+ECOSISTEMA
+--------------------------------------------------------------------------------
+Mentores y jurado
+Aliados
+Trayectoria
+Contacto
+
+ORGANIZACIÓN
+--------------------------------------------------------------------------------
+Technology on Business
+Volver al sitio principal
+
+LEGAL
+--------------------------------------------------------------------------------
+Privacidad
+Términos
+Reglamento
+Propiedad intelectual
+Uso de IA
+Uso de imagen
+Código de conducta
+
+CIERRE
+--------------------------------------------------------------------------------
+HackaToB 2026
+Una experiencia de Technology on Business
+Tecnológico de Costa Rica · Cartago, Costa Rica
+
+================================================================================
+11. RUTA /HACKATOB/POSTULAR
+================================================================================
+
+H1
+--------------------------------------------------------------------------------
+Postúlate a HackaToB 2026
+
+INTRODUCCIÓN
+--------------------------------------------------------------------------------
+Completa tu solicitud individual o de equipo. Antes de comenzar, revisa
+requisitos, fechas y condiciones.
+
+DATOS
+--------------------------------------------------------------------------------
+17–20 agosto
+TEC Cartago
+Máximo 4
+Individual o equipo
+
+AVISO
+--------------------------------------------------------------------------------
+Enviar una solicitud no garantiza cupo.
+
+CTA
+--------------------------------------------------------------------------------
+Iniciar solicitud
+
+ENLACES
+--------------------------------------------------------------------------------
+Requisitos
+Reglamento
+Privacidad
+Uso de IA
+FAQ
+
+ESTADOS
+--------------------------------------------------------------------------------
+Próximamente
+Abierta
+Últimos días
+Cerrada
+Selección
+
+REGLAS
+--------------------------------------------------------------------------------
+Ruta estable.
+No mailto.
+Privacidad.
+Confirmación.
+Accesibilidad.
+
+================================================================================
+12. MAPA FINAL DE LINKS
+================================================================================
+
+Logo ToB
+/
+
+Descripción
+#experiencia
+
+Tracks
+#tracks
+
+Retos
+#retos
+
+Modalidades
+#modalidades
+
+Programa
+#programa
+
+Participar
+#participar
+
+Evaluación
+#evaluacion
+
+Ecosistema
+#ecosistema
+
+Trayectoria
+#trayectoria
+
+FAQ
+#faq
+
+Contacto
+#contacto
+
+Postularme
+/hackatob/postular
+
+Programa completo
+/hackatob/programa
+
+Tracks completos
+/hackatob/tracks
+
+Retos completos
+/hackatob/retos
+
+Mentores y jurado
+/hackatob/mentores-y-jurado
+
+Aliados
+/hackatob/aliados
+
+Documentos
+/hackatob/documentos
+
+Contacto mentor
+/hackatob/contacto?tipo=mentor
+
+Contacto reto
+/hackatob/contacto?tipo=reto
+
+Contacto patrocinio
+/hackatob/contacto?tipo=patrocinio
+
+================================================================================
+13. ESTRUCTURA DE ASSETS
+================================================================================
+
+public/
+  brand/
+    hackatob-logo.svg
+    tob-logo.svg
+    tec-logo.svg
+    spark.svg
+    signal-rail.svg
+
+  media/
+    hero/
+    institutional/
+    audience/
+    tracks/
+    challenges/
+    modalities/
+    program/
+    participation/
+    evaluation/
+    people/
+    partners/
+    history/
+    final-cta/
+
+  subtitles/
+    *.vtt
+
+  documents/
+    reglamento-hackatob-2026.pdf
+    rubrica-hackatob-2026.pdf
+    convocatoria-hackatob-2026.pdf
+    codigo-conducta.pdf
+
+REGLAS PARA ASSETS
+--------------------------------------------------------------------------------
+1. Nombre descriptivo.
+2. Carpeta correcta.
+3. Optimización.
+4. Autorización.
+5. Alt text.
+6. Estado.
+7. Inventario.
+8. No publicar pending.
+
+FALLBACKS
+--------------------------------------------------------------------------------
+Sin video:
+poster.
+
+Sin foto:
+composición de marca.
+
+Sin mentor:
+Próximamente.
+
+Sin sponsor:
+ocultar.
+
+Sin reto:
+Próximamente.
+
+Sin PDF:
+no mostrar link vacío.
+
+================================================================================
+14. RESPONSIVE
+================================================================================
+
+1440
+--------------------------------------------------------------------------------
+Container 1240.
+Hero 7/5.
+Navegación completa.
+
+1280
+--------------------------------------------------------------------------------
+Header estable.
+H1 sin truncar.
+
+768
+--------------------------------------------------------------------------------
+Header móvil.
+Grids 2 columnas.
+Timeline vertical.
+Tabs.
+
+390
+--------------------------------------------------------------------------------
+Margen 16 px.
+CTA ancho completo.
+Targets 44 px.
+H1 máximo 4 líneas.
+Sin overflow.
+Poster en lugar de video pesado.
+Una animación ambiental.
+
+================================================================================
+15. ACCESIBILIDAD
+================================================================================
+
+[ ] Un H1.
+[ ] H2/H3 correctos.
+[ ] Skip link.
+[ ] Foco.
+[ ] Teclado.
+[ ] aria-current.
+[ ] aria-expanded.
+[ ] Contraste AA.
+[ ] Targets 44 × 44.
+[ ] Alt text.
+[ ] Alt vacío en decoración.
+[ ] Reduced motion.
+[ ] Subtítulos.
+[ ] Sin autoplay con sonido.
+[ ] Información no depende de hover.
+[ ] Formularios con labels y errores.
+
+================================================================================
+16. SEO
+================================================================================
+
+TITLE
+--------------------------------------------------------------------------------
+HackaToB 2026 | Innovación aplicada por Technology on Business
+
+DESCRIPTION
+--------------------------------------------------------------------------------
+Participa en HackaToB 2026, una experiencia de innovación de cuatro días en el
+Tecnológico de Costa Rica para convertir retos reales en soluciones con
+impacto.
+
+IMPLEMENTAR
+--------------------------------------------------------------------------------
+metadataBase
+canonical
+Open Graph
+Twitter image
+favicon
+apple icon
+manifest
+sitemap.ts
+robots.ts
+JSON-LD Event
+Organization
+FAQPage
+
+CANONICAL
+--------------------------------------------------------------------------------
+Elegir una URL.
+
+Opción integrada:
+https://[dominio-tob]/hackatob
+
+Opción independiente:
+https://hackatob.cr
+
+No permitir dos copias indexables.
+
+================================================================================
+17. ANALÍTICA
+================================================================================
+
+EVENTOS
+--------------------------------------------------------------------------------
+hackatob_view
+campaign_bar_click
+navigation_click
+hero_primary_cta_click
+hero_secondary_cta_click
+track_view
+challenge_view
+program_day_open
+application_click
+application_started
+application_completed
+evaluation_view
+mentor_view
+partner_click
+faq_open
+contact_click
+document_download
+return_to_tob_click
+
+PARÁMETROS
+--------------------------------------------------------------------------------
+section
+campaign_phase
+track
+challenge
+partner
+source
+medium
+campaign
+device
+
+================================================================================
+18. MATRIZ DE CALIDAD
+================================================================================
+
+CLARIDAD
+0–2
+
+RELEVANCIA
+0–2
+
+CREDIBILIDAD
+0–2
+
+COHERENCIA
+0–2
+
+CONVERSIÓN
+0–2
+
+TOTAL
+10
+
+INTERPRETACIÓN
+--------------------------------------------------------------------------------
+9–10 publicar
+7–8 corregir
+5–6 reescribir
+0–4 eliminar
+
+UMBRAL
+--------------------------------------------------------------------------------
+Promedio 9/10.
+Ninguna sección menor a 8.
+Hero 10.
+Participar 10.
+Evaluación 10.
+Postular 10.
+
+PREGUNTA
+--------------------------------------------------------------------------------
+¿Esta sección podría reconocerse como HackaToB sin ver el logo?
+
+================================================================================
+19. PRIORIDAD DE IMPLEMENTACIÓN
+================================================================================
+
+P0
+--------------------------------------------------------------------------------
+/hackatob
+Header
+Hero
+Respaldo
+Experiencia
+Tracks
+Programa
+Participar
+FAQ
+CTA
+/postular
+Legal
+Responsive
+Datos
+
+P1
+--------------------------------------------------------------------------------
+Participantes
+Retos
+Modalidades
+Evaluación
+Ecosistema
+Trayectoria
+Assets
+SEO
+Analítica
+
+P2
+--------------------------------------------------------------------------------
+Acceso
+Portal
+Equipos
+Mentorías
+Checkpoints
+Entregables
+
+P3
+--------------------------------------------------------------------------------
+En vivo
+Finalistas
+Resultados
+Proyectos
+Ganadores
+Impacto
+Certificados
+
+================================================================================
+20. PROMPT MAESTRO PARA CURSOR
+================================================================================
+
+Lee este documento completo antes de editar.
+
+PRIMERA FASE
+--------------------------------------------------------------------------------
+1. Inspecciona el repositorio.
+2. Identifica arquitectura, contenido y assets.
+3. Ejecuta la aplicación.
+4. Revisa 1440, 1280, 768 y 390.
+5. No modifiques.
+6. Presenta auditoría.
+
+AUDITORÍA
+--------------------------------------------------------------------------------
+- secciones;
+- contenido;
+- contradicciones;
+- componentes;
+- patrones genéricos;
+- responsive;
+- assets;
+- rutas;
+- SEO;
+- accesibilidad;
+- pruebas.
+
+DESPUÉS DE APROBACIÓN
+--------------------------------------------------------------------------------
+Implementa por lotes:
+
+Lote 1:
+Campaign Bar + Header + Hero
+
+Lote 2:
+Respaldo + Experiencia
+
+Lote 3:
+Participantes + Tracks
+
+Lote 4:
+Retos + Modalidades
+
+Lote 5:
+Programa + Participar
+
+Lote 6:
+Evaluación + Ecosistema
+
+Lote 7:
+Trayectoria + FAQ
+
+Lote 8:
+CTA + Footer
+
+Lote 9:
+Postular + Legal + SEO
+
+REGLAS
+--------------------------------------------------------------------------------
+No más de dos secciones por ejecución.
+No inventar.
+No publicar pending.
+No cards para todo.
+No stock.
+No dependencias sin justificar.
+Browser después de cada lote.
+Typecheck.
+Lint.
+Build.
+Detenerse.
+
+FORMATO
+--------------------------------------------------------------------------------
+A. Implementación.
+B. Decisión de diseño.
+C. Archivos.
+D. Assets.
+E. Links.
+F. Viewports.
+G. Accesibilidad.
+H. Typecheck.
+I. Lint.
+J. Build.
+K. Pendientes.
+L. Riesgos.
+M. Próximo lote.
+
+================================================================================
+21. DEFINICIÓN FINAL DE ÉXITO
+================================================================================
+
+El sitemap y la landing están correctamente ejecutados cuando:
+
+- HackaToB se entiende como experiencia de ToB;
+- la información es consistente;
+- la postulación está a un clic;
+- cada sección responde una pregunta;
+- el contenido es verificable;
+- las fotografías son reales;
+- el movimiento tiene función;
+- la navegación es clara;
+- móvil funciona;
+- legal y SEO están completos;
+- el sitio puede crecer;
+- la experiencia se reconoce como HackaToB sin depender únicamente del logo.
+
+================================================================================
+FIN DEL SITEMAP MAESTRO FINAL DEFINITIVO
+================================================================================

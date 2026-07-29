@@ -1,0 +1,38 @@
+---
+description: Quality gates — typecheck, lint, build y viewports antes de cerrar
+alwaysApply: false
+---
+
+# Quality Gates
+
+Antes de declarar una tarea terminada, completar:
+
+## Automatizado
+
+1. Typecheck (`npx tsc --noEmit` o script `typecheck` si existe)
+2. Lint (`npm run lint`)
+3. Build (`npm run build`)
+4. Tests si existen (`test` / `test:e2e`)
+5. Consola limpia en rutas tocadas
+
+## Visual (Browser)
+
+6. 1440 × 1000
+7. 1280 × 800
+8. 768 × 1024
+9. 390 × 844
+
+Verificar: overflow, truncamiento, CTA visible, header, densidad Hero.
+
+## Acceso / contenido
+
+10. Teclado + foco
+11. `prefers-reduced-motion`
+12. Sin placeholders ni datos inventados
+13. Sin overflow
+14. CTA de fase correcto (`INTEREST_OPEN` → Dejar interés)
+15. Composición distinta a la sección anterior (si rediseño)
+
+## Entrega
+
+Listar archivos modificados, comandos, fallos restantes. No continuar con otra sección sin aprobación en rediseños por lotes.

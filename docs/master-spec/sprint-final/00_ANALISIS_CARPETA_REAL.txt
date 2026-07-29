@@ -1,0 +1,141 @@
+================================================================================
+HACKATOB 2026 — ANÁLISIS DE LA CARPETA REAL DE ASSETS
+Archivo analizado: ArchivosHackatob.rar
+Resultado: inventario verificado antes del sprint final
+================================================================================
+
+RESUMEN
+--------------------------------------------------------------------------------
+Se identificaron 19 imágenes PNG, cuatro ZIP internos y cinco grupos:
+
+1. Identidad visual de Technology on Business.
+2. Símbolo oficial disponible de HackaToB.
+3. Sparks principal y por track.
+4. Logos institucionales o de posibles aliados.
+5. Un retrato de persona.
+
+También se identificaron dos familias tipográficas dentro del archivo:
+- Stack Sans Notch — principal.
+- Radnika — complementaria.
+
+Este paquete NO redistribuye archivos de fuente.
+
+HALLAZGOS IMPORTANTES
+--------------------------------------------------------------------------------
+1. `logoOFICIAL.png` y `hackatob-logoy texto.png` son duplicados binarios
+   exactos. Debe utilizarse solo uno.
+
+2. El archivo disponible de HackaToB es un ISOTIPO:
+   símbolo azul con Spark amarillo.
+   No se encontró dentro de la carpeta un wordmark completo con el texto
+   “HackaToB”. El nombre `hackatob-logoy texto.png` no corresponde visualmente
+   a un logo con texto.
+
+3. Las variantes de ToB tienen alta resolución:
+   - ImagotipoColor.png: 4096 × 4096.
+   - ImagotipoColor_Var1.png: 4096 × 4096.
+   - ImagotipoPositivo.png: 4096 × 4096.
+   - IsotipoColor.png: 4096 × 4096.
+   - IsotipoPositivo.png: 4096 × 4096.
+
+4. La paleta oficial encontrada contiene:
+   - #0DB6FF
+   - #00ACFC
+   - #0D9AD8
+   - #068EC9
+   - #195592
+   - #114A82
+
+5. Los Sparks por track tienen fondo transparente y resolución suficiente para
+   cards, tabs, encabezados de track y composiciones del landing:
+   - spark-health.png: 675 × 736.
+   - spark-green.png: 675 × 736.
+   - spark-fin.png: 675 × 736.
+   - spark-next.png: 675 × 736.
+   - spark-flotante.png: 1040 × 1120.
+
+6. Los logos disponibles son:
+   - TEC: 600 × 315.
+   - Dojo Coding: 4000 × 1452.
+   - WWT: 1536 × 1024.
+   - P&G: 1000 × 1000.
+
+7. El retrato `mentor-Dennis-Rojas.png` mide 414 × 510. Es suficiente para una
+   tarjeta web mediana, pero no para un Hero o una sección full-width.
+
+8. No se encontraron:
+   - fotografías del Campus TEC;
+   - fotografías del Centro de las Artes;
+   - fotografías históricas de ToB;
+   - fotografías del programa;
+   - fotografías de participantes;
+   - videos;
+   - posters;
+   - PDFs legales o de convocatoria;
+   - imágenes de retos;
+   - wordmark textual completo de HackaToB.
+
+9. Los logos Dojo Coding, WWT y P&G están dentro de una carpeta llamada
+   “LogosAleados”, pero el nombre de la carpeta no prueba confirmación formal.
+   Deben permanecer en staging hasta validar:
+   - autorización;
+   - categoría;
+   - participación;
+   - link;
+   - estado de publicación.
+
+10. El retrato de Dennis está dentro de una carpeta “Mentores-Jueces-
+    EquipoTrabajo”. Debe confirmarse el rol público antes de colocarlo.
+
+DECISIÓN PARA EL SPRINT FINAL
+--------------------------------------------------------------------------------
+El sprint sí puede avanzar con una dirección visual sólida utilizando:
+
+- identidad real de ToB;
+- isotipo real de HackaToB;
+- Spark principal;
+- cuatro Sparks por track;
+- paleta oficial;
+- tipografías identificadas;
+- composición gráfica y movimiento CSS/SVG.
+
+No se debe completar la falta de fotografías o videos con stock.
+
+FALLBACK VISUAL
+--------------------------------------------------------------------------------
+Mientras faltan fotografías:
+
+- Hero:
+  composición editorial con isotipo HackaToB, Spark principal, gradiente ToB,
+  Signal Rail generado en código y tipografía oficial.
+
+- Respaldo:
+  logos de ToB y TEC; sin foto de campus.
+
+- Participantes:
+  composición tipográfica con tres grupos y nodos; sin retratos genéricos.
+
+- Tracks:
+  Sparks reales por track.
+
+- Programa:
+  timeline gráfico y nodos; sin fotos falsas.
+
+- Trayectoria:
+  ocultar la galería hasta adjuntar fotografías reales.
+
+- CTA final:
+  composición con Spark principal; sin imagen de stock.
+
+FUENTES
+--------------------------------------------------------------------------------
+Stack Sans Notch:
+el ZIP incluye una licencia OFL y archivos de distintos pesos.
+
+Radnika:
+el ZIP no incluye un archivo de licencia visible.
+No desplegar Radnika en producción hasta confirmar el derecho de uso web.
+
+No compartir ni redistribuir archivos de fuente desde este paquete.
+
+================================================================================

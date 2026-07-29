@@ -1,0 +1,511 @@
+================================================================================
+PROMPT MAESTRO EJECUTABLE — SPRINT FINAL HACKATOB 2026
+Versión unificada · Plan Mode → Agent Mode · Julio 2026
+================================================================================
+
+CÓMO USAR ESTE ARCHIVO
+--------------------------------------------------------------------------------
+1. Abre el repositorio: HackaToB_v01
+2. Activa PLAN MODE en Cursor.
+3. Pega ESTE archivo completo (desde CONTEXTO hasta el final).
+4. Revisa el plan A–Q que entregue el agente.
+5. Cuando apruebes, responde exactamente:
+
+   APRUEBO EL PLAN DEL SPRINT FINAL.
+
+6. El agente ejecuta lotes 0–9, QA y reporte final.
+
+BACKUP DEL PROYECTO ANTERIOR
+--------------------------------------------------------------------------------
+Antes de este sprint se creó:
+
+  Desktop\HackaToB_v01_BACKUP_20260728_223420
+
+No borrar hasta cerrar QA del sprint.
+
+================================================================================
+CONTEXTO
+================================================================================
+
+Estoy cerrando el micrositio oficial de HackaToB 2026.
+
+Repositorio de trabajo:
+  HackaToB_v01
+
+Ya están ingeridos en el repo:
+  - docs/master-spec/sprint-final/          (fuentes de verdad actualizadas)
+  - docs/master-spec/sprint-final/suplementos/ (matriz calidad, motion, prompts previos)
+  - public/brand/*.png oficiales ToB + isotipo HackaToB + Spark + TEC
+  - public/media/tracks/{health,green,fin,next}/spark-*.png
+  - docs/brand/ (paleta y guía ToB — solo referencia)
+  - staging/ (partners y portrait — NO publicar)
+
+Stack actual:
+  Next.js App Router · TypeScript · Tailwind v4 · Motion · Zod · Vercel Analytics
+
+Estado previo conocido:
+  - Landing en "/" (no /hackatob todavía)
+  - /postular = lista de interés (fase INTEREST_OPEN)
+  - Tipografía congelada: Syne + DM Sans
+  - Sistema base, rules y skills ya existen
+  - Lote 1 parcial (Announcement / Header / Hero) ya tocado
+  - Partners y personas en draft / no published
+  - Logos SVG genéricos aún coexisten con PNG oficiales nuevos
+
+================================================================================
+MODO
+================================================================================
+
+FASE 1 = PLAN MODE
+- No modifiques código.
+- No instales dependencias.
+- No muevas más assets.
+- No cambies rutas todavía.
+- Audita, compara y entrega el plan.
+
+FASE 2 = AGENT MODE (solo tras aprobación)
+- Ejecuta el sprint por lotes.
+- Máximo 2 secciones de landing por lote (excepto Lote 0 y Lote 9).
+- Usa skills del repo cuando correspondan.
+
+================================================================================
+ORDEN OBLIGATORIO DE LECTURA
+================================================================================
+
+1. docs/master-spec/sprint-final/00_ANALISIS_CARPETA_REAL.txt
+2. docs/master-spec/sprint-final/01_MAPEO_NOMBRES_REALES_A_PRODUCCION.txt
+3. docs/master-spec/sprint-final/02_ASSET_MANIFEST_REAL_ACTUALIZADO.txt
+4. docs/master-spec/sprint-final/ASSET_INVENTORY_ACTUAL.csv
+5. docs/master-spec/sprint-final/03_SITEMAP_MAESTRO_FINAL_ASSETS_REALES.txt
+6. docs/master-spec/sprint-final/04_LANDING_MAESTRO_FINAL_ASSETS_REALES.txt
+7. docs/master-spec/sprint-final/05_DECISIONES_PENDIENTES_ANTES_DE_EJECUTAR.txt
+8. docs/master-spec/sprint-final/FONT_INFO_ONLY.txt
+9. docs/master-spec/sprint-final/suplementos/04_CONTENIDO_DEPURADO_Y_MATRIZ_CALIDAD_HACKATOB_2026.txt
+10. docs/master-spec/sprint-final/suplementos/05_MAPEO_AUDIOVISUAL_Y_MOTION_HACKATOB_2026.txt
+11. .cursor/rules/*.mdc
+12. config/event.ts · config/campaign.ts · config/routes.ts · config/social.ts
+13. lib/content/* · app/page.tsx · app/layout.tsx · app/globals.css · app/fonts.ts
+14. components/layout/* · components/marketing/* · components/brand/*
+
+No uses como fuente de verdad:
+  - sitemaps V1/V2 u otros borradores del Desktop
+  - 01/02 del paquete Cursor si contradicen 03/04 assets reales
+  - hackatob-logoy texto.png (duplicado archivado)
+  - logos en staging como si fueran published
+
+================================================================================
+JERARQUÍA DE VERDAD
+================================================================================
+
+1. Decisiones confirmadas por el organizador.
+2. Sitemap + Landing con assets reales (03 y 04).
+3. Asset Manifest + CSV.
+4. Matriz de calidad (suplementos/04).
+5. Mapeo motion (suplementos/05).
+6. config/event.ts + config/campaign.ts (datos operativos live).
+7. Project Rules (.cursor/rules).
+8. Implementación actual.
+
+Si hay contradicción:
+  - regístrala;
+  - no elijas en silencio;
+  - usa “Próximamente” / oculto / draft;
+  - pide decisión humana solo si bloquea publicar.
+
+================================================================================
+CONFLICTOS YA DETECTADOS — RESOLVER EN EL PLAN
+================================================================================
+
+A) RUTAS
+  Spec: /hackatob · /hackatob/postular · /hackatob/legal/*
+  Repo: / · /postular · /legal/*
+  En el plan propón UNA opción y espera aprobación:
+    Opción A — Mantener raíz (/) y mapear mentalmente /hackatob → /
+               (más rápido; redirects opcionales después).
+    Opción B — Refactor a app/hackatob/* (alineado 100% al sitemap).
+  DEFAULT RECOMENDADO SI NO HAY DECISIÓN HUMANA PREVIA: Opción A,
+  con redirects /hackatob → / preparados en Lote 9.
+
+B) CTA / FASE
+  Spec genérico: “Postularme”.
+  Repo live: campaignPhase = INTEREST_OPEN → “Dejar interés”.
+  GANADOR: config/campaign.ts. Copy del landing se adapta por fase.
+  Nunca digas “postulación abierta” hasta APPLICATIONS_OPEN.
+
+C) TIPOGRAFÍA
+  Spec: Stack Sans Notch + Radnika (Radnika sin licencia web confirmada).
+  Repo + rules: Syne + DM Sans congeladas.
+  GANADOR: conservar Syne + DM Sans en este sprint.
+  Solo migrar a Stack si el usuario lo ordena expresamente y aporta archivos OFL.
+
+D) COLOR
+  Paleta ToB oficial del análisis:
+    #0DB6FF #00ACFC #0D9AD8 #068EC9 #195592 #114A82
+  Integrar en tokens de app/globals.css sin inventar paleta paralela
+  ni romper Signal System (cyan/spark/tracks).
+
+E) LOGO HACKATOB
+  Disponible: isotipo PNG (símbolo + spark), SIN wordmark textual.
+  No fingir wordmark en imagen. Nombre en tipografía display.
+
+F) ALIADOS / PERSONAS
+  staging/: dojo, wwt, pg, dennis-rojas → NO published.
+  Partners actuales en lib/content/partners.ts con status draft → OK.
+  TEC = sede institucional, NUNCA partner comercial.
+  Intel/Stellar/BN SVG sin confirmación real → mantener draft/hidden.
+
+G) FOTOS / VIDEO
+  No existen hero foto, campus, centro artes, trayectoria, retos, PDFs.
+  Fallbacks obligatorios (Signal Rail + Sparks + composición de marca).
+  Prohibido stock.
+
+================================================================================
+OBJETIVO DEL SPRINT
+================================================================================
+
+Dejar el micrositio listo para producción:
+  - contenido completo, conciso, profesional y verificable;
+  - assets reales donde existan;
+  - fallbacks honestos donde falten;
+  - responsive 1440 / 1280 / 768 / 390;
+  - accesible (teclado, foco, contraste AA, reduced-motion);
+  - SEO (metadata, sitemap, robots, OG);
+  - analítica;
+  - sin placeholders ficticios;
+  - reconocible como HackaToB sin depender solo del logo.
+
+Comprensión en <20 segundos:
+  1. Qué es HackaToB
+  2. Quién organiza (ToB)
+  3. Cuándo y dónde
+  4. Quién puede participar
+  5. Qué puede construir
+  6. Qué tracks existen
+  7. Siguiente paso (CTA de fase)
+
+================================================================================
+ALCANCE
+================================================================================
+
+INCLUYE
+  Campaign Bar · Header ToB+HackaToB · Hero · Respaldo · Experiencia ·
+  Participantes · Tracks · Retos (estado honesto) · Modalidades · Programa ·
+  Participar · Evaluación · Ecosistema · Trayectoria (ocultar galería si no hay fotos) ·
+  FAQ · CTA final · Footer · /postular · legal básico · SEO · analítica · QA.
+
+NO INCLUYE (salvo que ya exista y solo requiera corrección)
+  Portal completo · admin · team matching · votación · certificados ·
+  mentorías internas · galería postevento avanzada.
+
+================================================================================
+MAPEO SECCIÓN MAESTRO → COMPONENTE ACTUAL
+================================================================================
+
+  Campaign Bar          → Announcement / bar existente
+  Header                → components/layout/Header.tsx
+  Hero                  → components/marketing/Hero.tsx
+  Respaldo              → Trust.tsx
+  Experiencia           → WhatIs.tsx
+  Participantes         → Audience.tsx
+  Tracks                → Tracks.tsx
+  Retos                 → Challenges.tsx
+  Modalidades           → Modalities.tsx
+  Programa              → Agenda.tsx
+  Participar            → Apply.tsx
+  Evaluación            → Evaluation.tsx
+  Ecosistema            → Community.tsx + Allies.tsx + Prizes.tsx (composición única, no 3 grids)
+  Trayectoria           → ToBHistory.tsx (ocultar fotos si faltan)
+  FAQ                   → FAQ.tsx
+  CTA final             → FinalCTA.tsx
+  Footer                → Footer.tsx
+  Postular              → app/postular/*
+
+Renombra labels/anchors según sitemap/landing maestro.
+No inventes secciones nuevas si ya existe componente reutilizable.
+
+================================================================================
+REGLAS DE CONTENIDO (INQUEBRANTABLES)
+================================================================================
+
+- Datos oficiales solo desde config/event.ts.
+- Campaña y CTA desde config/campaign.ts.
+- Copy publicado vía lib/content/* + status published.
+- Solo published aparece en producción.
+- No inventes: aliados, mentores, jueces, retos, premios, montos, links, fotos, testimonios.
+- Fallbacks honestos:
+    Mentores: “Próximamente conocerás a quienes te acompañarán.”
+    Aliados: “Estamos conformando el ecosistema de aliados de HackaToB 2026.”
+    Retos: “Los retos oficiales serán publicados próximamente.”
+    Premios: “Los premios y oportunidades se anunciarán junto con los aliados oficiales.”
+- Prohibido copy vacío: “transforma el futuro”, “innovación sin límites”,
+  “experiencia única”, “change-makers”, “revolucionando la industria”.
+- Datos viejos prohibidos: 60 cupos, MediTrack, 3 tracks, 2 modalidades.
+- No mailto como formulario principal.
+- No enlaces legales vacíos.
+
+================================================================================
+REGLAS VISUALES — SIGNAL SYSTEM
+================================================================================
+
+Idea: una señal que conecta retos → talento → resultados.
+
+Motivos: Signal Rail · Nodos · Spark (uso restringido) · Códigos HT/GT/FT/TNBT ·
+Progreso: descubrir → postular → preparar → construir → presentar → continuar.
+
+Spark SOLO en: Hero (idle) · confirmación (celebrate) · CTA final (point) · Demo Day (waiting).
+
+Cada sección: composición propia.
+Máximo 2 grids de tarjetas consecutivos.
+Preferir: panel / línea / timeline / dossier / tablero / escalera / matriz.
+
+Prohibido:
+  dashboard falso · navegador falso · laptop 3D · glass masivo · blobs ·
+  partículas densas · gradientes arcoíris · plantilla SaaS · cards para todo ·
+  avatares fake · stock · scroll hijacking · carrusel automático ·
+  texto animado palabra por palabra.
+
+Pregunta obligatoria por sección:
+  “¿Se reconoce HackaToB sin leer el logo?”
+
+================================================================================
+REGLAS DE ASSETS
+================================================================================
+
+Publicados (usar):
+  /brand/tob-imagotipo-color-horizontal.png
+  /brand/tob-imagotipo-color-vertical.png
+  /brand/tob-imagotipo-blanco-horizontal.png
+  /brand/tob-isotipo-color.png
+  /brand/tob-isotipo-blanco.png
+  /brand/hackatob-isotipo-oficial.png
+  /brand/spark-principal.png
+  /brand/tec-logo.png
+  /media/tracks/health/spark-health.png
+  /media/tracks/green/spark-green.png
+  /media/tracks/fin/spark-fin.png
+  /media/tracks/next/spark-next.png
+
+Staging (NO copiar a public, NO publicar):
+  staging/partners/dojo-coding.png
+  staging/partners/wwt.png
+  staging/partners/pg.png
+  staging/people/dennis-rojas/portrait.png
+
+Para cada asset usado:
+  1. next/image
+  2. alt text útil
+  3. tamaños razonables (optimizar PNG 4096 si hace falta — no servir 4K crudos en header)
+  4. registrar permiso/estado
+  5. fallback si falla carga
+
+Fallbacks visuales:
+  Hero: isotipo + Spark + Signal Rail en código + gradiente ToB
+  Respaldo: logos ToB + TEC + timeline institucional
+  Participantes: tipografía + nodos (sin retratos genéricos)
+  Tracks: Sparks reales
+  Programa: timeline gráfico
+  Trayectoria: ocultar galería hasta fotos reales
+  CTA: Spark principal + composición de marca
+
+No autoplay con sonido.
+Respeta prefers-reduced-motion.
+
+================================================================================
+SKILLS OBLIGATORIAS
+================================================================================
+
+Antes del rediseño global del plan:
+  seguir .cursor/skills/hackatob-visual-audit/SKILL.md
+
+Antes de implementar cada sección (lotes 1–8):
+  seguir .cursor/skills/hackatob-section-builder/SKILL.md
+
+Después de cada lote:
+  seguir .cursor/skills/hackatob-responsive-qa/SKILL.md
+
+Antes de declarar sprint cerrado:
+  seguir .cursor/skills/hackatob-content-integrity/SKILL.md
+  seguir .cursor/skills/hackatob-release-check/SKILL.md
+
+No digas que usaste una skill si no seguiste su procedimiento.
+
+================================================================================
+FASE 1 — AUDITORÍA Y PLAN (SIN TOCAR CÓDIGO)
+================================================================================
+
+1. Inspecciona el repositorio completo.
+2. Identifica stack, rutas, componentes, Git, assets en public/, staging/.
+3. Ejecuta la app (npm run dev) si el entorno lo permite.
+4. Revisa Browser: 1440×1000 · 1280×800 · 768×1024 · 390×844.
+5. Compara implementación vs Sitemap + Landing assets reales.
+6. Localiza: imports antiguos, SVG genéricos vs PNG oficiales, placeholders,
+   contenido duplicado, datos contradictorios, sponsors ficticios published,
+   overflow, a11y, SEO, analítica, errores de consola.
+7. No modifiques nada.
+
+ENTREGA DEL PLAN — secciones exactas:
+
+A. Estado actual del repositorio.
+B. Comparación con el sitemap maestro.
+C. Inventario de assets en el proyecto (public vs staging vs CSV).
+D. Assets ya copiados vs pendientes de cablear en componentes.
+E. Imports y nombres antiguos a reemplazar.
+F. Contenido que debe ocultarse.
+G. Decisiones bloqueantes (incluye Opción A/B de rutas).
+H. P0.
+I. P1.
+J. Archivos a crear.
+K. Archivos a modificar.
+L. Archivos a eliminar o archivar.
+M. Dependencias: conservar / eliminar / justificar.
+N. Plan por lotes 0–9 (detalle de cambios por lote).
+O. Pruebas por lote.
+P. Riesgos.
+Q. Criterios de aceptación.
+
+PLAN POR LOTES (obligatorio)
+
+Lote 0 — Fundación
+  Tokens ToB en globals.css · cableado de PNG oficiales · anchors/nav según maestro ·
+  content centralizado · decisión de rutas A o B aprobada · limpieza de referencias rotas.
+
+Lote 1 — Campaign Bar + Header + Hero
+
+Lote 2 — Respaldo + Experiencia
+
+Lote 3 — Participantes + Tracks
+
+Lote 4 — Retos + Modalidades
+
+Lote 5 — Programa + Participar
+
+Lote 6 — Evaluación + Ecosistema
+
+Lote 7 — Trayectoria + FAQ
+
+Lote 8 — CTA final + Footer
+
+Lote 9 — Postular + Legal + SEO + Analítica + redirects + QA cierre
+
+CIERRE FASE 1 — texto exacto:
+
+FASE DE PLANIFICACIÓN COMPLETADA.
+NO SE HA MODIFICADO EL CÓDIGO.
+ESPERANDO LA INSTRUCCIÓN:
+APRUEBO EL PLAN DEL SPRINT FINAL.
+
+================================================================================
+FASE 2 — IMPLEMENTACIÓN (SOLO TRAS APROBACIÓN)
+================================================================================
+
+Cuando recibas exactamente:
+
+APRUEBO EL PLAN DEL SPRINT FINAL.
+
+1. Ejecuta Lote 0.
+2. Continúa lotes 1–9 en orden.
+3. Tras cada lote: Browser 4 viewports + typecheck + lint (y build al menos en Lote 0, 1, 5, 9).
+4. Corrige P0/P1 antes de avanzar.
+5. No combines lotes.
+6. No alteres la home de un sitio ToB externo (este repo ES el micrositio HackaToB).
+7. No añadas dependencias sin justificarlas en el reporte del lote.
+8. Commits: solo si el usuario lo pide. Recomienda mensajes, no ejecutes commit sin orden.
+
+Si el usuario prefiere micro-aprobaciones, acepta:
+  APRUEBO EL LOTE [N]. CONTINÚA CON EL LOTE [N+1].
+
+Si no lo pide, tras la aprobación del plan ejecuta todos los lotes y entrega un solo reporte final.
+
+REGLAS DE IMPLEMENTACIÓN
+--------------------------------------------------------------------------------
+- Server Components por defecto; Client solo con interacción real.
+- Contenido fuera del JSX.
+- Tokens semánticos; no hex sueltos en componentes.
+- next/font (Syne + DM Sans) · next/image.
+- Formulario de interés con Zod + server action (ya existe — mejorar, no romper).
+- Aria-live donde haya countdowns/estados dinámicos.
+- Skip link · foco visible · touch targets ≥44px.
+- Sin overflow horizontal en 390.
+
+QA OBLIGATORIO AL CIERRE
+--------------------------------------------------------------------------------
+1. Browser 1440 / 1280 / 768 / 390
+2. Overflow
+3. Header / anchors / CTA de fase
+4. Imágenes (alt, peso, next/image)
+5. Formulario /postular
+6. Teclado + foco
+7. Contraste AA
+8. prefers-reduced-motion
+9. Consola limpia
+10. npm run typecheck
+11. npm run lint
+12. npm run build
+13. Content integrity (sin ficticios, sin MediTrack/60/3 tracks)
+14. Release check skill
+
+CRITERIOS DE CIERRE
+--------------------------------------------------------------------------------
+- Promedio visual/contenido ≥ 9/10
+- Ninguna sección < 8/10
+- Hero 10/10 · Participar 10/10 · Evaluación 10/10 · /postular 10/10
+- Un solo conjunto de datos oficiales
+- Links principales funcionan
+- No contenido ficticio
+- No overflow horizontal
+- Build limpio
+- Reconocible como HackaToB sin logo
+
+REPORTE FINAL — secciones exactas:
+
+A. Resumen implementado
+B. Decisiones de diseño (rutas A/B, tipografía, color, fallbacks)
+C. Archivos creados
+D. Archivos modificados
+E. Assets usados y optimizados
+F. Links configurados
+G. Contenido oculto por falta de confirmación
+H. Viewports revisados
+I. Accesibilidad
+J. SEO
+K. Analítica
+L. Typecheck
+M. Lint
+N. Build
+O. Pendientes no bloqueantes
+P. Riesgos
+Q. Recomendación de despliegue
+
+================================================================================
+DECISIONES PENDIENTES (NO BLOQUEAN EL SPRINT SI SE USA FALLBACK)
+================================================================================
+
+Bloqueantes de producción real (registrar, no inventar):
+  [ ] Nombre definitivo HealthTrack
+  [ ] Modalidad presencial/remota/híbrida
+  [ ] Edad mínima / menores
+  [ ] Destino final de postulación (form propio vs externo)
+  [ ] Documentos legales reales
+  [ ] Rúbrica aprobada
+  [ ] Premios confirmados
+  [ ] Dominio canónico
+  [ ] Aliados Dojo / WWT / P&G
+  [ ] Rol público Dennis Rojas
+  [ ] Wordmark textual HackaToB
+  [ ] Stack Sans Notch en web (si se decide migrar)
+
+No bloqueantes (fallbacks OK):
+  Hero foto · campus · centro artes · audiencia · programa foto · trayectoria · video · retos visuales
+
+================================================================================
+INSTRUCCIÓN INICIAL
+================================================================================
+
+Comienza AHORA con la FASE 1 (auditoría + plan).
+No modifiques código.
+Entrega secciones A–Q.
+Finaliza con el texto de cierre de Fase 1.
+
+================================================================================
+FIN DEL PROMPT MAESTRO
+================================================================================

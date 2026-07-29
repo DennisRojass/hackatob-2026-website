@@ -1,0 +1,47 @@
+---
+description: Restricciones de motion HackaToB + prefers-reduced-motion
+globs: components/**/*.{tsx,ts},lib/motion.ts,app/globals.css
+alwaysApply: false
+---
+
+# Motion
+
+Usar Motion (ex Framer) vía helpers existentes (`Reveal`, `TextReveal`, `lib/motion.ts`).
+
+## Entrada (reveal)
+
+- opacity 0 → 1
+- translateY 18–24px → 0
+- duración 450–650 ms
+- stagger 70–110 ms
+- una sola vez al entrar en viewport
+
+## Hover
+
+- escala máx. 1.02
+- desplazamiento máx. −4 px
+- sin rotación de cards
+- sin glows excesivos
+- no depender solo de hover para info crítica (móvil)
+
+## Ambiental
+
+- máx. 3 elementos animados por viewport
+- duración mínima ~10–14 s
+- reducir o apagar en móvil
+- no movimiento continuo obligatorio para entender el contenido
+
+## Scroll / explicación
+
+Permitido cuando comunica: Signal Rail, nodos, rúbrica, timeline, conexiones.
+
+## Accesibilidad
+
+- Respetar `prefers-reduced-motion: reduce` (CSS + `useReducedMotion`)
+- Sin flashes / strobing
+- Sin motion que bloquee lectura
+
+## Rendimiento
+
+- Solo `transform` y `opacity`
+- Evitar animar width/height, layout thrash, filtros pesados en scroll

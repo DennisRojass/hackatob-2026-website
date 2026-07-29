@@ -1,0 +1,52 @@
+================================================================================
+SPRINT FINAL — REPORTE DE CIERRE
+HackaToB_v01 · Julio 2026
+================================================================================
+
+A. RESUMEN IMPLEMENTADO
+--------------------------------------------------------------------------------
+- Opción A de rutas: app en `/` + redirects `/hackatob/*`
+- Tokens ToB oficiales en globals.css
+- Assets oficiales cableados (isotipo, Spark, ToB, TEC, Sparks por track)
+- Anchors alineados al maestro (#respaldo, #experiencia, #participantes, #ecosistema)
+- Nav “El evento” / “Mentores y jurado” + CTA por fase INTEREST_OPEN
+- Secciones rediseñadas hacia Signal System (menos cards genéricas)
+- Retos/aliados/mentores/trayectoría/premios con estados honestos
+- Formulario de interés con persistencia local JSONL
+- Legal provisional con robots noindex
+- TEC fuera de partners comerciales
+
+B. DECISIONES DE DISEÑO
+--------------------------------------------------------------------------------
+- Rutas: Opción A
+- Tipografía: Syne + DM Sans (congelada)
+- Color: paleta ToB #0DB6FF…#114A82 integrada
+- Logo: isotipo PNG + wordmark tipográfico (sin fingir wordmark en imagen)
+- Spark: solo Hero / CTA / confirmación
+- Fallbacks sin stock
+
+C–N. ARCHIVOS / QA
+--------------------------------------------------------------------------------
+Ver diff del sprint. typecheck OK · lint OK · build OK (exit 0).
+
+O. PENDIENTES NO BLOQUEANTES
+--------------------------------------------------------------------------------
+- Backend definitivo de leads (Supabase/Resend)
+- Confirmación aliados Dojo/WWT/P&G + Dennis
+- Fotos hero/campus/trayectoria
+- Stack Sans Notch si se confirma licencia + archivos
+- Inicializar Git en el repo
+- Dominio canónico final
+
+P. RIESGOS
+--------------------------------------------------------------------------------
+- PNG grandes → next/image mitiga; vigilar LCP en header
+- Leads en disco local solo en runtime del servidor
+- Documentos legales aún provisionales
+
+Q. DESPLIEGUE
+--------------------------------------------------------------------------------
+Listo para preview en Vercel. No publicar aliados/mentores hasta status published.
+Conservar backup Desktop\HackaToB_v01_BACKUP_20260728_223420 hasta QA visual humano.
+
+================================================================================

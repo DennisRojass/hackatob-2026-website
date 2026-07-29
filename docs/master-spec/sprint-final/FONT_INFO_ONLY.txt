@@ -1,0 +1,23 @@
+HACKATOB 2026 — INFORMACIÓN DE TIPOGRAFÍAS
+
+Familia principal identificada:
+Stack Sans Notch
+
+Pesos observados en la carpeta original:
+ExtraLight, Light, Regular, Medium, SemiBold, Bold y variable.
+
+Licencia observada:
+El ZIP incluye OFL.txt.
+
+Familia complementaria identificada:
+Radnika
+
+Variantes observadas:
+Black Condensed, Bold Italic, Condensed, Light Italic, Medium, Medium Italic
+y SemiBold Italic.
+
+Advertencia:
+El ZIP de Radnika no contiene un archivo de licencia visible.
+Confirmar derecho de uso web antes de desplegarla.
+
+Este paquete no incluye ni redistribuye archivos de fuente.
